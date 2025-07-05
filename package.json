@@ -9,8 +9,8 @@
     "preview": "vite preview",
     "fix": "eslint . --fix && prettier --write .",
     "check": "eslint . && prettier --check .",
-    "validate-data": "node scripts/validate-data.js",
-    "generate-schema": "npx typescript-json-schema src/types.ts KoreanDistricts --required --noExtraProps --out src/data.schema.json"
+    "validate-data": "ajv validate -s src/data.schema.json -d src/data.json",
+    "schema": "npx typescript-json-schema src/types.ts KoreanDistricts --required --noExtraProps --out src/data.schema.json"
   },
   "dependencies": {
     "react": "^19.1.0",
@@ -22,6 +22,7 @@
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react": "^4.5.2",
     "ajv": "^8.17.1",
+    "ajv-cli": "^5.0.0",
     "eslint": "^9.29.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",

@@ -1,34 +1,43 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "definitions": {
-    "District": {
-      "additionalProperties": false,
-      "description": "Korean district/city data types\nThis file is used to generate JSON schema for validation",
-      "properties": {
-        "city": {
-          "description": "Province or metropolitan city name",
-          "type": "string"
-        },
-        "name": {
-          "description": "District or city name in Korean",
-          "type": "string"
-        },
-        "population": {
-          "description": "Population count (must be positive)",
-          "type": "number"
-        },
-        "type": {
-          "description": "District type - either 구 (gu) or 시 (si)",
-          "enum": ["구", "시"],
-          "type": "string"
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "District": {
+            "additionalProperties": false,
+            "description": "Korean district/city data types\nThis file is used to generate JSON schema for validation",
+            "properties": {
+                "city": {
+                    "description": "Province or metropolitan city name",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "District or city name in Korean",
+                    "type": "string"
+                },
+                "population": {
+                    "description": "Population count (must be positive)",
+                    "type": "number"
+                },
+                "type": {
+                    "description": "District type - either 구 (gu) or 시 (si)",
+                    "enum": [
+                        "구",
+                        "시"
+                    ],
+                    "type": "string"
+                }
+            },
+            "required": [
+                "city",
+                "name",
+                "population",
+                "type"
+            ],
+            "type": "object"
         }
-      },
-      "required": ["city", "name", "population", "type"],
-      "type": "object"
-    }
-  },
-  "items": {
-    "$ref": "#/definitions/District"
-  },
-  "type": "array"
+    },
+    "items": {
+        "$ref": "#/definitions/District"
+    },
+    "type": "array"
 }
+
