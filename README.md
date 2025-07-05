@@ -1,3 +1,3 @@
 # hanguk.io
 
-[![CI](https://github.com/hoffa/hanguk.io/actions/workflows/ci.yml/badge.svg)](https://github.com/hoffa/hanguk.io/actions/workflows/ci.yml)
+[![Publish](https://github.com/hoffa/hanguk.io/actions/workflows/publish.yml/badge.svg)](https://github.com/hoffa/hanguk.io/actions/workflows/publish.yml)
