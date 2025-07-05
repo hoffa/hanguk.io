@@ -28,13 +28,13 @@ function App() {
               <div className="card-body">
                 <h2 className="card-title mb-3">{division.name}</h2>
 
-                <ul className="list-disc list-inside text-sm mb-4">
+                <ul className="list-disc list-inside mb-4">
                   {division.highlights.map((highlight, highlightIndex) => (
                     <li key={highlightIndex}>{highlight}</li>
                   ))}
                 </ul>
 
-                <div className="flex items-center gap-4 text-sm text-base-content/70">
+                <div className="flex items-center gap-4 text-base-content/70">
                   <div className="flex items-center gap-1">
                     <UserIcon className="w-4 h-4" />
                     {formatKoreanNumber(roundToFirstDigit(division.population))}
