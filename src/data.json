@@ -1,74 +1,72 @@
 [
   {
-    "name": "강남구",
-    "city": "서울특별시",
-    "population": 561052,
-    "type": "구"
+    "name": "서울",
+    "population": 9586195,
+    "type": "si"
   },
   {
-    "name": "강동구",
-    "city": "서울특별시",
-    "population": 440359,
-    "type": "구"
+    "name": "부산",
+    "population": 3349016,
+    "type": "si"
   },
   {
-    "name": "강북구",
-    "city": "서울특별시",
-    "population": 298903,
-    "type": "구"
+    "name": "인천",
+    "population": 2945454,
+    "type": "si"
   },
   {
-    "name": "강서구",
-    "city": "서울특별시",
-    "population": 580505,
-    "type": "구"
+    "name": "대구",
+    "population": 2410700,
+    "type": "si"
   },
   {
-    "name": "부산진구",
-    "city": "부산광역시",
-    "population": 355899,
-    "type": "구"
+    "name": "대전",
+    "population": 1488435,
+    "type": "si"
   },
   {
-    "name": "해운대구",
-    "city": "부산광역시",
-    "population": 409918,
-    "type": "구"
+    "name": "광주",
+    "population": 1477573,
+    "type": "si"
   },
   {
-    "name": "수성구",
-    "city": "대구광역시",
-    "population": 436977,
-    "type": "구"
+    "name": "울산",
+    "population": 1135423,
+    "type": "si"
   },
   {
-    "name": "유성구",
-    "city": "대전광역시",
-    "population": 367990,
-    "type": "구"
+    "name": "세종",
+    "population": 346275,
+    "type": "si"
   },
   {
-    "name": "연수구",
-    "city": "인천광역시",
-    "population": 334688,
-    "type": "구"
+    "name": "제주",
+    "population": 470957,
+    "type": "si"
   },
   {
-    "name": "성남시",
-    "city": "경기도",
-    "population": 948757,
-    "type": "시"
+    "name": "서귀포",
+    "population": 178552,
+    "type": "si"
   },
   {
-    "name": "고양시",
-    "city": "경기도",
-    "population": 1072973,
-    "type": "시"
+    "name": "가평",
+    "population": 59916,
+    "type": "gun"
   },
   {
-    "name": "용인시",
-    "city": "경기도",
-    "population": 1070764,
-    "type": "시"
+    "name": "양평",
+    "population": 96950,
+    "type": "gun"
+  },
+  {
+    "name": "평창",
+    "population": 37522,
+    "type": "gun"
+  },
+  {
+    "name": "인제",
+    "population": 28765,
+    "type": "gun"
   }
 ]

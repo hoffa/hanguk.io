@@ -18,13 +18,25 @@ export function roundToFirstDigit(num: number): number {
  * Examples:
  * 600000 → "60만"
  * 90000 → "9만"
+ * 10000000 → "천만"
  * 5000 → "5천"
  * 300 → "3백"
  */
 export function formatKoreanNumber(num: number): string {
   if (num === 0) return '0'
 
-  if (num >= 10000) {
+  // Handle very large numbers (천만 and above)
+  if (num >= 10000000) {
+    const cheonMan = Math.floor(num / 10000000)
+    const remainder = num % 10000000
+
+    if (remainder === 0) {
+      return cheonMan === 1 ? '천만' : `${cheonMan}천만`
+    } else {
+      // For now, just show the main unit for very large numbers
+      return cheonMan === 1 ? '천만' : `${cheonMan}천만`
+    }
+  } else if (num >= 10000) {
     const man = Math.floor(num / 10000)
     const remainder = num % 10000
 

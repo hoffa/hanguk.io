@@ -1,10 +1,10 @@
 import './App.css'
 import koreanData from './data.json'
-import type { KoreanDistricts } from './types'
+import type { Divisions } from './types'
 import { roundToFirstDigit, formatKoreanNumber } from './utils'
 
 function App() {
-  const districts = koreanData as KoreanDistricts
+  const divisions = koreanData as Divisions
 
   return (
     <div className="app">
@@ -12,15 +12,13 @@ function App() {
       <p>Korean Districts & Cities Information</p>
 
       <div className="districts-grid">
-        {districts.map((district, index) => (
+        {divisions.map((division, index) => (
           <div key={index} className="district-card">
-            <h3>{district.name}</h3>
-            <p className="city">{district.city}</p>
+            <h3>{division.name}</h3>
             <p className="population">
-              인구: {formatKoreanNumber(roundToFirstDigit(district.population))}
-              명
+              인구: 약{' '}
+              {formatKoreanNumber(roundToFirstDigit(division.population))} 명
             </p>
-            <span className="type">{district.type}</span>
           </div>
         ))}
       </div>

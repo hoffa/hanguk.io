@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "fix": "eslint . --fix && prettier --write .",
     "check": "vitest run && eslint . && prettier --check . && ajv validate -s src/data.schema.json -d src/data.json",
-    "schema": "npx typescript-json-schema src/types.ts KoreanDistricts --required --noExtraProps --out src/data.schema.json"
+    "schema": "npx typescript-json-schema src/types.ts Divisions --required --noExtraProps --out src/data.schema.json"
   },
   "dependencies": {
     "react": "^19.1.0",

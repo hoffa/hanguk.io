@@ -39,6 +39,17 @@ describe('formatKoreanNumber', () => {
     expect(formatKoreanNumber(90000)).toBe('9만')
   })
 
+  it('formats very large numbers correctly', () => {
+    expect(formatKoreanNumber(10000000)).toBe('천만') // 10 million should be 천만, not 1000만
+    expect(formatKoreanNumber(20000000)).toBe('2천만') // 20 million should be 2천만
+    expect(formatKoreanNumber(50000000)).toBe('5천만') // 50 million should be 5천만
+  })
+
+  it('handles Seoul population correctly', () => {
+    // Seoul: 9,586,195 → rounded to 10,000,000 → formatted as 천만
+    expect(formatKoreanNumber(roundToFirstDigit(9586195))).toBe('천만')
+  })
+
   it('formats numbers in 천 (1,000s)', () => {
     expect(formatKoreanNumber(5000)).toBe('5천')
     expect(formatKoreanNumber(9000)).toBe('9천')
