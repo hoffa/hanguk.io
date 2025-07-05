@@ -17,10 +17,7 @@ function App() {
           {divisions.map((division, index) => (
             <div key={index} className="card bg-base-100 shadow">
               <figure>
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                  alt={division.name}
-                />
+                <img src={division.image} alt={division.name} />
               </figure>
               <div className="card-body">
                 <h2 className="card-title mb-3">{division.name}</h2>
@@ -38,7 +35,7 @@ function App() {
                   </div>
                   <div className="flex items-center gap-1">
                     <MapIcon className="w-4 h-4" />
-                    {Math.round(division.area).toLocaleString()} km²
+                    {division.area.toLocaleString()} km²
                   </div>
                   <div className="flex items-center gap-1">
                     <BuildingOfficeIcon className="w-4 h-4" />

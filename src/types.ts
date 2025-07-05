@@ -6,6 +6,7 @@ export interface Division {
    * Area in km².
    */
   area: number
+  image: string
   highlights: string[]
 
   /**
