@@ -50,7 +50,9 @@ function App() {
                   {division.link && (
                     <div className="flex items-center gap-1">
                       <LinkIcon className="w-4 h-4" />
-                      <a href={division.link}>{getHumanFriendlyDomain(division.link)}</a>
+                      <a href={division.link} target="_blank" rel="noopener noreferrer">
+                        {getHumanFriendlyDomain(division.link)}
+                      </a>
                     </div>
                   )}
                 </div>

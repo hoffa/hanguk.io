@@ -16,13 +16,15 @@
       "area": 769.89,
       "type": "광역시",
       "image": "/busan.jpg",
-      "imageAttribution": "Photo by Анна Шаталова: https://www.pexels.com/photo/aerial-panoramic-view-of-busan-south-korea-8573202/"
+      "imageAttribution": "Photo by Анна Шаталова: https://www.pexels.com/photo/aerial-panoramic-view-of-busan-south-korea-8573202/",
+      "link": "http://busan.go.kr"
     },
     {
       "name": "대구",
       "population": 2365619,
       "area": 883.54,
-      "type": "광역시"
+      "type": "광역시",
+      "link": "https://www.daegu.go.kr"
     },
     {
       "name": "인천",
@@ -30,67 +32,78 @@
       "area": 1062.6,
       "type": "광역시",
       "image": "./incheon.jpg",
-      "imageAttribution": "Photo by joon young, Park: https://www.pexels.com/photo/fishing-boats-on-the-river-13271235/"
+      "imageAttribution": "Photo by joon young, Park: https://www.pexels.com/photo/fishing-boats-on-the-river-13271235/",
+      "link": "https://www.incheon.go.kr"
     },
     {
       "name": "광주",
       "population": 1432049,
       "area": 501.24,
-      "type": "광역시"
+      "type": "광역시",
+      "link": "https://www.gwangju.go.kr"
     },
     {
       "name": "대전",
       "population": 1446749,
       "area": 539.35,
-      "type": "광역시"
+      "type": "광역시",
+      "link": "https://www.daejeon.go.kr"
     },
     {
       "name": "울산",
       "population": 1111371,
       "area": 1060.79,
-      "type": "광역시"
+      "type": "광역시",
+      "link": "https://www.ulsan.go.kr"
     },
     {
       "name": "세종",
       "population": 342328,
       "area": 464.87,
-      "type": "특별자치시"
+      "type": "특별자치시",
+      "link": "https://www.sejong.go.kr"
     },
     {
       "name": "수원",
       "population": 1190964,
       "area": 121.09,
-      "type": "시"
+      "type": "시",
+      "link": "https://www.suwon.go.kr"
     },
     {
       "name": "용인",
       "population": 1074971,
       "area": 591.22,
-      "type": "시"
+      "type": "시",
+      "link": "https://www.yongin.go.kr"
     },
     {
       "name": "고양",
       "population": 1076599,
       "area": 268.08,
-      "type": "시"
+      "type": "시",
+      "link": "https://www.goyang.go.kr"
     },
     {
       "name": "성남",
       "population": 924087,
       "area": 141.63,
-      "type": "시"
+      "type": "시",
+      "link": "https://www.seongnam.go.kr"
     },
     {
       "name": "화성",
       "population": 1040000,
       "area": 699.41,
-      "type": "시"
+      "type": "시",
+      "link": "https://www.hscity.go.kr"
     },
     {
       "name": "부천",
       "population": 791263,
       "area": 53.45,
-      "type": "시"
+      "type": "시",
+      "link": "https://www.bucheon.go.kr"
     },
     {
       "name": "남양주",
@@ -915,55 +928,64 @@
       "name": "창녕",
       "population": 62544,
       "area": 532.67,
-      "type": "군"
+      "type": "군",
+      "link": "https://www.cng.go.kr/main.web"
     },
     {
       "name": "고성",
       "population": 52439,
       "area": 518.0,
-      "type": "군"
+      "type": "군",
+      "link": "https://www.goseong.go.kr/index.goseong"
     },
     {
       "name": "남해",
       "population": 42986,
       "area": 357.76,
-      "type": "군"
+      "type": "군",
+      "link": "https://www.namhae.go.kr"
     },
     {
       "name": "하동",
       "population": 43441,
       "area": 674.85,
-      "type": "군"
+      "type": "군",
+      "link": "https://www.hadong.go.kr"
     },
     {
       "name": "산청",
       "population": 34033,
       "area": 794.64,
-      "type": "군"
+      "type": "군",
+      "link": "https://www.sancheong.go.kr"
     },
     {
       "name": "함양",
       "population": 37942,
       "area": 724.7,
-      "type": "군"
+      "type": "군",
+      "link": "https://www.hygn.go.kr"
     },
     {
       "name": "거창",
       "population": 60083,
       "area": 803.97,
-      "type": "군"
+      "type": "군",
+      "link": "https://www.geochang.go.kr"
     },
     {
       "name": "합천",
       "population": 43449,
       "area": 983.05,
-      "type": "군"
+      "type": "군",
+      "link": "https://www.hc.go.kr/main.web"
     },
     {
       "name": "제주",
       "population": 677493,
       "area": 1849.15,
-      "type": "특별자치도"
+      "type": "특별자치도",
+      "link": "https://www.jeju.go.kr"
     }
   ]
 }
