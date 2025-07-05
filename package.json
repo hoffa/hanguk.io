@@ -5,11 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run validate-data && tsc -b && vite build && echo hanguk.io > docs/CNAME",
+    "build": "npm run check && tsc -b && vite build && echo hanguk.io > docs/CNAME",
     "preview": "vite preview",
     "fix": "eslint . --fix && prettier --write .",
-    "check": "eslint . && prettier --check .",
-    "validate-data": "ajv validate -s src/data.schema.json -d src/data.json",
+    "check": "eslint . && prettier --check . && ajv validate -s src/data.schema.json -d src/data.json",
     "schema": "npx typescript-json-schema src/types.ts KoreanDistricts --required --noExtraProps --out src/data.schema.json"
   },
   "dependencies": {
