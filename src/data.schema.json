@@ -33,7 +33,7 @@
           "type": "string"
         }
       },
-      "required": ["area", "highlights", "image", "name", "population", "type"],
+      "required": ["area", "name", "population", "type"],
       "type": "object"
     }
   },

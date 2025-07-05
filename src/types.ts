@@ -10,9 +10,9 @@ export interface Division {
    * Area in km².
    */
   area: number
-  image: string
+  image?: string
   imageAttribution?: string
-  highlights: string[]
+  highlights?: string[]
 
   /**
    * The list of all divisions should cover all land without overlap. Where appropriate, to keep

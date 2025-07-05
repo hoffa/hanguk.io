@@ -3,62 +3,960 @@
   "divisions": [
     {
       "name": "서울",
-      "population": 9586195,
-      "area": 605,
-      "image": "/seoul.jpg",
-      "imageAttribution": "Photo by Younyoun Park: https://www.pexels.com/photo/aerial-view-of-seoul-with-lotte-world-tower-28584231/",
-      "type": "특별시",
-      "highlights": ["차 막혀 🤧"]
+      "population": 9407540,
+      "area": 605.2,
+      "type": "특별시"
     },
     {
       "name": "부산",
-      "population": 3349016,
-      "area": 770,
-      "image": "/busan.jpg",
-      "imageAttribution": "Photo by Анна Шаталова: https://www.pexels.com/photo/aerial-panoramic-view-of-busan-south-korea-8573202/",
-      "type": "광역시",
-      "highlights": ["한국 제2의 도시", "국제영화제 개최지", "해운대 해변"]
+      "population": 3320276,
+      "area": 769.89,
+      "type": "광역시"
+    },
+    {
+      "name": "대구",
+      "population": 2365619,
+      "area": 883.54,
+      "type": "광역시"
     },
     {
       "name": "인천",
-      "population": 2945454,
-      "area": 1063,
-      "image": "./incheon.jpg",
-      "imageAttribution": "Photo by joon young, Park: https://www.pexels.com/photo/fishing-boats-on-the-river-13271235/",
-      "type": "광역시",
-      "highlights": ["인천국제공항 소재지", "차이나타운", "송도국제도시"]
+      "population": 2964820,
+      "area": 1062.6,
+      "type": "광역시"
+    },
+    {
+      "name": "광주",
+      "population": 1432049,
+      "area": 501.24,
+      "type": "광역시"
+    },
+    {
+      "name": "대전",
+      "population": 1446749,
+      "area": 539.35,
+      "type": "광역시"
+    },
+    {
+      "name": "울산",
+      "population": 1111371,
+      "area": 1060.79,
+      "type": "광역시"
     },
     {
       "name": "세종",
-      "population": 346275,
-      "area": 465,
-      "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
-      "type": "특별자치시",
-      "highlights": ["행정수도", "정부세종청사", "계획도시"]
-    },
-    {
-      "name": "제주",
-      "population": 470957,
-      "area": 1849,
-      "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
-      "type": "특별자치도",
-      "highlights": ["화산섬", "한라산 국립공원", "해녀문화"]
-    },
-    {
-      "name": "가평",
-      "population": 59916,
-      "area": 843,
-      "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
-      "type": "군",
-      "highlights": ["자라섬", "남이섬", "청평호"]
+      "population": 342328,
+      "area": 464.87,
+      "type": "특별자치시"
     },
     {
       "name": "수원",
-      "population": 1194313,
-      "area": 121,
-      "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
-      "type": "시",
-      "highlights": ["화성행궁", "수원화성 세계문화유산", "삼성전자 본사"]
+      "population": 1190964,
+      "area": 121.09,
+      "type": "시"
+    },
+    {
+      "name": "용인",
+      "population": 1074971,
+      "area": 591.22,
+      "type": "시"
+    },
+    {
+      "name": "고양",
+      "population": 1076599,
+      "area": 268.08,
+      "type": "시"
+    },
+    {
+      "name": "성남",
+      "population": 924087,
+      "area": 141.63,
+      "type": "시"
+    },
+    {
+      "name": "화성",
+      "population": 1040000,
+      "area": 699.41,
+      "type": "시"
+    },
+    {
+      "name": "부천",
+      "population": 791263,
+      "area": 53.45,
+      "type": "시"
+    },
+    {
+      "name": "남양주",
+      "population": 737366,
+      "area": 458.12,
+      "type": "시"
+    },
+    {
+      "name": "안산",
+      "population": 643044,
+      "area": 156.53,
+      "type": "시"
+    },
+    {
+      "name": "안양",
+      "population": 565392,
+      "area": 58.5,
+      "type": "시"
+    },
+    {
+      "name": "평택",
+      "population": 514876,
+      "area": 458.25,
+      "type": "시"
+    },
+    {
+      "name": "시흥",
+      "population": 475396,
+      "area": 139.93,
+      "type": "시"
+    },
+    {
+      "name": "파주",
+      "population": 516585,
+      "area": 672.78,
+      "type": "시"
+    },
+    {
+      "name": "의정부",
+      "population": 451876,
+      "area": 81.55,
+      "type": "시"
+    },
+    {
+      "name": "김포",
+      "population": 437789,
+      "area": 276.65,
+      "type": "시"
+    },
+    {
+      "name": "광명",
+      "population": 328253,
+      "area": 38.5,
+      "type": "시"
+    },
+    {
+      "name": "광주",
+      "population": 373274,
+      "area": 431.0,
+      "type": "시"
+    },
+    {
+      "name": "군포",
+      "population": 275989,
+      "area": 36.42,
+      "type": "시"
+    },
+    {
+      "name": "하남",
+      "population": 273587,
+      "area": 93.07,
+      "type": "시"
+    },
+    {
+      "name": "이천",
+      "population": 218798,
+      "area": 461.31,
+      "type": "시"
+    },
+    {
+      "name": "안성",
+      "population": 198832,
+      "area": 553.19,
+      "type": "시"
+    },
+    {
+      "name": "구리",
+      "population": 189741,
+      "area": 33.33,
+      "type": "시"
+    },
+    {
+      "name": "오산",
+      "population": 219877,
+      "area": 42.71,
+      "type": "시"
+    },
+    {
+      "name": "의왕",
+      "population": 151852,
+      "area": 54.03,
+      "type": "시"
+    },
+    {
+      "name": "포천",
+      "population": 161239,
+      "area": 826.95,
+      "type": "시"
+    },
+    {
+      "name": "양주",
+      "population": 212631,
+      "area": 310.1,
+      "type": "시"
+    },
+    {
+      "name": "여주",
+      "population": 136929,
+      "area": 608.29,
+      "type": "시"
+    },
+    {
+      "name": "연천",
+      "population": 43990,
+      "area": 677.58,
+      "type": "군"
+    },
+    {
+      "name": "가평",
+      "population": 59548,
+      "area": 843.58,
+      "type": "군"
+    },
+    {
+      "name": "양평",
+      "population": 109359,
+      "area": 877.78,
+      "type": "군"
+    },
+    {
+      "name": "춘천",
+      "population": 283742,
+      "area": 1116.4,
+      "type": "시"
+    },
+    {
+      "name": "원주",
+      "population": 350252,
+      "area": 868.23,
+      "type": "시"
+    },
+    {
+      "name": "강릉",
+      "population": 215914,
+      "area": 1040.68,
+      "type": "시"
+    },
+    {
+      "name": "동해",
+      "population": 89151,
+      "area": 180.21,
+      "type": "시"
+    },
+    {
+      "name": "태백",
+      "population": 44733,
+      "area": 303.44,
+      "type": "시"
+    },
+    {
+      "name": "속초",
+      "population": 78618,
+      "area": 105.76,
+      "type": "시"
+    },
+    {
+      "name": "삼척",
+      "population": 67860,
+      "area": 1187.83,
+      "type": "시"
+    },
+    {
+      "name": "홍천",
+      "population": 104509,
+      "area": 1820.58,
+      "type": "군"
+    },
+    {
+      "name": "횡성",
+      "population": 67168,
+      "area": 997.94,
+      "type": "군"
+    },
+    {
+      "name": "영월",
+      "population": 36934,
+      "area": 1120.34,
+      "type": "군"
+    },
+    {
+      "name": "평창",
+      "population": 40411,
+      "area": 1462.35,
+      "type": "군"
+    },
+    {
+      "name": "정선",
+      "population": 36002,
+      "area": 1219.65,
+      "type": "군"
+    },
+    {
+      "name": "철원",
+      "population": 44770,
+      "area": 889.69,
+      "type": "군"
+    },
+    {
+      "name": "화천",
+      "population": 25556,
+      "area": 909.06,
+      "type": "군"
+    },
+    {
+      "name": "양구",
+      "population": 22355,
+      "area": 703.74,
+      "type": "군"
+    },
+    {
+      "name": "인제",
+      "population": 30524,
+      "area": 1646.18,
+      "type": "군"
+    },
+    {
+      "name": "고성",
+      "population": 28621,
+      "area": 664.28,
+      "type": "군"
+    },
+    {
+      "name": "양양",
+      "population": 25556,
+      "area": 629.56,
+      "type": "군"
+    },
+    {
+      "name": "청주",
+      "population": 849388,
+      "area": 941.01,
+      "type": "시"
+    },
+    {
+      "name": "충주",
+      "population": 212274,
+      "area": 983.62,
+      "type": "시"
+    },
+    {
+      "name": "제천",
+      "population": 136929,
+      "area": 882.77,
+      "type": "시"
+    },
+    {
+      "name": "보은",
+      "population": 32253,
+      "area": 584.25,
+      "type": "군"
+    },
+    {
+      "name": "옥천",
+      "population": 49898,
+      "area": 536.14,
+      "type": "군"
+    },
+    {
+      "name": "영동",
+      "population": 49034,
+      "area": 849.81,
+      "type": "군"
+    },
+    {
+      "name": "증평",
+      "population": 37625,
+      "area": 80.44,
+      "type": "군"
+    },
+    {
+      "name": "진천",
+      "population": 79186,
+      "area": 407.17,
+      "type": "군"
+    },
+    {
+      "name": "괴산",
+      "population": 38579,
+      "area": 773.15,
+      "type": "군"
+    },
+    {
+      "name": "음성",
+      "population": 79586,
+      "area": 521.18,
+      "type": "군"
+    },
+    {
+      "name": "단양",
+      "population": 28411,
+      "area": 780.79,
+      "type": "군"
+    },
+    {
+      "name": "천안",
+      "population": 657821,
+      "area": 636.15,
+      "type": "시"
+    },
+    {
+      "name": "공주",
+      "population": 111017,
+      "area": 864.15,
+      "type": "시"
+    },
+    {
+      "name": "보령",
+      "population": 100922,
+      "area": 569.14,
+      "type": "시"
+    },
+    {
+      "name": "아산",
+      "population": 314238,
+      "area": 542.25,
+      "type": "시"
+    },
+    {
+      "name": "서산",
+      "population": 171364,
+      "area": 739.35,
+      "type": "시"
+    },
+    {
+      "name": "논산",
+      "population": 123774,
+      "area": 554.77,
+      "type": "시"
+    },
+    {
+      "name": "계룡",
+      "population": 41858,
+      "area": 60.68,
+      "type": "시"
+    },
+    {
+      "name": "당진",
+      "population": 168508,
+      "area": 704.35,
+      "type": "시"
+    },
+    {
+      "name": "금산",
+      "population": 55672,
+      "area": 575.17,
+      "type": "군"
+    },
+    {
+      "name": "부여",
+      "population": 67028,
+      "area": 624.62,
+      "type": "군"
+    },
+    {
+      "name": "서천",
+      "population": 53321,
+      "area": 358.9,
+      "type": "군"
+    },
+    {
+      "name": "청양",
+      "population": 31299,
+      "area": 479.22,
+      "type": "군"
+    },
+    {
+      "name": "홍성",
+      "population": 103048,
+      "area": 443.72,
+      "type": "군"
+    },
+    {
+      "name": "예산",
+      "population": 78678,
+      "area": 542.77,
+      "type": "군"
+    },
+    {
+      "name": "태안",
+      "population": 61170,
+      "area": 502.14,
+      "type": "군"
+    },
+    {
+      "name": "전주",
+      "population": 652458,
+      "area": 206.22,
+      "type": "시"
+    },
+    {
+      "name": "군산",
+      "population": 273649,
+      "area": 394.45,
+      "type": "시"
+    },
+    {
+      "name": "익산",
+      "population": 298928,
+      "area": 507.08,
+      "type": "시"
+    },
+    {
+      "name": "정읍",
+      "population": 109263,
+      "area": 692.99,
+      "type": "시"
+    },
+    {
+      "name": "남원",
+      "population": 79282,
+      "area": 752.57,
+      "type": "시"
+    },
+    {
+      "name": "김제",
+      "population": 82358,
+      "area": 545.2,
+      "type": "시"
+    },
+    {
+      "name": "완주",
+      "population": 98528,
+      "area": 821.15,
+      "type": "군"
+    },
+    {
+      "name": "진안",
+      "population": 22998,
+      "area": 787.14,
+      "type": "군"
+    },
+    {
+      "name": "무주",
+      "population": 23195,
+      "area": 631.67,
+      "type": "군"
+    },
+    {
+      "name": "장수",
+      "population": 21395,
+      "area": 534.98,
+      "type": "군"
+    },
+    {
+      "name": "임실",
+      "population": 26409,
+      "area": 597.0,
+      "type": "군"
+    },
+    {
+      "name": "순창",
+      "population": 27017,
+      "area": 529.3,
+      "type": "군"
+    },
+    {
+      "name": "고창",
+      "population": 54947,
+      "area": 606.8,
+      "type": "군"
+    },
+    {
+      "name": "부안",
+      "population": 51249,
+      "area": 493.94,
+      "type": "군"
+    },
+    {
+      "name": "목포",
+      "population": 233948,
+      "area": 50.96,
+      "type": "시"
+    },
+    {
+      "name": "여수",
+      "population": 271741,
+      "area": 503.33,
+      "type": "시"
+    },
+    {
+      "name": "순천",
+      "population": 266809,
+      "area": 907.0,
+      "type": "시"
+    },
+    {
+      "name": "나주",
+      "population": 105579,
+      "area": 608.37,
+      "type": "시"
+    },
+    {
+      "name": "광양",
+      "population": 144010,
+      "area": 452.01,
+      "type": "시"
+    },
+    {
+      "name": "담양",
+      "population": 43781,
+      "area": 455.92,
+      "type": "군"
+    },
+    {
+      "name": "곡성",
+      "population": 28768,
+      "area": 547.17,
+      "type": "군"
+    },
+    {
+      "name": "구례",
+      "population": 24420,
+      "area": 443.15,
+      "type": "군"
+    },
+    {
+      "name": "고흥",
+      "population": 60984,
+      "area": 804.32,
+      "type": "군"
+    },
+    {
+      "name": "보성",
+      "population": 39942,
+      "area": 659.21,
+      "type": "군"
+    },
+    {
+      "name": "화순",
+      "population": 60566,
+      "area": 786.23,
+      "type": "군"
+    },
+    {
+      "name": "장흥",
+      "population": 36275,
+      "area": 616.5,
+      "type": "군"
+    },
+    {
+      "name": "강진",
+      "population": 33637,
+      "area": 500.99,
+      "type": "군"
+    },
+    {
+      "name": "해남",
+      "population": 67123,
+      "area": 1013.94,
+      "type": "군"
+    },
+    {
+      "name": "영암",
+      "population": 57679,
+      "area": 586.5,
+      "type": "군"
+    },
+    {
+      "name": "무안",
+      "population": 81420,
+      "area": 436.52,
+      "type": "군"
+    },
+    {
+      "name": "함평",
+      "population": 30948,
+      "area": 392.74,
+      "type": "군"
+    },
+    {
+      "name": "영광",
+      "population": 49670,
+      "area": 473.97,
+      "type": "군"
+    },
+    {
+      "name": "장성",
+      "population": 41663,
+      "area": 518.22,
+      "type": "군"
+    },
+    {
+      "name": "완도",
+      "population": 48332,
+      "area": 396.44,
+      "type": "군"
+    },
+    {
+      "name": "진도",
+      "population": 29432,
+      "area": 440.98,
+      "type": "군"
+    },
+    {
+      "name": "신안",
+      "population": 35592,
+      "area": 655.6,
+      "type": "군"
+    },
+    {
+      "name": "포항",
+      "population": 506494,
+      "area": 1127.24,
+      "type": "시"
+    },
+    {
+      "name": "경주",
+      "population": 262264,
+      "area": 1323.81,
+      "type": "시"
+    },
+    {
+      "name": "김천",
+      "population": 140765,
+      "area": 1009.46,
+      "type": "시"
+    },
+    {
+      "name": "안동",
+      "population": 165704,
+      "area": 1590.91,
+      "type": "시"
+    },
+    {
+      "name": "구미",
+      "population": 419761,
+      "area": 615.33,
+      "type": "시"
+    },
+    {
+      "name": "영주",
+      "population": 108443,
+      "area": 669.4,
+      "type": "시"
+    },
+    {
+      "name": "영천",
+      "population": 97675,
+      "area": 919.76,
+      "type": "시"
+    },
+    {
+      "name": "상주",
+      "population": 98189,
+      "area": 1254.84,
+      "type": "시"
+    },
+    {
+      "name": "문경",
+      "population": 70016,
+      "area": 912.8,
+      "type": "시"
+    },
+    {
+      "name": "경산",
+      "population": 282626,
+      "area": 411.58,
+      "type": "시"
+    },
+    {
+      "name": "군위",
+      "population": 12178,
+      "area": 614.08,
+      "type": "군"
+    },
+    {
+      "name": "의성",
+      "population": 50082,
+      "area": 1175.27,
+      "type": "군"
+    },
+    {
+      "name": "청송",
+      "population": 24441,
+      "area": 845.67,
+      "type": "군"
+    },
+    {
+      "name": "영양",
+      "population": 16579,
+      "area": 815.14,
+      "type": "군"
+    },
+    {
+      "name": "영덕",
+      "population": 36148,
+      "area": 741.01,
+      "type": "군"
+    },
+    {
+      "name": "청도",
+      "population": 41278,
+      "area": 694.94,
+      "type": "군"
+    },
+    {
+      "name": "고령",
+      "population": 33094,
+      "area": 383.57,
+      "type": "군"
+    },
+    {
+      "name": "성주",
+      "population": 41225,
+      "area": 616.96,
+      "type": "군"
+    },
+    {
+      "name": "칠곡",
+      "population": 121778,
+      "area": 451.0,
+      "type": "군"
+    },
+    {
+      "name": "예천",
+      "population": 46321,
+      "area": 661.5,
+      "type": "군"
+    },
+    {
+      "name": "봉화",
+      "population": 31082,
+      "area": 1200.59,
+      "type": "군"
+    },
+    {
+      "name": "울진",
+      "population": 48504,
+      "area": 992.16,
+      "type": "군"
+    },
+    {
+      "name": "울릉",
+      "population": 8996,
+      "area": 73.03,
+      "type": "군",
+      "highlights": [
+        "독도는 우리 땅 🇰🇷"
+      ]
+    },
+    {
+      "name": "창원",
+      "population": 1033737,
+      "area": 749.14,
+      "type": "시"
+    },
+    {
+      "name": "진주",
+      "population": 347489,
+      "area": 712.92,
+      "type": "시"
+    },
+    {
+      "name": "통영",
+      "population": 132962,
+      "area": 239.86,
+      "type": "시"
+    },
+    {
+      "name": "사천",
+      "population": 111655,
+      "area": 398.78,
+      "type": "시"
+    },
+    {
+      "name": "김해",
+      "population": 542713,
+      "area": 463.53,
+      "type": "시"
+    },
+    {
+      "name": "밀양",
+      "population": 103894,
+      "area": 798.68,
+      "type": "시"
+    },
+    {
+      "name": "거제",
+      "population": 257847,
+      "area": 403.86,
+      "type": "시"
+    },
+    {
+      "name": "양산",
+      "population": 351168,
+      "area": 485.61,
+      "type": "시"
+    },
+    {
+      "name": "의령",
+      "population": 26292,
+      "area": 482.91,
+      "type": "군"
+    },
+    {
+      "name": "함안",
+      "population": 62544,
+      "area": 416.6,
+      "type": "군"
+    },
+    {
+      "name": "창녕",
+      "population": 62544,
+      "area": 532.67,
+      "type": "군"
+    },
+    {
+      "name": "고성",
+      "population": 52439,
+      "area": 518.0,
+      "type": "군"
+    },
+    {
+      "name": "남해",
+      "population": 42986,
+      "area": 357.76,
+      "type": "군"
+    },
+    {
+      "name": "하동",
+      "population": 43441,
+      "area": 674.85,
+      "type": "군"
+    },
+    {
+      "name": "산청",
+      "population": 34033,
+      "area": 794.64,
+      "type": "군"
+    },
+    {
+      "name": "함양",
+      "population": 37942,
+      "area": 724.7,
+      "type": "군"
+    },
+    {
+      "name": "거창",
+      "population": 60083,
+      "area": 803.97,
+      "type": "군"
+    },
+    {
+      "name": "합천",
+      "population": 43449,
+      "area": 983.05,
+      "type": "군"
+    },
+    {
+      "name": "제주",
+      "population": 677493,
+      "area": 1849.15,
+      "type": "특별자치도"
     }
   ]
 }

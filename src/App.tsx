@@ -18,7 +18,7 @@ function App() {
             <div key={index} className="card bg-base-100 shadow-sm">
               <figure>
                 <img
-                  src={division.image}
+                  src={division.image || 'https://placecats.com/800/600'}
                   alt={division.name}
                   className="w-full aspect-[4/3] object-cover"
                 />
@@ -27,7 +27,7 @@ function App() {
                 <h2 className="card-title mb-3">{division.name}</h2>
 
                 <ul className="list-disc list-inside mb-4">
-                  {division.highlights.map((highlight, highlightIndex) => (
+                  {division.highlights?.map((highlight, highlightIndex) => (
                     <li key={highlightIndex}>{highlight}</li>
                   ))}
                 </ul>
@@ -39,7 +39,7 @@ function App() {
                   </div>
                   <div className="flex items-center gap-1">
                     <MapIcon className="w-4 h-4" />
-                    {division.area.toLocaleString()} km²
+                    {Math.round(division.area).toLocaleString()} km²
                   </div>
                   <div className="flex items-center gap-1">
                     <BuildingOfficeIcon className="w-4 h-4" />
