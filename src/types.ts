@@ -7,6 +7,7 @@ export interface Division {
    */
   area: number
   image: string
+  imageAttribution?: string
   highlights: string[]
 
   /**

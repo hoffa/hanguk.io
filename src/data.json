@@ -6,6 +6,7 @@
       "population": 9586195,
       "area": 605,
       "image": "/src/assets/seoul.jpg",
+      "imageAttribution": "Photo by Marius Mann from Pexels: https://www.pexels.com/photo/aerial-shot-of-city-1637788/",
       "type": "특별시",
       "highlights": ["한국의 수도", "경복궁, 창덕궁 등 5대 궁궐", "한강이 흐르는 도시"]
     },
@@ -13,7 +14,8 @@
       "name": "부산",
       "population": 3349016,
       "area": 770,
-      "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+      "image": "/src/assets/busan.jpg",
+      "imageAttribution": "Photo by chanho choi: https://www.pexels.com/photo/panoramic-view-of-busan-with-iconic-bridge-32155352/",
       "type": "광역시",
       "highlights": ["한국 제2의 도시", "국제영화제 개최지", "해운대 해변"]
     },

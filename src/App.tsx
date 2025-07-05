@@ -17,7 +17,11 @@ function App() {
           {divisions.map((division, index) => (
             <div key={index} className="card bg-base-100 shadow">
               <figure>
-                <img src={division.image} alt={division.name} />
+                <img
+                  src={division.image}
+                  alt={division.name}
+                  className="w-full aspect-[4/3] object-cover"
+                />
               </figure>
               <div className="card-body">
                 <h2 className="card-title mb-3">{division.name}</h2>
