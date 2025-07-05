@@ -18,8 +18,7 @@ function App() {
             <h3>{division.name}</h3>
             <span>{division.type}</span>
             <p className="population">
-              인구: 약{' '}
-              {formatKoreanNumber(roundToFirstDigit(division.population))} 명
+              약 {formatKoreanNumber(roundToFirstDigit(division.population))} 명
             </p>
           </div>
         ))}
