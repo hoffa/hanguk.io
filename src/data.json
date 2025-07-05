@@ -5,13 +5,17 @@
       "name": "서울",
       "population": 9407540,
       "area": 605.2,
-      "type": "특별시"
+      "type": "특별시",
+      "image": "/seoul.jpg",
+      "imageAttribution": "Photo by Younyoun Park: https://www.pexels.com/photo/aerial-view-of-seoul-with-lotte-world-tower-28584231/"
     },
     {
       "name": "부산",
       "population": 3320276,
       "area": 769.89,
-      "type": "광역시"
+      "type": "광역시",
+      "image": "/busan.jpg",
+      "imageAttribution": "Photo by Анна Шаталова: https://www.pexels.com/photo/aerial-panoramic-view-of-busan-south-korea-8573202/"
     },
     {
       "name": "대구",
@@ -23,7 +27,9 @@
       "name": "인천",
       "population": 2964820,
       "area": 1062.6,
-      "type": "광역시"
+      "type": "광역시",
+      "image": "./incheon.jpg",
+      "imageAttribution": "Photo by joon young, Park: https://www.pexels.com/photo/fishing-boats-on-the-river-13271235/"
     },
     {
       "name": "광주",
