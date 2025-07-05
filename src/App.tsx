@@ -22,33 +22,21 @@ function App() {
         {/* Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {divisions.map((division, index) => (
-            <div
-              key={index}
-              className="card bg-base-100 shadow-lg hover:shadow-xl transition-shadow duration-300"
-            >
+            <div key={index} className="card bg-base-100 w-96 shadow-lg">
+              <figure>
+                <img
+                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                  alt="Shoes"
+                />
+              </figure>
               <div className="card-body">
-                <h3 className="card-title text-xl font-bold text-primary">
+                <h2 className="card-title">
                   {division.name}
-                </h3>
-
-                {/* Type Badge */}
-                <div className="mb-2">
-                  <span
-                    className={`badge ${
-                      division.type === '특별시' ||
-                      division.type === '광역시' ||
-                      division.type === '시'
-                        ? 'badge-primary'
-                        : division.type === '군'
-                          ? 'badge-secondary'
-                          : 'badge-accent'
-                    }`}
-                  >
+                  <div className="badge badge-soft badge-accent">
                     {division.type}
-                  </span>
-                </div>
+                  </div>
+                </h2>
 
-                {/* Population */}
                 <div className="text-base-content">
                   <span className="text-sm text-base-content/70">인구: </span>
                   <span className="font-semibold text-success">
