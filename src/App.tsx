@@ -26,7 +26,7 @@ function App() {
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">{division.name}</h2>
+                <h2 className="card-title mb-3">{division.name}</h2>
 
                 <ul className="list-disc list-inside text-sm mb-4">
                   {division.highlights.map((highlight, highlightIndex) => (
