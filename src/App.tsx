@@ -1,46 +1,9 @@
 import './App.css'
 import koreanData from './data.json'
-import { z } from 'zod'
-
-// Define the schema for validation
-const DistrictSchema = z.object({
-  name: z.string().min(1, 'Name is required'),
-  city: z.string().min(1, 'City is required'),
-  population: z.number().positive('Population must be positive'),
-  type: z.enum(['구', '시'], { message: 'Type must be either 구 or 시' }),
-})
-
-const DistrictsSchema = z.array(DistrictSchema)
-
-type District = z.infer<typeof DistrictSchema>
+import type { KoreanDistricts } from './types'
 
 function App() {
-  // Validate the JSON data at runtime
-  let districts: District[] = []
-  let validationError: string | null = null
-
-  try {
-    districts = DistrictsSchema.parse(koreanData)
-    console.log('✅ JSON data is valid!')
-  } catch (error) {
-    if (error instanceof z.ZodError) {
-      validationError = error.issues
-        .map(issue => `${issue.path.join('.')}: ${issue.message}`)
-        .join(', ')
-      console.error('❌ JSON validation failed:', validationError)
-    }
-  }
-
-  if (validationError) {
-    return (
-      <div className="app">
-        <h1>Data Validation Error</h1>
-        <div style={{ color: 'red', padding: '1rem', background: '#ffe6e6' }}>
-          {validationError}
-        </div>
-      </div>
-    )
-  }
+  const districts = koreanData as KoreanDistricts
 
   return (
     <div className="app">

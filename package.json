@@ -5,22 +5,23 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && echo hanguk.io > docs/CNAME",
+    "build": "npm run validate-data && tsc -b && vite build && echo hanguk.io > docs/CNAME",
     "preview": "vite preview",
     "fix": "eslint . --fix && prettier --write .",
     "check": "eslint . && prettier --check .",
-    "validate-json": "node -e \"try { const data = JSON.parse(require('fs').readFileSync('./src/data.json', 'utf8')); console.log('✅ JSON is valid!', data.length, 'districts found'); } catch(e) { console.error('❌ JSON validation failed:', e.message); process.exit(1); }\""
+    "validate-data": "node scripts/validate-data.js",
+    "generate-schema": "npx typescript-json-schema src/types.ts KoreanDistricts --required --noExtraProps --out src/data.schema.json"
   },
   "dependencies": {
     "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "zod": "^3.25.74"
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react": "^4.5.2",
+    "ajv": "^8.17.1",
     "eslint": "^9.29.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
@@ -28,6 +29,7 @@
     "prettier": "^3.6.2",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.34.1",
+    "typescript-json-schema": "^0.65.1",
     "vite": "^7.0.0"
   }
 }
