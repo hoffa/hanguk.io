@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "description": "District/city name in Korean"
+      },
+      "city": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Province/metropolitan city name"
+      },
+      "population": {
+        "type": "number",
+        "minimum": 1,
+        "description": "Population count"
+      },
+      "type": {
+        "type": "string",
+        "enum": ["구", "시"],
+        "description": "District type: gu or si"
+      }
+    },
+    "required": ["name", "city", "population", "type"],
+    "additionalProperties": false
+  }
+}

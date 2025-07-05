@@ -1,0 +1,74 @@
+[
+  {
+    "name": "강남구",
+    "city": "서울특별시",
+    "population": 561052,
+    "type": "구"
+  },
+  {
+    "name": "강동구",
+    "city": "서울특별시",
+    "population": 440359,
+    "type": "구"
+  },
+  {
+    "name": "강북구",
+    "city": "서울특별시",
+    "population": 298903,
+    "type": "구"
+  },
+  {
+    "name": "강서구",
+    "city": "서울특별시",
+    "population": 580505,
+    "type": "구"
+  },
+  {
+    "name": "부산진구",
+    "city": "부산광역시",
+    "population": 355899,
+    "type": "구"
+  },
+  {
+    "name": "해운대구",
+    "city": "부산광역시",
+    "population": 409918,
+    "type": "구"
+  },
+  {
+    "name": "수성구",
+    "city": "대구광역시",
+    "population": 436977,
+    "type": "구"
+  },
+  {
+    "name": "유성구",
+    "city": "대전광역시",
+    "population": 367990,
+    "type": "구"
+  },
+  {
+    "name": "연수구",
+    "city": "인천광역시",
+    "population": 334688,
+    "type": "구"
+  },
+  {
+    "name": "성남시",
+    "city": "경기도",
+    "population": 948757,
+    "type": "시"
+  },
+  {
+    "name": "고양시",
+    "city": "경기도",
+    "population": 1072973,
+    "type": "시"
+  },
+  {
+    "name": "용인시",
+    "city": "경기도",
+    "population": 1070764,
+    "type": "시"
+  }
+]
