@@ -37,7 +37,7 @@ function App() {
                 <div className="flex items-center gap-4 text-sm text-base-content/70">
                   <div className="flex items-center gap-1">
                     <UserIcon className="w-4 h-4" />
-                    {formatKoreanNumber(roundToFirstDigit(division.population))} 명
+                    {formatKoreanNumber(roundToFirstDigit(division.population))}
                   </div>
                   <div className="flex items-center gap-1">
                     <BuildingOfficeIcon className="w-4 h-4" />
