@@ -1,6 +1,7 @@
 import koreanData from './data.json'
 import type { Divisions } from './types'
 import { roundToFirstDigit, formatKoreanNumber } from './utils'
+import { UserIcon, BuildingOfficeIcon } from '@heroicons/react/24/outline'
 
 function App() {
   const data = koreanData as Divisions
@@ -27,18 +28,22 @@ function App() {
               <div className="card-body">
                 <h2 className="card-title">{division.name}</h2>
 
-                <div className="flex gap-2 mb-3">
-                  <div className="badge badge-primary">{division.type}</div>
-                  <div className="badge badge-secondary">
-                    {formatKoreanNumber(roundToFirstDigit(division.population))} 명
-                  </div>
-                </div>
-
-                <ul className="list-disc list-inside text-sm">
+                <ul className="list-disc list-inside text-sm mb-4">
                   {division.highlights.map((highlight, highlightIndex) => (
                     <li key={highlightIndex}>{highlight}</li>
                   ))}
                 </ul>
+
+                <div className="flex items-center gap-4 text-sm text-base-content/70">
+                  <div className="flex items-center gap-1">
+                    <UserIcon className="w-4 h-4" />
+                    {formatKoreanNumber(roundToFirstDigit(division.population))} 명
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <BuildingOfficeIcon className="w-4 h-4" />
+                    {division.type}
+                  </div>
+                </div>
               </div>
             </div>
           ))}
