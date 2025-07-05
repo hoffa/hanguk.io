@@ -1,3 +1,7 @@
+/**
+ * @see {@link https://kosis.kr}
+ * @see {@link https://en.wikipedia.org/wiki/List_of_cities_in_South_Korea}
+ */
 export interface Division {
   name: string
   population: number
