@@ -7,7 +7,8 @@
       "area": 605.2,
       "type": "특별시",
       "image": "/seoul.jpg",
-      "imageAttribution": "Photo by Younyoun Park: https://www.pexels.com/photo/aerial-view-of-seoul-with-lotte-world-tower-28584231/"
+      "imageAttribution": "Photo by Younyoun Park: https://www.pexels.com/photo/aerial-view-of-seoul-with-lotte-world-tower-28584231/",
+      "link": "https://www.seoul.go.kr"
     },
     {
       "name": "부산",

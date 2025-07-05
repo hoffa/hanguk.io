@@ -21,6 +21,9 @@
         "imageAttribution": {
           "type": "string"
         },
+        "link": {
+          "type": "string"
+        },
         "name": {
           "type": "string"
         },

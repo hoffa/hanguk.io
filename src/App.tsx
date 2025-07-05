@@ -1,7 +1,7 @@
 import koreanData from './data.json'
 import type { Divisions } from './types'
-import { roundToFirstDigit, formatKoreanNumber } from './utils'
-import { UserIcon, BuildingOfficeIcon, MapIcon } from '@heroicons/react/24/outline'
+import { roundToFirstDigit, formatKoreanNumber, getHumanFriendlyDomain } from './utils'
+import { UserIcon, BuildingOfficeIcon, MapIcon, LinkIcon } from '@heroicons/react/24/outline'
 
 function App() {
   const data = koreanData as Divisions
@@ -24,7 +24,9 @@ function App() {
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title mb-3">{division.name}</h2>
+                <div className="flex items-center justify-between mb-3">
+                  <h2 className="card-title">{division.name}</h2>
+                </div>
 
                 <ul className="list-disc list-inside mb-4">
                   {division.highlights?.map((highlight, highlightIndex) => (
@@ -32,7 +34,7 @@ function App() {
                   ))}
                 </ul>
 
-                <div className="flex items-center gap-4 text-base-content/70">
+                <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-base-content/70">
                   <div className="flex items-center gap-1">
                     <UserIcon className="w-4 h-4" />
                     {formatKoreanNumber(roundToFirstDigit(division.population))} 명
@@ -45,6 +47,12 @@ function App() {
                     <BuildingOfficeIcon className="w-4 h-4" />
                     {division.type}
                   </div>
+                  {division.link && (
+                    <div className="flex items-center gap-1">
+                      <LinkIcon className="w-4 h-4" />
+                      <a href={division.link}>{getHumanFriendlyDomain(division.link)}</a>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { roundToFirstDigit, formatKoreanNumber } from './utils'
+import { roundToFirstDigit, formatKoreanNumber, getHumanFriendlyDomain } from './utils'
 
 describe('roundToFirstDigit', () => {
   it('rounds to first significant digit', () => {
@@ -79,5 +79,36 @@ describe('formatKoreanNumber', () => {
     expect(formatKoreanNumber(0)).toBe('0')
     expect(formatKoreanNumber(1)).toBe('1')
     expect(formatKoreanNumber(10)).toBe('10')
+  })
+})
+
+describe('getHumanFriendlyDomain', () => {
+  it('extracts domain from full URLs', () => {
+    expect(getHumanFriendlyDomain('https://google.com/foobar?123')).toBe('google.com')
+    expect(getHumanFriendlyDomain('http://example.com/path/to/page')).toBe('example.com')
+    expect(getHumanFriendlyDomain('https://ko.wikipedia.org/wiki/Seoul')).toBe('ko.wikipedia.org')
+  })
+
+  it('removes www prefix', () => {
+    expect(getHumanFriendlyDomain('https://www.google.com/search')).toBe('google.com')
+    expect(getHumanFriendlyDomain('http://www.example.com')).toBe('example.com')
+    expect(getHumanFriendlyDomain('www.github.com')).toBe('github.com')
+  })
+
+  it('handles URLs without protocol', () => {
+    expect(getHumanFriendlyDomain('example.com')).toBe('example.com')
+    expect(getHumanFriendlyDomain('subdomain.example.com')).toBe('subdomain.example.com')
+    expect(getHumanFriendlyDomain('github.com/user/repo')).toBe('github.com')
+  })
+
+  it('handles edge cases', () => {
+    expect(getHumanFriendlyDomain('localhost:3000')).toBe('localhost')
+    expect(getHumanFriendlyDomain('https://localhost:8080/api')).toBe('localhost')
+    expect(getHumanFriendlyDomain('invalid-url')).toBe('invalid-url')
+  })
+
+  it('preserves subdomains', () => {
+    expect(getHumanFriendlyDomain('https://api.github.com/repos')).toBe('api.github.com')
+    expect(getHumanFriendlyDomain('https://docs.google.com/document')).toBe('docs.google.com')
   })
 })

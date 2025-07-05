@@ -59,3 +59,32 @@ export function formatKoreanNumber(num: number): string {
     return num.toString()
   }
 }
+
+/**
+ * Extract a human-friendly domain from a URL
+ * Examples:
+ * "https://google.com/foobar?123" → "google.com"
+ * "http://www.example.com/path" → "example.com"
+ * "https://ko.wikipedia.org/wiki/Seoul" → "ko.wikipedia.org"
+ * "example.com" → "example.com"
+ */
+export function getHumanFriendlyDomain(url: string): string {
+  try {
+    // If it doesn't start with protocol, add https://
+    const normalizedUrl =
+      url.startsWith('http://') || url.startsWith('https://') ? url : `https://${url}`
+
+    const urlObj = new URL(normalizedUrl)
+    let hostname = urlObj.hostname
+
+    // Remove www. prefix if present
+    if (hostname.startsWith('www.')) {
+      hostname = hostname.substring(4)
+    }
+
+    return hostname
+  } catch {
+    // If URL parsing fails, return the original string
+    return url
+  }
+}
