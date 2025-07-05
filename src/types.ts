@@ -1,6 +1,11 @@
 export interface Division {
   name: string
   population: number
+
+  /**
+   * Area in km².
+   */
+  area: number
   highlights: string[]
 
   /**

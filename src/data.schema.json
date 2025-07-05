@@ -5,6 +5,10 @@
     "Division": {
       "additionalProperties": false,
       "properties": {
+        "area": {
+          "description": "Area in km².",
+          "type": "number"
+        },
         "highlights": {
           "items": {
             "type": "string"
@@ -23,7 +27,7 @@
           "type": "string"
         }
       },
-      "required": ["highlights", "name", "population", "type"],
+      "required": ["area", "highlights", "name", "population", "type"],
       "type": "object"
     }
   },
