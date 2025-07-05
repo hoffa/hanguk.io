@@ -6,7 +6,7 @@
       "population": 9586195,
       "area": 605,
       "image": "/seoul.jpg",
-      "imageAttribution": "Photo by Marius Mann from Pexels: https://www.pexels.com/photo/aerial-shot-of-city-1637788/",
+      "imageAttribution": "Photo by Younyoun Park: https://www.pexels.com/photo/aerial-view-of-seoul-with-lotte-world-tower-28584231/",
       "type": "특별시",
       "highlights": ["한국의 수도", "경복궁, 창덕궁 등 5대 궁궐", "한강이 흐르는 도시"]
     },
@@ -15,7 +15,7 @@
       "population": 3349016,
       "area": 770,
       "image": "/busan.jpg",
-      "imageAttribution": "Photo by chanho choi: https://www.pexels.com/photo/panoramic-view-of-busan-with-iconic-bridge-32155352/",
+      "imageAttribution": "Photo by Анна Шаталова: https://www.pexels.com/photo/aerial-panoramic-view-of-busan-south-korea-8573202/",
       "type": "광역시",
       "highlights": ["한국 제2의 도시", "국제영화제 개최지", "해운대 해변"]
     },
@@ -23,7 +23,8 @@
       "name": "인천",
       "population": 2945454,
       "area": 1063,
-      "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+      "image": "./incheon.jpg",
+      "imageAttribution": "Photo by joon young, Park: https://www.pexels.com/photo/fishing-boats-on-the-river-13271235/",
       "type": "광역시",
       "highlights": ["인천국제공항 소재지", "차이나타운", "송도국제도시"]
     },

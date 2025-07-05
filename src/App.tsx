@@ -11,11 +11,11 @@ function App() {
     <div className="min-h-screen bg-base-200 p-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold mb-2">한국 어디 가지?</h1>
+          <h1 className="text-4xl font-bold my-2">한국 어디 가지?</h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {divisions.map((division, index) => (
-            <div key={index} className="card bg-base-100 shadow">
+            <div key={index} className="card bg-base-100 shadow-sm">
               <figure>
                 <img
                   src={division.image}
