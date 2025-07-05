@@ -4,52 +4,80 @@
     {
       "name": "서울",
       "population": 9586195,
-      "type": "특별시"
+      "type": "특별시",
+      "highlights": ["한국의 수도", "경복궁, 창덕궁 등 5대 궁궐", "한강이 흐르는 도시"]
     },
     {
       "name": "부산",
       "population": 3349016,
-      "type": "광역시"
+      "type": "광역시",
+      "highlights": ["한국 제2의 도시", "국제영화제 개최지", "해운대 해변"]
     },
     {
       "name": "인천",
       "population": 2945454,
-      "type": "광역시"
+      "type": "광역시",
+      "highlights": ["인천국제공항 소재지", "차이나타운", "송도국제도시"]
     },
     {
       "name": "대구",
       "population": 2410700,
-      "type": "광역시"
+      "type": "광역시",
+      "highlights": ["사과의 고장", "동성로 패션거리", "대구국제공항"]
     },
     {
       "name": "대전",
       "population": 1488435,
-      "type": "광역시"
+      "type": "광역시",
+      "highlights": ["대한민국의 과학기술 중심도시", "KAIST 소재지", "대전엑스포 개최지"]
     },
     {
       "name": "광주",
       "population": 1477573,
-      "type": "광역시"
+      "type": "광역시",
+      "highlights": ["예술과 문화의 도시", "5.18 민주화운동 발상지", "비엔날레 개최지"]
     },
     {
       "name": "울산",
       "population": 1135423,
-      "type": "광역시"
+      "type": "광역시",
+      "highlights": ["산업도시", "현대자동차 본사", "울산대왕암공원"]
     },
     {
       "name": "세종",
       "population": 346275,
-      "type": "특별자치시"
+      "type": "특별자치시",
+      "highlights": ["행정수도", "정부세종청사", "계획도시"]
     },
     {
       "name": "제주",
       "population": 470957,
-      "type": "특별자치도"
+      "type": "특별자치도",
+      "highlights": ["화산섬", "한라산 국립공원", "해녀문화"]
     },
     {
       "name": "가평",
       "population": 59916,
-      "type": "군"
+      "type": "군",
+      "highlights": ["자라섬", "남이섬", "청평호"]
+    },
+    {
+      "name": "양평",
+      "population": 96950,
+      "type": "군",
+      "highlights": ["두물머리", "용문사", "세미원"]
+    },
+    {
+      "name": "평창",
+      "population": 37522,
+      "type": "군",
+      "highlights": ["2018 동계올림픽 개최지", "대관령", "월정사"]
+    },
+    {
+      "name": "인제",
+      "population": 28765,
+      "type": "군",
+      "highlights": ["내린천", "빙어축제", "설악산 국립공원"]
     }
   ]
 }

@@ -1,6 +1,7 @@
 export interface Division {
   name: string
   population: number
+  highlights: string[]
 
   /**
    * The list of all divisions should cover all land without overlap. Where appropriate, to keep

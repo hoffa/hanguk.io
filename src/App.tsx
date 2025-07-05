@@ -11,12 +11,8 @@ function App() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-primary mb-2">
-            한국 구/시 정보
-          </h1>
-          <p className="text-base-content/70 text-lg">
-            Korean Districts & Cities Information
-          </p>
+          <h1 className="text-4xl font-bold text-primary mb-2">한국 어디 가지?</h1>
+          <p className="text-base-content/70 text-lg">Korean Districts & Cities Information</p>
         </div>
 
         {/* Cards Grid */}
@@ -32,19 +28,17 @@ function App() {
               <div className="card-body">
                 <h2 className="card-title">
                   {division.name}
-                  <div className="badge badge-soft badge-accent">
-                    {division.type}
+                  <div className="badge badge-soft badge-primary">{division.type}</div>
+                  <div className="badge badge-soft badge-secondary">
+                    {formatKoreanNumber(roundToFirstDigit(division.population))} 명
                   </div>
                 </h2>
 
-                <div className="text-base-content">
-                  <span className="text-sm text-base-content/70">인구: </span>
-                  <span className="font-semibold text-success">
-                    약{' '}
-                    {formatKoreanNumber(roundToFirstDigit(division.population))}{' '}
-                    명
-                  </span>
-                </div>
+                <ul className="list-disc list-inside space-y-1">
+                  {division.highlights.map((highlight, highlightIndex) => (
+                    <li key={highlightIndex}>{highlight}</li>
+                  ))}
+                </ul>
               </div>
             </div>
           ))}

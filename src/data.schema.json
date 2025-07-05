@@ -5,6 +5,12 @@
     "Division": {
       "additionalProperties": false,
       "properties": {
+        "highlights": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
         "name": {
           "type": "string"
         },
@@ -17,7 +23,7 @@
           "type": "string"
         }
       },
-      "required": ["name", "population", "type"],
+      "required": ["highlights", "name", "population", "type"],
       "type": "object"
     }
   },
