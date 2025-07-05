@@ -1,6 +1,7 @@
 import './App.css'
 import koreanData from './data.json'
 import type { KoreanDistricts } from './types'
+import { roundToFirstDigit, formatKoreanNumber } from './utils'
 
 function App() {
   const districts = koreanData as KoreanDistricts
@@ -16,7 +17,8 @@ function App() {
             <h3>{district.name}</h3>
             <p className="city">{district.city}</p>
             <p className="population">
-              인구: {district.population.toLocaleString()}명
+              인구: {formatKoreanNumber(roundToFirstDigit(district.population))}
+              명
             </p>
             <span className="type">{district.type}</span>
           </div>

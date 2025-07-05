@@ -8,7 +8,7 @@
     "build": "npm run check && tsc -b && vite build && echo hanguk.io > docs/CNAME",
     "preview": "vite preview",
     "fix": "eslint . --fix && prettier --write .",
-    "check": "eslint . && prettier --check . && ajv validate -s src/data.schema.json -d src/data.json",
+    "check": "vitest run && eslint . && prettier --check . && ajv validate -s src/data.schema.json -d src/data.json",
     "schema": "npx typescript-json-schema src/types.ts KoreanDistricts --required --noExtraProps --out src/data.schema.json"
   },
   "dependencies": {
@@ -29,6 +29,7 @@
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.34.1",
     "typescript-json-schema": "^0.65.1",
-    "vite": "^7.0.0"
+    "vite": "^7.0.0",
+    "vitest": "^3.2.4"
   }
 }
