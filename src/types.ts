@@ -7,7 +7,7 @@ export interface Division {
    * things intuitive, some divisions may be grouped together (e.g. just 제주 which covers 제주시 and
    * 서귀포시).
    */
-  type: '특별시' | '광역시' | '시' | '군' | '특별자치도'
+  type: '특별시' | '광역시' | '시' | '군' | '특별자치도' | '특별자치시'
 }
 
 export interface Divisions {
