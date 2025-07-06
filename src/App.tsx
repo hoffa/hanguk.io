@@ -40,7 +40,10 @@ function App() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-start">
             {divisions.map((division, index) => (
-              <div key={index} className="card bg-base-100 shadow-sm h-fit">
+              <div
+                key={index}
+                className="card bg-base-100 shadow-sm h-fit hover:shadow-lg hover:-translate-y-1 transition-all duration-200 cursor-pointer"
+              >
                 <figure>
                   <img
                     src={division.image || 'https://placecats.com/800/600'}
@@ -77,7 +80,12 @@ function App() {
                     {division.link && (
                       <div className="flex items-center gap-1">
                         <LinkIcon className="w-4 h-4" />
-                        <a href={division.link} target="_blank" rel="noopener noreferrer">
+                        <a
+                          href={division.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:underline"
+                        >
                           {getHumanFriendlyDomain(division.link)}
                         </a>
                       </div>
