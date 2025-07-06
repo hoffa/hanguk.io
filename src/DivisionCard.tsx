@@ -8,7 +8,7 @@ interface DivisionCardProps {
 
 function DivisionCard({ division }: DivisionCardProps) {
   return (
-    <div className="card bg-base-100 shadow-sm h-fit hover:shadow-lg hover:-translate-y-1 transition-all duration-200 cursor-pointer">
+    <div className="card bg-base-100 shadow-sm h-fit">
       <figure>
         <img
           src={division.image || 'https://placecats.com/800/600'}
