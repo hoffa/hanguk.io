@@ -1,6 +1,11 @@
 import koreanData from './data.json'
 import type { Divisions } from './types'
-import { roundToFirstDigit, formatKoreanNumber, getHumanFriendlyDomain } from './utils'
+import {
+  roundToFirstDigit,
+  formatKoreanNumber,
+  getHumanFriendlyDomain,
+  shuffleArray,
+} from './utils'
 import {
   UserIcon,
   BuildingOfficeIcon,
@@ -8,20 +13,29 @@ import {
   LinkIcon,
   CodeBracketIcon,
 } from '@heroicons/react/24/outline'
+import { useState } from 'react'
 
 function App() {
   const data = koreanData as Divisions
-  const divisions = data.divisions.sort((a, b) => b.population - a.population)
+  const sortedDivisions = data.divisions.sort((a, b) => b.population - a.population)
+  const [divisions, setDivisions] = useState(sortedDivisions)
+
+  const randomizeOrder = () => {
+    setDivisions(shuffleArray(divisions))
+  }
 
   return (
     <div className="min-h-screen bg-base-200">
       {/* Top Navigation - Full Width */}
-      <div className="navbar bg-base-100 shadow-sm">
-        <div className="max-w-7xl mx-auto w-full relative flex items-center">
-          <div className="flex-1 text-center">
+      <div className="navbar bg-base-100 shadow-sm px-6">
+        <div className="max-w-7xl mx-auto w-full flex items-center justify-between">
+          <div>
             <span className="text-xl font-bold">한국 어디 가지?</span>
           </div>
-          <div className="absolute right-0">
+          <div className="flex gap-2">
+            <button onClick={randomizeOrder} className="btn btn-primary">
+              🎲 순서 섞기
+            </button>
             <a
               href="https://github.com/hoffa/hanguk.io"
               target="_blank"
