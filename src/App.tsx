@@ -30,7 +30,7 @@ function App() {
       <div className="navbar bg-base-100 shadow-sm px-6">
         <div className="max-w-7xl mx-auto w-full flex items-center justify-between">
           <div>
-            <span className="text-xl font-bold">한국 어디 가지?</span>
+            <span className="text-xl font-bold">한국 어디 가지? 🤔</span>
           </div>
           <div className="flex gap-2">
             <button onClick={randomizeOrder} className="btn btn-primary">
