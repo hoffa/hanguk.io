@@ -13,9 +13,9 @@ function App() {
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold my-2">한국 어디 가지?</h1>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-start">
           {divisions.map((division, index) => (
-            <div key={index} className="card bg-base-100 shadow-sm">
+            <div key={index} className="card bg-base-100 shadow-sm h-fit">
               <figure>
                 <img
                   src={division.image || 'https://placecats.com/800/600'}
@@ -28,11 +28,13 @@ function App() {
                   <h2 className="card-title">{division.name}</h2>
                 </div>
 
-                <ul className="list-disc list-inside mb-4">
-                  {division.highlights?.map((highlight, highlightIndex) => (
-                    <li key={highlightIndex}>{highlight}</li>
-                  ))}
-                </ul>
+                {division.highlights && (
+                  <ul className="list-disc list-inside mb-4">
+                    {division.highlights.map((highlight, highlightIndex) => (
+                      <li key={highlightIndex}>{highlight}</li>
+                    ))}
+                  </ul>
+                )}
 
                 <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-base-content/70">
                   <div className="flex items-center gap-1">
