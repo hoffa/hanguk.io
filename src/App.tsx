@@ -11,7 +11,7 @@ import {
 
 function App() {
   const data = koreanData as Divisions
-  const divisions = data.divisions
+  const divisions = data.divisions.sort((a, b) => b.population - a.population)
 
   return (
     <div className="min-h-screen bg-base-200">
