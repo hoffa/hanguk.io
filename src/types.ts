@@ -13,7 +13,7 @@ export interface Division {
   image?: string
   imageAttribution?: string
 
-  link?: string
+  link: string
   highlights?: string[]
 
   /**

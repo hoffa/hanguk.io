@@ -42,19 +42,17 @@ function DivisionCard({ division }: DivisionCardProps) {
             <BuildingOfficeIcon className="w-4 h-4" />
             {division.type}
           </div>
-          {division.link && (
-            <div className="flex items-center gap-1">
-              <LinkIcon className="w-4 h-4" />
-              <a
-                href={division.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline"
-              >
-                {getHumanFriendlyDomain(division.link)}
-              </a>
-            </div>
-          )}
+          <div className="flex items-center gap-1">
+            <LinkIcon className="w-4 h-4" />
+            <a
+              href={division.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              {getHumanFriendlyDomain(division.link)}
+            </a>
+          </div>
         </div>
       </div>
     </div>
