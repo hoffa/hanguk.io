@@ -71,7 +71,7 @@ function App() {
           </div>
 
           {/* Bottom row: Filters */}
-          <div className="flex flex-wrap items-center gap-4 w-full">
+          <div className="flex flex-wrap items-center justify-center gap-4 w-full">
             <div className="relative flex items-center gap-2">
               <MapPinIcon className="w-5 h-5 text-primary" />
               <div className="relative">
