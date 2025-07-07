@@ -1,7 +1,12 @@
 import koreanData from './data.json'
 import type { Divisions } from './types'
 import { shuffleArray } from './utils'
-import { CodeBracketIcon, MapPinIcon, Bars3BottomLeftIcon } from '@heroicons/react/24/outline'
+import {
+  CodeBracketIcon,
+  MapPinIcon,
+  Bars3BottomLeftIcon,
+  XMarkIcon,
+} from '@heroicons/react/24/outline'
 import { useState } from 'react'
 import DivisionCard from './DivisionCard'
 
@@ -48,6 +53,13 @@ function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
+  const clearSelection = () => {
+    setLocationInput('')
+    setSelectedLocation(null)
+    setShowSuggestions(false)
+    setDivisions(sortedDivisions)
+  }
+
   const filteredSuggestions = data.divisions
     .filter(d => d.name.toLowerCase().includes(locationInput.toLowerCase()))
     .sort((a, b) => a.name.localeCompare(b.name, 'ko'))
@@ -78,32 +90,40 @@ function App() {
 
           {/* Bottom row: Filters */}
           <div className="flex flex-wrap items-center justify-center gap-4 w-full">
-            <div className="relative flex items-center gap-2">
-              <MapPinIcon className="w-5 h-5 text-primary" />
-              <div className="relative">
+            <div className="relative">
+              <label className="input input-sm input-bordered w-40 flex items-center gap-2">
+                <MapPinIcon className="w-4 h-4 opacity-70" />
                 <input
                   type="text"
-                  className="input input-sm input-bordered w-40"
+                  className="grow"
                   placeholder="지역 입력"
                   value={locationInput}
                   onChange={e => handleLocationInputChange(e.target.value)}
                   onFocus={() => setShowSuggestions(locationInput.length > 0)}
                   onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
                 />
-                {showSuggestions && filteredSuggestions.length > 0 && (
-                  <div className="absolute top-full left-0 right-0 z-10 bg-base-100 border border-base-300 rounded-md shadow-lg max-h-40 overflow-y-auto">
-                    {filteredSuggestions.map(division => (
-                      <div
-                        key={division.name}
-                        className="px-3 py-2 hover:bg-base-200 cursor-pointer text-sm"
-                        onMouseDown={() => selectDivision(division.name)}
-                      >
-                        {division.name}
-                      </div>
-                    ))}
-                  </div>
+                {locationInput && (
+                  <button
+                    onClick={clearSelection}
+                    className="text-base-content/40 hover:text-base-content/80"
+                  >
+                    <XMarkIcon className="w-4 h-4" />
+                  </button>
                 )}
-              </div>
+              </label>
+              {showSuggestions && filteredSuggestions.length > 0 && (
+                <div className="absolute top-full left-0 right-0 z-10 bg-base-100 border border-base-300 rounded-md shadow-lg max-h-40 overflow-y-auto">
+                  {filteredSuggestions.map(division => (
+                    <div
+                      key={division.name}
+                      className="px-3 py-2 hover:bg-base-200 cursor-pointer text-sm"
+                      onMouseDown={() => selectDivision(division.name)}
+                    >
+                      {division.name}
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
             <button onClick={pickRandom} className="btn btn-sm btn-primary">
               랜덤 선택
