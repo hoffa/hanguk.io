@@ -37,8 +37,8 @@ function App() {
   const handleInputChange = (value: string) => {
     setLocationInput(value)
 
-    // If input is cleared, reset everything
-    if (!value) {
+    // If input is cleared OR no longer matches any division, reset everything
+    if (!value || !data.divisions.some(d => d.name === value)) {
       setAppliedLocation(null)
       setDivisions(sortedDivisions)
     }
@@ -92,11 +92,6 @@ function App() {
                         className="grow bg-transparent border-none outline-none"
                         placeholder="지역 입력"
                         onChange={e => handleInputChange(e.target.value)}
-                        onKeyDown={e => {
-                          if (e.key === 'Enter' && !isValidInput) {
-                            e.preventDefault()
-                          }
-                        }}
                       />
                       {locationInput && (
                         <button
@@ -153,11 +148,6 @@ function App() {
                         className="grow bg-transparent border-none outline-none"
                         placeholder="지역 입력"
                         onChange={e => handleInputChange(e.target.value)}
-                        onKeyDown={e => {
-                          if (e.key === 'Enter' && !isValidInput) {
-                            e.preventDefault()
-                          }
-                        }}
                       />
                       {locationInput && (
                         <button
