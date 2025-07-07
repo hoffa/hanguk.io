@@ -104,7 +104,7 @@ function App() {
                   {locationInput && (
                     <button
                       onClick={clearSelection}
-                      className="text-base-content/40 hover:text-base-content/80"
+                      className="text-base-content/40 hover:text-base-content/80 cursor-pointer"
                     >
                       <XMarkIcon className="w-4 h-4" />
                     </button>
@@ -141,7 +141,7 @@ function App() {
             <div className="flex items-center gap-4 order-2">
               <div className="relative">
                 <label
-                  className={`input input-bordered w-40 flex items-center gap-2 ${
+                  className={`input input-bordered w-48 flex items-center gap-2 ${
                     locationInput && !isValidInput ? 'input-error' : ''
                   }`}
                 >
@@ -158,7 +158,7 @@ function App() {
                   {locationInput && (
                     <button
                       onClick={clearSelection}
-                      className="text-base-content/40 hover:text-base-content/80"
+                      className="text-base-content/40 hover:text-base-content/80 cursor-pointer"
                     >
                       <XMarkIcon className="w-4 h-4" />
                     </button>
