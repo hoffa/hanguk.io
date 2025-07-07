@@ -42,6 +42,16 @@ function App() {
     // Don't automatically set location while typing - only on explicit selection
   }
 
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter') {
+      // Check if current input exactly matches a division name
+      const exactMatch = data.divisions.find(d => d.name === locationInput)
+      if (exactMatch) {
+        selectDivision(exactMatch.name)
+      }
+    }
+  }
+
   const selectDivision = (divisionName: string) => {
     setLocationInput(divisionName)
     setAppliedLocation(divisionName) // This is what's actually being used for sorting
@@ -98,6 +108,7 @@ function App() {
                     placeholder="지역 입력"
                     value={locationInput}
                     onChange={e => handleLocationInputChange(e.target.value)}
+                    onKeyDown={handleKeyDown}
                     onFocus={() => setShowSuggestions(locationInput.length > 0)}
                     onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
                   />
@@ -152,6 +163,7 @@ function App() {
                     placeholder="지역 입력"
                     value={locationInput}
                     onChange={e => handleLocationInputChange(e.target.value)}
+                    onKeyDown={handleKeyDown}
                     onFocus={() => setShowSuggestions(locationInput.length > 0)}
                     onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
                   />
