@@ -14,37 +14,36 @@ function App() {
   const data = koreanData as Divisions
   const sortedDivisions = data.divisions.sort((a, b) => b.population - a.population)
   const [divisions, setDivisions] = useState(sortedDivisions)
-  const [, setSelectedLocation] = useState<string | null>(null)
+  const [appliedLocation, setAppliedLocation] = useState<string | null>(null)
   const [locationInput, setLocationInput] = useState('')
   const [showSuggestions, setShowSuggestions] = useState(false)
 
+  const isValidInput = data.divisions.some(d => d.name === locationInput)
+
   const pickRandom = () => {
     const randomDivision = sortedDivisions[Math.floor(Math.random() * sortedDivisions.length)]
-    setSelectedLocation(randomDivision.name)
+    setAppliedLocation(randomDivision.name)
     setLocationInput(randomDivision.name)
     setShowSuggestions(false)
-    // TODO: Later this will automatically sort by distance from the selected location
+    // TODO: Replace with distance-based sorting when coordinates are available
+    setDivisions(shuffleArray([...sortedDivisions]))
   }
 
   const handleLocationInputChange = (value: string) => {
     setLocationInput(value)
     setShowSuggestions(value.length > 0)
 
-    // Check if the input exactly matches a division name
-    const exactMatch = data.divisions.find(d => d.name === value)
-    if (exactMatch) {
-      setSelectedLocation(value)
-    } else {
-      setSelectedLocation(null)
-      if (!value) {
-        setDivisions(sortedDivisions) // Reset when input is cleared
-      }
+    if (!value) {
+      // Only reset when input is completely cleared
+      setAppliedLocation(null)
+      setDivisions(sortedDivisions) // Reset to original when cleared
     }
+    // Don't automatically set location while typing - only on explicit selection
   }
 
   const selectDivision = (divisionName: string) => {
     setLocationInput(divisionName)
-    setSelectedLocation(divisionName)
+    setAppliedLocation(divisionName) // This is what's actually being used for sorting
     setShowSuggestions(false)
     // TODO: Replace with distance-based sorting when coordinates are available
     // For now, shuffle to simulate reordering
@@ -55,7 +54,7 @@ function App() {
 
   const clearSelection = () => {
     setLocationInput('')
-    setSelectedLocation(null)
+    setAppliedLocation(null) // Clear the applied location
     setShowSuggestions(false)
     setDivisions(sortedDivisions)
   }
@@ -91,7 +90,11 @@ function App() {
           {/* Bottom row: Filters */}
           <div className="flex flex-wrap items-center justify-center gap-4 w-full">
             <div className="relative">
-              <label className="input input-sm input-bordered w-40 flex items-center gap-2">
+              <label
+                className={`input input-sm input-bordered w-40 flex items-center gap-2 ${
+                  locationInput && !isValidInput ? 'input-error' : ''
+                }`}
+              >
                 <MapPinIcon className="w-4 h-4 opacity-70" />
                 <input
                   type="text"
@@ -137,7 +140,7 @@ function App() {
         <div className="max-w-7xl mx-auto">
           <div className="mb-4 flex items-center gap-2 text-sm text-base-content/60">
             <Bars3BottomLeftIcon className="w-4 h-4" />
-            {locationInput ? `${locationInput} 인접순 정렬` : '인구순 정렬'}
+            {appliedLocation ? `${appliedLocation} 인접순 정렬` : '인구순 정렬'}
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-start">
             {divisions.map((division, index) => (
