@@ -1,6 +1,7 @@
 import koreanData from './data.json'
 import type { Divisions } from './types'
-import { CodeBracketIcon, MapPinIcon } from '@heroicons/react/24/outline'
+import { shuffleArray } from './utils'
+import { CodeBracketIcon, MapPinIcon, Bars3BottomLeftIcon } from '@heroicons/react/24/outline'
 import { useState } from 'react'
 import DivisionCard from './DivisionCard'
 
@@ -36,10 +37,15 @@ function App() {
     }
   }
 
-  const selectSuggestion = (divisionName: string) => {
+  const selectDivision = (divisionName: string) => {
     setLocationInput(divisionName)
     setSelectedLocation(divisionName)
     setShowSuggestions(false)
+    // TODO: Replace with distance-based sorting when coordinates are available
+    // For now, shuffle to simulate reordering
+    setDivisions(shuffleArray([...sortedDivisions]))
+    // Smooth scroll to top to show the reordered results
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   const filteredSuggestions = data.divisions
@@ -90,7 +96,7 @@ function App() {
                       <div
                         key={division.name}
                         className="px-3 py-2 hover:bg-base-200 cursor-pointer text-sm"
-                        onMouseDown={() => selectSuggestion(division.name)}
+                        onMouseDown={() => selectDivision(division.name)}
                       >
                         {division.name}
                       </div>
@@ -109,9 +115,19 @@ function App() {
       {/* Main Content */}
       <div className="px-6 pt-6 pb-4">
         <div className="max-w-7xl mx-auto">
+          <div className="mb-4 flex items-center gap-2 text-sm text-base-content/60">
+            <Bars3BottomLeftIcon className="w-4 h-4" />
+            {locationInput ? `${locationInput} 인접순 정렬` : '인구순 정렬'}
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-start">
             {divisions.map((division, index) => (
-              <DivisionCard key={index} division={division} />
+              <div
+                key={index}
+                onClick={() => selectDivision(division.name)}
+                className="cursor-pointer transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+              >
+                <DivisionCard division={division} />
+              </div>
             ))}
           </div>
         </div>
