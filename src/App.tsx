@@ -37,11 +37,12 @@ function App() {
   const handleInputChange = (value: string) => {
     setLocationInput(value)
 
-    // If input is cleared OR no longer matches any division, reset everything
-    if (!value || !data.divisions.some(d => d.name === value)) {
+    // Only reset when completely cleared
+    if (!value) {
       setAppliedLocation(null)
-      setDivisions(sortedDivisions)
+      setDivisions([...sortedDivisions])
     }
+    // Don't auto-select here - let Combobox handle selection
   }
 
   const clearSelection = () => {
