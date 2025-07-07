@@ -9,6 +9,7 @@ import {
   ArrowPathIcon,
 } from '@heroicons/react/24/outline'
 import { useState } from 'react'
+import { Combobox, ComboboxInput, ComboboxOption, ComboboxOptions } from '@headlessui/react'
 import DivisionCard from './DivisionCard'
 
 function App() {
@@ -17,45 +18,15 @@ function App() {
   const [divisions, setDivisions] = useState(sortedDivisions)
   const [appliedLocation, setAppliedLocation] = useState<string | null>(null)
   const [locationInput, setLocationInput] = useState('')
-  const [showSuggestions, setShowSuggestions] = useState(false)
-
-  const isValidInput = data.divisions.some(d => d.name === locationInput)
 
   const pickRandom = () => {
     const randomDivision = sortedDivisions[Math.floor(Math.random() * sortedDivisions.length)]
-    setAppliedLocation(randomDivision.name)
-    setLocationInput(randomDivision.name)
-    setShowSuggestions(false)
-    // TODO: Replace with distance-based sorting when coordinates are available
-    setDivisions(shuffleArray([...sortedDivisions]))
-  }
-
-  const handleLocationInputChange = (value: string) => {
-    setLocationInput(value)
-    setShowSuggestions(value.length > 0)
-
-    if (!value) {
-      // Only reset when input is completely cleared
-      setAppliedLocation(null)
-      setDivisions(sortedDivisions) // Reset to original when cleared
-    }
-    // Don't automatically set location while typing - only on explicit selection
-  }
-
-  const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
-      // Check if current input exactly matches a division name
-      const exactMatch = data.divisions.find(d => d.name === locationInput)
-      if (exactMatch) {
-        selectDivision(exactMatch.name)
-      }
-    }
+    selectDivision(randomDivision.name)
   }
 
   const selectDivision = (divisionName: string) => {
     setLocationInput(divisionName)
-    setAppliedLocation(divisionName) // This is what's actually being used for sorting
-    setShowSuggestions(false)
+    setAppliedLocation(divisionName)
     // TODO: Replace with distance-based sorting when coordinates are available
     // For now, shuffle to simulate reordering
     setDivisions(shuffleArray([...sortedDivisions]))
@@ -63,17 +34,30 @@ function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
+  const handleInputChange = (value: string) => {
+    setLocationInput(value)
+
+    // If input is cleared, reset everything
+    if (!value) {
+      setAppliedLocation(null)
+      setDivisions(sortedDivisions)
+    }
+  }
+
   const clearSelection = () => {
     setLocationInput('')
-    setAppliedLocation(null) // Clear the applied location
-    setShowSuggestions(false)
+    setAppliedLocation(null)
     setDivisions(sortedDivisions)
   }
 
-  const filteredSuggestions = data.divisions
-    .filter(d => d.name.toLowerCase().includes(locationInput.toLowerCase()))
-    .sort((a, b) => a.name.localeCompare(b.name, 'ko'))
-    .slice(0, 5) // Limit to 5 suggestions
+  const filteredSuggestions = locationInput
+    ? data.divisions
+        .filter(d => d.name.toLowerCase().includes(locationInput.toLowerCase()))
+        .sort((a, b) => a.name.localeCompare(b.name, 'ko'))
+        .slice(0, 5)
+    : []
+
+  const isValidInput = data.divisions.some(d => d.name === locationInput)
 
   return (
     <div className="min-h-screen bg-base-200">
@@ -96,44 +80,50 @@ function App() {
             </div>
             <div className="flex items-center gap-4">
               <div className="relative flex-1">
-                <label
-                  className={`input input-bordered w-full flex items-center gap-2 ${
-                    locationInput && !isValidInput ? 'input-error' : ''
-                  }`}
-                >
-                  <MapPinIcon className="w-4 h-4 opacity-70" />
-                  <input
-                    type="text"
-                    className="grow"
-                    placeholder="지역 입력"
-                    value={locationInput}
-                    onChange={e => handleLocationInputChange(e.target.value)}
-                    onKeyDown={handleKeyDown}
-                    onFocus={() => setShowSuggestions(locationInput.length > 0)}
-                    onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
-                  />
-                  {locationInput && (
-                    <button
-                      onClick={clearSelection}
-                      className="text-base-content/40 hover:text-base-content/80 cursor-pointer"
+                <Combobox value={locationInput} onChange={selectDivision}>
+                  <div className="relative">
+                    <div
+                      className={`input input-bordered w-full flex items-center gap-2 ${
+                        locationInput && !isValidInput ? 'input-error' : ''
+                      }`}
                     >
-                      <XMarkIcon className="w-4 h-4" />
-                    </button>
-                  )}
-                </label>
-                {showSuggestions && filteredSuggestions.length > 0 && (
-                  <div className="absolute top-full left-0 right-0 z-10 bg-base-100 border border-base-300 rounded-md shadow-lg max-h-40 overflow-y-auto">
-                    {filteredSuggestions.map(division => (
-                      <div
-                        key={division.name}
-                        className="px-3 py-2 hover:bg-base-200 cursor-pointer text-sm"
-                        onMouseDown={() => selectDivision(division.name)}
-                      >
-                        {division.name}
-                      </div>
-                    ))}
+                      <MapPinIcon className="w-4 h-4 opacity-70" />
+                      <ComboboxInput
+                        className="grow bg-transparent border-none outline-none"
+                        placeholder="지역 입력"
+                        onChange={e => handleInputChange(e.target.value)}
+                        onKeyDown={e => {
+                          if (e.key === 'Enter' && !isValidInput) {
+                            e.preventDefault()
+                          }
+                        }}
+                      />
+                      {locationInput && (
+                        <button
+                          onClick={clearSelection}
+                          className="text-base-content/40 hover:text-base-content/80 cursor-pointer"
+                        >
+                          <XMarkIcon className="w-4 h-4" />
+                        </button>
+                      )}
+                    </div>
+                    {filteredSuggestions.length > 0 && (
+                      <ComboboxOptions className="absolute top-full left-0 right-0 z-10 bg-base-100 border border-base-300 rounded-md shadow-lg max-h-40 overflow-y-auto">
+                        {filteredSuggestions.map(division => (
+                          <ComboboxOption
+                            key={division.name}
+                            value={division.name}
+                            className={({ active }) =>
+                              `px-3 py-2 cursor-pointer text-sm ${active ? 'bg-base-200' : ''}`
+                            }
+                          >
+                            {division.name}
+                          </ComboboxOption>
+                        ))}
+                      </ComboboxOptions>
+                    )}
                   </div>
-                )}
+                </Combobox>
               </div>
               <button onClick={pickRandom} className="btn btn-primary">
                 <ArrowPathIcon className="w-4 h-4" />
@@ -151,44 +141,50 @@ function App() {
             {/* Center: Filters */}
             <div className="flex items-center gap-4 order-2">
               <div className="relative">
-                <label
-                  className={`input input-bordered w-48 flex items-center gap-2 ${
-                    locationInput && !isValidInput ? 'input-error' : ''
-                  }`}
-                >
-                  <MapPinIcon className="w-4 h-4 opacity-70" />
-                  <input
-                    type="text"
-                    className="grow"
-                    placeholder="지역 입력"
-                    value={locationInput}
-                    onChange={e => handleLocationInputChange(e.target.value)}
-                    onKeyDown={handleKeyDown}
-                    onFocus={() => setShowSuggestions(locationInput.length > 0)}
-                    onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
-                  />
-                  {locationInput && (
-                    <button
-                      onClick={clearSelection}
-                      className="text-base-content/40 hover:text-base-content/80 cursor-pointer"
+                <Combobox value={locationInput} onChange={selectDivision}>
+                  <div className="relative">
+                    <div
+                      className={`input input-bordered w-48 flex items-center gap-2 ${
+                        locationInput && !isValidInput ? 'input-error' : ''
+                      }`}
                     >
-                      <XMarkIcon className="w-4 h-4" />
-                    </button>
-                  )}
-                </label>
-                {showSuggestions && filteredSuggestions.length > 0 && (
-                  <div className="absolute top-full left-0 right-0 z-10 bg-base-100 border border-base-300 rounded-md shadow-lg max-h-40 overflow-y-auto">
-                    {filteredSuggestions.map(division => (
-                      <div
-                        key={division.name}
-                        className="px-3 py-2 hover:bg-base-200 cursor-pointer text-sm"
-                        onMouseDown={() => selectDivision(division.name)}
-                      >
-                        {division.name}
-                      </div>
-                    ))}
+                      <MapPinIcon className="w-4 h-4 opacity-70" />
+                      <ComboboxInput
+                        className="grow bg-transparent border-none outline-none"
+                        placeholder="지역 입력"
+                        onChange={e => handleInputChange(e.target.value)}
+                        onKeyDown={e => {
+                          if (e.key === 'Enter' && !isValidInput) {
+                            e.preventDefault()
+                          }
+                        }}
+                      />
+                      {locationInput && (
+                        <button
+                          onClick={clearSelection}
+                          className="text-base-content/40 hover:text-base-content/80 cursor-pointer"
+                        >
+                          <XMarkIcon className="w-4 h-4" />
+                        </button>
+                      )}
+                    </div>
+                    {filteredSuggestions.length > 0 && (
+                      <ComboboxOptions className="absolute top-full left-0 right-0 z-10 bg-base-100 border border-base-300 rounded-md shadow-lg max-h-40 overflow-y-auto">
+                        {filteredSuggestions.map(division => (
+                          <ComboboxOption
+                            key={division.name}
+                            value={division.name}
+                            className={({ active }) =>
+                              `px-3 py-2 cursor-pointer text-sm ${active ? 'bg-base-200' : ''}`
+                            }
+                          >
+                            {division.name}
+                          </ComboboxOption>
+                        ))}
+                      </ComboboxOptions>
+                    )}
                   </div>
-                )}
+                </Combobox>
               </div>
               <button onClick={pickRandom} className="btn btn-primary">
                 <ArrowPathIcon className="w-4 h-4" />
