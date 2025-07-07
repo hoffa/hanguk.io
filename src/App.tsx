@@ -6,6 +6,7 @@ import {
   MapPinIcon,
   Bars3BottomLeftIcon,
   XMarkIcon,
+  ArrowPathIcon,
 } from '@heroicons/react/24/outline'
 import { useState } from 'react'
 import DivisionCard from './DivisionCard'
@@ -69,11 +70,58 @@ function App() {
       {/* Top Navigation - Full Width */}
       <div className="navbar bg-base-100 shadow-sm px-6 py-4">
         <div className="max-w-7xl mx-auto w-full">
-          {/* Top row: Title and main actions */}
-          <div className="flex items-center justify-between w-full mb-3">
+          <div className="flex items-center justify-between w-full">
             <div>
-              <span className="text-xl font-bold">한국 어디 가지? 🤔</span>
+              <span className="text-xl font-bold">한국 어디 가지?</span>
             </div>
+
+            {/* Center: Filters */}
+            <div className="flex items-center gap-4">
+              <div className="relative">
+                <label
+                  className={`input input-bordered w-40 flex items-center gap-2 ${
+                    locationInput && !isValidInput ? 'input-error' : ''
+                  }`}
+                >
+                  <MapPinIcon className="w-4 h-4 opacity-70" />
+                  <input
+                    type="text"
+                    className="grow"
+                    placeholder="지역 입력"
+                    value={locationInput}
+                    onChange={e => handleLocationInputChange(e.target.value)}
+                    onFocus={() => setShowSuggestions(locationInput.length > 0)}
+                    onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
+                  />
+                  {locationInput && (
+                    <button
+                      onClick={clearSelection}
+                      className="text-base-content/40 hover:text-base-content/80"
+                    >
+                      <XMarkIcon className="w-4 h-4" />
+                    </button>
+                  )}
+                </label>
+                {showSuggestions && filteredSuggestions.length > 0 && (
+                  <div className="absolute top-full left-0 right-0 z-10 bg-base-100 border border-base-300 rounded-md shadow-lg max-h-40 overflow-y-auto">
+                    {filteredSuggestions.map(division => (
+                      <div
+                        key={division.name}
+                        className="px-3 py-2 hover:bg-base-200 cursor-pointer text-sm"
+                        onMouseDown={() => selectDivision(division.name)}
+                      >
+                        {division.name}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+              <button onClick={pickRandom} className="btn btn-primary">
+                <ArrowPathIcon className="w-4 h-4" />
+                랜덤
+              </button>
+            </div>
+
             <div className="flex gap-2">
               <a
                 href="https://github.com/hoffa/hanguk.io"
@@ -86,57 +134,11 @@ function App() {
               </a>
             </div>
           </div>
-
-          {/* Bottom row: Filters */}
-          <div className="flex flex-wrap items-center justify-center gap-4 w-full">
-            <div className="relative">
-              <label
-                className={`input input-sm input-bordered w-40 flex items-center gap-2 ${
-                  locationInput && !isValidInput ? 'input-error' : ''
-                }`}
-              >
-                <MapPinIcon className="w-4 h-4 opacity-70" />
-                <input
-                  type="text"
-                  className="grow"
-                  placeholder="지역 입력"
-                  value={locationInput}
-                  onChange={e => handleLocationInputChange(e.target.value)}
-                  onFocus={() => setShowSuggestions(locationInput.length > 0)}
-                  onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
-                />
-                {locationInput && (
-                  <button
-                    onClick={clearSelection}
-                    className="text-base-content/40 hover:text-base-content/80"
-                  >
-                    <XMarkIcon className="w-4 h-4" />
-                  </button>
-                )}
-              </label>
-              {showSuggestions && filteredSuggestions.length > 0 && (
-                <div className="absolute top-full left-0 right-0 z-10 bg-base-100 border border-base-300 rounded-md shadow-lg max-h-40 overflow-y-auto">
-                  {filteredSuggestions.map(division => (
-                    <div
-                      key={division.name}
-                      className="px-3 py-2 hover:bg-base-200 cursor-pointer text-sm"
-                      onMouseDown={() => selectDivision(division.name)}
-                    >
-                      {division.name}
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
-            <button onClick={pickRandom} className="btn btn-sm btn-primary">
-              랜덤 선택
-            </button>
-          </div>
         </div>
       </div>
 
       {/* Main Content */}
-      <div className="px-6 pt-6 pb-4">
+      <div className="px-6 pt-4 pb-6">
         <div className="max-w-7xl mx-auto">
           <div className="mb-4 flex items-center gap-2 text-sm text-base-content/60">
             <Bars3BottomLeftIcon className="w-4 h-4" />
