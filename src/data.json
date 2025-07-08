@@ -989,9 +989,6 @@
       "type": "군",
       "image": "https://www.ulleung.go.kr/upload/board/_oldBoard/p_etc/1565942247(1).jpg",
       "imageAttribution": "https://www.ulleung.go.kr/tour/page.do?cmd=258&bod_uid=11491&srchEnable=1&srchSDate=&srchKwd=&initDay=&srchColumn=&listType=&initYear=&srchVote=-1&initMonth=&pageNo=4&srchBgpuid=-1&srchEDate=&mnu_uid=1395&",
-      "highlights": [
-        "독도는 우리 땅 🇰🇷"
-      ],
       "link": "https://www.ulleung.go.kr"
     },
     {
@@ -1129,10 +1126,13 @@
     },
     {
       "name": "독도",
-      "population": 0,
+      "population": 45,
       "area": 0.187554,
-      "type": "특별자치도",
+      "type": "리",
       "info": "독도는 울릉군에 속합니다",
+      "highlights": [
+        "독도는 우리 땅 🇰🇷"
+      ],
       "link": "https://dokdo.mofa.go.kr"
     }
   ]

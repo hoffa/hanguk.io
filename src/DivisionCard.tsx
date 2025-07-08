@@ -44,12 +44,12 @@ function DivisionCard({ division }: DivisionCardProps) {
 
         <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-base-content/70">
           <div className="flex items-center gap-1">
-            <UserIcon className="w-4 h-4" />
+            <UserIcon className="w-4 h-4" />약{' '}
             {formatKoreanNumber(roundToFirstDigit(division.population))} 명
           </div>
           <div className="flex items-center gap-1">
             <MapIcon className="w-4 h-4" />
-            {Math.round(division.area).toLocaleString()} km²
+            {Math.round(division.area) < 1 ? '<1' : Math.round(division.area).toLocaleString()} km²
           </div>
           <div className="flex items-center gap-1">
             <BuildingOfficeIcon className="w-4 h-4" />
