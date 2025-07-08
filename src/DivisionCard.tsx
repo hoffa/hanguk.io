@@ -3,6 +3,8 @@ import { roundToFirstDigit, formatKoreanNumber, getHumanFriendlyDomain } from '.
 import {
   UserIcon,
   BuildingOfficeIcon,
+  BuildingOffice2Icon,
+  HomeIcon,
   MapIcon,
   LinkIcon,
   InformationCircleIcon,
@@ -12,7 +14,24 @@ interface DivisionCardProps {
   division: Division
 }
 
+function getTypeIcon(type: Division['type']) {
+  switch (type) {
+    case '특별시':
+    case '광역시':
+    case '시':
+    case '특별자치시':
+      return BuildingOffice2Icon
+    case '군':
+      return BuildingOfficeIcon
+    case '리':
+      return HomeIcon
+    default:
+      return BuildingOfficeIcon
+  }
+}
+
 function DivisionCard({ division }: DivisionCardProps) {
+  const TypeIcon = getTypeIcon(division.type)
   return (
     <div className="card bg-base-100 shadow-sm h-fit">
       <figure>
@@ -52,7 +71,7 @@ function DivisionCard({ division }: DivisionCardProps) {
             {Math.round(division.area) < 1 ? '<1' : Math.round(division.area).toLocaleString()} km²
           </div>
           <div className="flex items-center gap-1">
-            <BuildingOfficeIcon className="w-4 h-4" />
+            <TypeIcon className="w-4 h-4" />
             {division.type}
           </div>
           <div className="flex items-center gap-1">
