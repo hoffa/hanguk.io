@@ -1,6 +1,6 @@
 import koreanData from './data.json'
 import type { Divisions } from './types'
-import { shuffleArray } from './utils'
+import { sortByDistance } from './utils'
 import {
   CodeBracketIcon,
   MapPinIcon,
@@ -27,9 +27,17 @@ function App() {
   const selectDivision = (divisionName: string) => {
     setLocationInput(divisionName)
     setAppliedLocation(divisionName)
-    // TODO: Replace with distance-based sorting when coordinates are available
-    // For now, shuffle to simulate reordering
-    setDivisions(shuffleArray([...sortedDivisions]))
+
+    // Find the selected division
+    const selectedDivision = data.divisions.find(d => d.name === divisionName)
+    if (selectedDivision) {
+      // Sort by distance from the selected division
+      setDivisions(sortByDistance(sortedDivisions, selectedDivision))
+    } else {
+      // Fallback to original order if division not found
+      setDivisions([...sortedDivisions])
+    }
+
     // Smooth scroll to top to show the reordered results
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }

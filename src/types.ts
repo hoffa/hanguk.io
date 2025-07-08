@@ -17,6 +17,9 @@ export interface Division {
   highlights?: string[]
   info?: string
 
+  lat?: number
+  lon?: number
+
   /**
    * The list of all divisions should cover all land without overlap.
    *

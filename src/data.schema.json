@@ -24,8 +24,14 @@
         "info": {
           "type": "string"
         },
+        "lat": {
+          "type": "number"
+        },
         "link": {
           "type": "string"
+        },
+        "lon": {
+          "type": "number"
         },
         "name": {
           "type": "string"

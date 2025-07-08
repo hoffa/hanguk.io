@@ -90,14 +90,36 @@ export function getHumanFriendlyDomain(url: string): string {
 }
 
 /**
- * Shuffle an array using Fisher-Yates algorithm
- * Returns a new array without mutating the original
+ * Calculate the squared Euclidean distance between two points
+ * Much faster than Haversine for comparison purposes
+ * Returns squared distance (no need for sqrt since we only compare)
  */
-export function shuffleArray<T>(array: T[]): T[] {
-  const shuffled = [...array]
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+export function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: number): number {
+  const dx = lat2 - lat1
+  const dy = lon2 - lon1
+  return dx * dx + dy * dy
+}
+
+/**
+ * Sort divisions by distance from a target division
+ * Divisions without coordinates are placed at the end
+ */
+export function sortByDistance<T extends { lat?: number; lon?: number }>(
+  divisions: T[],
+  targetDivision: T
+): T[] {
+  if (!targetDivision.lat || !targetDivision.lon) {
+    // If target has no coordinates, return original order
+    return divisions
   }
-  return shuffled
+
+  const withDistance = divisions.map(division => ({
+    division,
+    distance:
+      division.lat && division.lon
+        ? calculateDistance(targetDivision.lat!, targetDivision.lon!, division.lat, division.lon)
+        : Infinity,
+  }))
+
+  return withDistance.sort((a, b) => a.distance - b.distance).map(item => item.division)
 }
