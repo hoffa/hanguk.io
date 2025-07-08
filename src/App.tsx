@@ -210,7 +210,7 @@ function App() {
               <div
                 key={index}
                 onClick={() => selectDivision(division.name)}
-                className="cursor-pointer transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+                className="cursor-pointer transition-transform duration-200 hover:scale-105"
               >
                 <DivisionCard division={division} />
               </div>
