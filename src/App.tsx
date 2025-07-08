@@ -83,12 +83,14 @@ function App() {
               <div className="relative flex-1">
                 <Combobox value={locationInput} onChange={selectDivision}>
                   <div className="relative">
-                    <div
+                    <label
                       className={`input input-bordered w-full flex items-center gap-2 ${
                         locationInput && !isValidInput ? 'input-error' : ''
                       }`}
                     >
-                      <MapPinIcon className="w-4 h-4 opacity-70" />
+                      <span className="label">
+                        <MapPinIcon className="w-4 h-4" />
+                      </span>
                       <ComboboxInput
                         className="grow bg-transparent border-none outline-none"
                         placeholder="지역 입력"
@@ -102,7 +104,7 @@ function App() {
                           <XMarkIcon className="w-4 h-4" />
                         </button>
                       )}
-                    </div>
+                    </label>
                     {filteredSuggestions.length > 0 && (
                       <ComboboxOptions className="absolute top-full left-0 right-0 z-10 bg-base-100 border border-base-300 rounded-md shadow-lg max-h-40 overflow-y-auto">
                         {filteredSuggestions.map(division => (
@@ -139,12 +141,14 @@ function App() {
               <div className="relative">
                 <Combobox value={locationInput} onChange={selectDivision}>
                   <div className="relative">
-                    <div
+                    <label
                       className={`input input-bordered w-48 flex items-center gap-2 ${
                         locationInput && !isValidInput ? 'input-error' : ''
                       }`}
                     >
-                      <MapPinIcon className="w-4 h-4 opacity-70" />
+                      <span className="label">
+                        <MapPinIcon className="w-4 h-4" />
+                      </span>
                       <ComboboxInput
                         className="grow bg-transparent border-none outline-none"
                         placeholder="지역 입력"
@@ -158,7 +162,7 @@ function App() {
                           <XMarkIcon className="w-4 h-4" />
                         </button>
                       )}
-                    </div>
+                    </label>
                     {filteredSuggestions.length > 0 && (
                       <ComboboxOptions className="absolute top-full left-0 right-0 z-10 bg-base-100 border border-base-300 rounded-md shadow-lg max-h-40 overflow-y-auto">
                         {filteredSuggestions.map(division => (
