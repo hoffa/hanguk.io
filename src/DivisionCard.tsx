@@ -26,11 +26,6 @@ function DivisionCard({ division }: DivisionCardProps) {
                 {division.type}
               </span>
             </div>
-            {division.info && (
-              <div className="tooltip" data-tip={division.info}>
-                <InformationCircleIcon className="w-5 h-5 text-base-content/50 hover:text-base-content/80" />
-              </div>
-            )}
           </div>
         </div>
 
@@ -62,6 +57,12 @@ function DivisionCard({ division }: DivisionCardProps) {
               {getHumanFriendlyDomain(division.link)}
             </a>
           </div>
+          {division.info && (
+            <div className="flex items-start gap-1">
+              <InformationCircleIcon className="w-4 h-4 mt-0.5 flex-shrink-0" />
+              <span>{division.info}</span>
+            </div>
+          )}
         </div>
       </div>
     </div>
