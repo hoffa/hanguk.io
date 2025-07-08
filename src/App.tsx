@@ -221,8 +221,14 @@ function App() {
             {divisions.map((division, index) => (
               <div
                 key={index}
-                onClick={() => selectDivision(division.name)}
-                className="cursor-pointer transition-transform duration-200 hover:scale-105"
+                onClick={() => {
+                  // Only trigger card click if user isn't selecting text
+                  const selection = window.getSelection()
+                  if (!selection || selection.toString().length === 0) {
+                    selectDivision(division.name)
+                  }
+                }}
+                className="cursor-pointer transition-transform duration-200 hover:scale-105 select-text"
               >
                 <DivisionCard division={division} />
               </div>
