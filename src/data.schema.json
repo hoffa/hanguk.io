@@ -15,6 +15,9 @@
           },
           "type": "array"
         },
+        "id": {
+          "type": "number"
+        },
         "image": {
           "type": "string"
         },
@@ -45,7 +48,7 @@
           "type": "string"
         }
       },
-      "required": ["area", "link", "name", "population", "type"],
+      "required": ["area", "id", "link", "name", "population", "type"],
       "type": "object"
     }
   },
