@@ -22,7 +22,9 @@ function DivisionCard({ division }: DivisionCardProps) {
           <div className="flex items-center gap-2">
             <div className="flex items-center gap-2">
               <h2 className="card-title">{division.name}</h2>
-              <span className="badge badge-neutral badge-outline">{division.type}</span>
+              <span className="badge bg-base-content/5 text-base-content/70 border-none text-xs">
+                {division.type}
+              </span>
             </div>
             {division.info && (
               <div className="tooltip" data-tip={division.info}>
