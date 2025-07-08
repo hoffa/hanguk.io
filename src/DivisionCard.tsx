@@ -38,6 +38,7 @@ function DivisionCard({ division }: DivisionCardProps) {
         <img
           src={division.image || 'https://placecats.com/800/600'}
           alt={division.name}
+          title={division.imageAttribution || undefined}
           className="w-full aspect-[4/3] object-cover"
         />
       </figure>
