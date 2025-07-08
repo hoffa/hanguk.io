@@ -1,6 +1,12 @@
 import type { Division } from './types'
 import { roundToFirstDigit, formatKoreanNumber, getHumanFriendlyDomain } from './utils'
-import { UserIcon, BuildingOfficeIcon, MapIcon, LinkIcon } from '@heroicons/react/24/outline'
+import {
+  UserIcon,
+  BuildingOfficeIcon,
+  MapIcon,
+  LinkIcon,
+  InformationCircleIcon,
+} from '@heroicons/react/24/outline'
 
 interface DivisionCardProps {
   division: Division
@@ -18,7 +24,14 @@ function DivisionCard({ division }: DivisionCardProps) {
       </figure>
       <div className="card-body">
         <div className="flex items-center justify-between mb-3">
-          <h2 className="card-title">{division.name}</h2>
+          <div className="flex items-center gap-2">
+            <h2 className="card-title">{division.name}</h2>
+            {division.info && (
+              <div className="tooltip" data-tip={division.info}>
+                <InformationCircleIcon className="w-5 h-5 text-base-content/50 hover:text-base-content/80" />
+              </div>
+            )}
+          </div>
         </div>
 
         {division.highlights && (

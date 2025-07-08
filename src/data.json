@@ -1126,6 +1126,14 @@
       "area": 1849.15,
       "type": "특별자치도",
       "link": "https://www.jeju.go.kr"
+    },
+    {
+      "name": "독도",
+      "population": 0,
+      "area": 0.187554,
+      "type": "특별자치도",
+      "info": "독도는 울릉군에 속합니다",
+      "link": "https://dokdo.mofa.go.kr"
     }
   ]
 }
