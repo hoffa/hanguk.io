@@ -13,6 +13,7 @@ import { Combobox, ComboboxInput, ComboboxOption, ComboboxOptions } from '@headl
 import DivisionCard from './DivisionCard'
 
 function App() {
+  const [showToast, setShowToast] = useState(true)
   const data = koreanData as Divisions
   const sortedDivisions = data.divisions.sort((a, b) => b.population - a.population)
   const [divisions, setDivisions] = useState(sortedDivisions)
@@ -69,7 +70,47 @@ function App() {
   const isValidInput = data.divisions.some(d => d.name === locationInput)
 
   return (
-    <div className="min-h-screen bg-base-200">
+    <div className="min-h-screen bg-base-200 relative">
+      {/* Toast: always above all content using fixed + high z-index, neutral color, dismissable */}
+      {showToast && (
+        <div className="toast toast-bottom toast-end fixed z-[9999] pointer-events-none w-auto max-w-full">
+          <div className="alert alert-neutral pointer-events-auto flex items-center gap-2">
+            <span>
+              이 페이지의 데이터는 부정확할 수 있습니다.{' '}
+              <a
+                href="https://github.com/hoffa/hanguk.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link link-primary underline"
+              >
+                GitHub에서 수정에 참여해주세요
+              </a>
+              ! 🥺
+            </span>
+            <button
+              onClick={() => setShowToast(false)}
+              className="btn btn-xs btn-ghost ml-2"
+              aria-label="닫기"
+              type="button"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      )}
       {/* Top Navigation - Full Width */}
       <div className="navbar bg-base-100 shadow-sm px-6 py-4">
         <div className="max-w-7xl mx-auto w-full">
