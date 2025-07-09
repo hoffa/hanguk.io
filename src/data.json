@@ -55,6 +55,7 @@
     },
     {
       "name": "광주",
+      "firstLevelDivision": "광주광역시",
       "population": 1432049,
       "area": 501.24,
       "lat": 35.16528,
@@ -250,6 +251,7 @@
     },
     {
       "name": "광주",
+      "firstLevelDivision": "경기도",
       "population": 373274,
       "area": 431.0,
       "type": "시",
@@ -548,6 +550,7 @@
     },
     {
       "name": "고성",
+      "firstLevelDivision": "강원도",
       "population": 28621,
       "area": 664.28,
       "lat": 38.37881,
@@ -1422,6 +1425,7 @@
     },
     {
       "name": "고성",
+      "firstLevelDivision": "경상남도",
       "population": 52439,
       "area": 518.0,
       "type": "군",
