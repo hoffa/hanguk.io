@@ -101,6 +101,7 @@
       "lon": 127.01700,
       "type": "시",
       "link": "https://www.suwon.go.kr",
+      "firstLevelDivision": "경기도",
       "id": 9
     },
     {
@@ -1481,6 +1482,7 @@
     },
     {
       "name": "독도",
+      "firstLevelDivision": "경상북도",
       "population": 45,
       "area": 0.187554,
       "lat": 37.241667,

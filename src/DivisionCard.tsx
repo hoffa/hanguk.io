@@ -39,15 +39,18 @@ function DivisionCard({ division }: DivisionCardProps) {
         />
       </figure>
       <div className="card-body">
-        <div className="flex items-center justify-between mb-3">
-          <div className="flex items-center gap-2">
-            <div className="flex items-center gap-2">
-              <h2 className="card-title">{division.name}</h2>
-              <span className={`badge badge-soft ${getTypeBadgeClass(division.type)}`}>
-                {division.type}
-              </span>
-            </div>
+        <div className="mb-3">
+          <div className="flex items-center gap-2 flex-wrap">
+            <h2 className="card-title m-0">{division.name}</h2>
+            <span className={`badge badge-soft ${getTypeBadgeClass(division.type)}`}>
+              {division.type}
+            </span>
           </div>
+          {/* Only show firstLevelDivision if it's present and not a top-level region type */}
+          {division.firstLevelDivision &&
+            !['특별시', '광역시', '특별자치도', '특별자치시'].includes(division.type) && (
+              <div className="text-sm text-base-content/70 mt-1">{division.firstLevelDivision}</div>
+            )}
         </div>
 
         {division.highlights && (
@@ -58,7 +61,7 @@ function DivisionCard({ division }: DivisionCardProps) {
           </ul>
         )}
 
-        <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-base-content/70">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-base-content/70 text-sm">
           <div className="flex items-center gap-1">
             <UserIcon className="w-4 h-4" />약{' '}
             {formatKoreanNumber(roundToFirstDigit(division.population))} 명
