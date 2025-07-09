@@ -116,12 +116,16 @@
     },
     {
       "name": "고양",
+      "firstLevelDivision": "경기도",
       "population": 1076599,
       "area": 268.08,
       "lat": 37.65639,
       "lon": 126.83500,
       "type": "시",
       "link": "https://www.goyang.go.kr",
+      "highlights": [
+        "😻"
+      ],
       "id": 11
     },
     {
