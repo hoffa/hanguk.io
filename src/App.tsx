@@ -221,7 +221,12 @@ function App() {
             {divisions.map((division, index) => (
               <div
                 key={index}
-                onClick={() => {
+                onClick={e => {
+                  // Don't trigger card click if clicking on a link
+                  if ((e.target as HTMLElement).closest('a')) {
+                    return
+                  }
+
                   // Only trigger card click if user isn't selecting text
                   const selection = window.getSelection()
                   if (!selection || selection.toString().length === 0) {
