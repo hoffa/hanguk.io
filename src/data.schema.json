@@ -10,27 +10,7 @@
           "type": "number"
         },
         "firstLevelDivision": {
-          "description": "The first-level administrative division, i.e. the 광역자치단체.",
-          "enum": [
-            "강원도",
-            "경기도",
-            "경상남도",
-            "경상북도",
-            "광주광역시",
-            "대구광역시",
-            "대전광역시",
-            "부산광역시",
-            "서울특별시",
-            "세종특별자치시",
-            "울산광역시",
-            "인천광역시",
-            "전라남도",
-            "전라북도",
-            "제주특별자치도",
-            "충청남도",
-            "충청북도"
-          ],
-          "type": "string"
+          "$ref": "#/definitions/FirstLevelDivision"
         },
         "highlights": {
           "items": {
@@ -66,13 +46,39 @@
           "type": "number"
         },
         "type": {
-          "description": "The list of all divisions should cover all land without overlap.\n\nWhere appropriate, to keep things intuitive, some divisions may be grouped together (e.g. just\n제주 which covers 제주시 and 서귀포시).\n\nThere are also special cases where we may want to have a separate entry (e.g. for 독도), or\nwhere a 광역시 contains a 군.",
-          "enum": ["광역시", "군", "리", "시", "특별시", "특별자치도", "특별자치시"],
-          "type": "string"
+          "$ref": "#/definitions/DivisionType"
         }
       },
       "required": ["area", "id", "link", "name", "population", "type"],
       "type": "object"
+    },
+    "DivisionType": {
+      "description": "The list of all divisions should cover all land without overlap.\n\nWhere appropriate, to keep things intuitive, some divisions may be grouped together (e.g. just\n제주 which covers 제주시 and 서귀포시).\n\nThere are also special cases where we may want to have a separate entry (e.g. for 독도), or\nwhere a 광역시 contains a 군.",
+      "enum": ["광역시", "군", "리", "시", "특별시", "특별자치도", "특별자치시"],
+      "type": "string"
+    },
+    "FirstLevelDivision": {
+      "description": "The first-level administrative division, i.e. the 광역자치단체.",
+      "enum": [
+        "강원도",
+        "경기도",
+        "경상남도",
+        "경상북도",
+        "광주광역시",
+        "대구광역시",
+        "대전광역시",
+        "부산광역시",
+        "서울특별시",
+        "세종특별자치시",
+        "울산광역시",
+        "인천광역시",
+        "전라남도",
+        "전라북도",
+        "제주특별자치도",
+        "충청남도",
+        "충청북도"
+      ],
+      "type": "string"
     }
   },
   "properties": {
