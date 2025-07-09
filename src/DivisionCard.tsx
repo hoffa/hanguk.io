@@ -22,7 +22,7 @@ function DivisionCard({ division }: DivisionCardProps) {
       case '특별자치시':
         return 'badge-secondary'
       case '리':
-        return 'badge-warning'
+        return 'badge-ghost'
       default:
         return 'badge-ghost'
     }
