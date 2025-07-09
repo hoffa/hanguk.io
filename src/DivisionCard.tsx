@@ -7,6 +7,27 @@ interface DivisionCardProps {
 }
 
 function DivisionCard({ division }: DivisionCardProps) {
+  function getTypeBadgeClass(type: Division['type']) {
+    switch (type) {
+      case '특별시':
+        return 'badge-primary'
+      case '광역시':
+        return 'badge-secondary'
+      case '시':
+        return 'badge-info'
+      case '군':
+        return 'badge-success'
+      case '특별자치도':
+        return 'badge-secondary'
+      case '특별자치시':
+        return 'badge-secondary'
+      case '리':
+        return 'badge-warning'
+      default:
+        return 'badge-ghost'
+    }
+  }
+
   return (
     <div className="card bg-base-100 shadow-sm h-fit select-text">
       <figure>
@@ -22,7 +43,7 @@ function DivisionCard({ division }: DivisionCardProps) {
           <div className="flex items-center gap-2">
             <div className="flex items-center gap-2">
               <h2 className="card-title">{division.name}</h2>
-              <span className="badge bg-base-content/5 text-base-content/70 border-none text-xs">
+              <span className={`badge badge-soft ${getTypeBadgeClass(division.type)}`}>
                 {division.type}
               </span>
             </div>
