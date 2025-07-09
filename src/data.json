@@ -10,27 +10,29 @@
       "id": 1,
       "image": "https://images.pexels.com/photos/11687720/pexels-photo-11687720.jpeg",
       "imageAttribution": "Ethan Brooke님의 사진: https://www.pexels.com/ko-kr/photo/11687720/",
-      "lat": 37.53230,
+      "lat": 37.5323,
       "link": "https://www.seoul.go.kr",
-      "lon": 126.99000,
+      "lon": 126.99,
       "name": "서울",
       "population": 9407540,
       "type": "특별시"
     },
     {
       "area": 769.89,
+      "firstLevelDivision": "부산광역시",
       "id": 2,
       "image": "/busan.jpg",
       "imageAttribution": "Photo by Анна Шаталова: https://www.pexels.com/photo/aerial-panoramic-view-of-busan-south-korea-8573202/",
-      "lat": 35.18000,
+      "lat": 35.18,
       "link": "http://busan.go.kr",
-      "lon": 129.07500,
+      "lon": 129.075,
       "name": "부산",
       "population": 3320276,
       "type": "광역시"
     },
     {
       "area": 883.54,
+      "firstLevelDivision": "대구광역시",
       "id": 3,
       "image": "https://images.pexels.com/photos/29291638/pexels-photo-29291638.jpeg",
       "imageAttribution": "Khan Ishaan님의 사진: https://www.pexels.com/ko-kr/photo/29291638/",
@@ -43,12 +45,13 @@
     },
     {
       "area": 1062.6,
+      "firstLevelDivision": "인천광역시",
       "id": 4,
       "image": "https://www.ito.or.kr/images/bbs/galleryko/2021/middle/daeijakdo_haeansanchaekro_(1).jpg",
       "imageAttribution": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=421&bcd=galleryko&pgno=9",
-      "lat": 37.48300,
+      "lat": 37.483,
       "link": "https://www.incheon.go.kr",
-      "lon": 126.63300,
+      "lon": 126.633,
       "name": "인천",
       "population": 2964820,
       "type": "광역시"
@@ -66,28 +69,31 @@
     },
     {
       "area": 539.35,
+      "firstLevelDivision": "대전광역시",
       "id": 6,
-      "lat": 36.35000,
+      "lat": 36.35,
       "link": "https://www.daejeon.go.kr",
-      "lon": 127.38500,
+      "lon": 127.385,
       "name": "대전",
       "population": 1446749,
       "type": "광역시"
     },
     {
       "area": 1060.79,
+      "firstLevelDivision": "울산광역시",
       "id": 7,
-      "lat": 35.55000,
+      "lat": 35.55,
       "link": "https://www.ulsan.go.kr",
-      "lon": 129.31700,
+      "lon": 129.317,
       "name": "울산",
       "population": 1111371,
       "type": "광역시"
     },
     {
       "area": 464.87,
+      "firstLevelDivision": "세종특별자치시",
       "id": 8,
-      "lat": 36.48700,
+      "lat": 36.487,
       "link": "https://www.sejong.go.kr",
       "lon": 127.28223,
       "name": "세종",
@@ -98,19 +104,20 @@
       "area": 121.09,
       "firstLevelDivision": "경기도",
       "id": 9,
-      "lat": 37.26700,
+      "lat": 37.267,
       "link": "https://www.suwon.go.kr",
-      "lon": 127.01700,
+      "lon": 127.017,
       "name": "수원",
       "population": 1190964,
       "type": "시"
     },
     {
       "area": 591.22,
+      "firstLevelDivision": "경기도",
       "id": 10,
-      "lat": 37.24000,
+      "lat": 37.24,
       "link": "https://www.yongin.go.kr",
-      "lon": 127.17700,
+      "lon": 127.177,
       "name": "용인",
       "population": 1074971,
       "type": "시"
@@ -124,13 +131,14 @@
       "id": 11,
       "lat": 37.65639,
       "link": "https://www.goyang.go.kr",
-      "lon": 126.83500,
+      "lon": 126.835,
       "name": "고양",
       "population": 1076599,
       "type": "시"
     },
     {
       "area": 141.63,
+      "firstLevelDivision": "경기도",
       "id": 12,
       "lat": 37.41878,
       "link": "https://www.seongnam.go.kr",
@@ -141,6 +149,7 @@
     },
     {
       "area": 699.41,
+      "firstLevelDivision": "경기도",
       "id": 13,
       "lat": 37.19917,
       "link": "https://www.hscity.go.kr",
@@ -151,16 +160,18 @@
     },
     {
       "area": 53.45,
+      "firstLevelDivision": "경기도",
       "id": 14,
-      "lat": 37.50350,
+      "lat": 37.5035,
       "link": "https://www.bucheon.go.kr",
-      "lon": 126.76600,
+      "lon": 126.766,
       "name": "부천",
       "population": 791263,
       "type": "시"
     },
     {
       "area": 458.12,
+      "firstLevelDivision": "경기도",
       "id": 15,
       "lat": 37.63667,
       "link": "https://www.nyj.go.kr",
@@ -171,6 +182,7 @@
     },
     {
       "area": 156.53,
+      "firstLevelDivision": "경기도",
       "id": 16,
       "lat": 37.31667,
       "link": "https://www.ansan.go.kr",
@@ -181,18 +193,20 @@
     },
     {
       "area": 58.5,
+      "firstLevelDivision": "경기도",
       "id": 17,
-      "lat": 37.39430,
+      "lat": 37.3943,
       "link": "https://www.anyang.go.kr",
-      "lon": 126.92600,
+      "lon": 126.926,
       "name": "안양",
       "population": 565392,
       "type": "시"
     },
     {
       "area": 458.25,
+      "firstLevelDivision": "경기도",
       "id": 18,
-      "lat": 36.99250,
+      "lat": 36.9925,
       "link": "https://www.pyeongtaek.go.kr",
       "lon": 127.11222,
       "name": "평택",
@@ -201,6 +215,7 @@
     },
     {
       "area": 139.93,
+      "firstLevelDivision": "경기도",
       "id": 19,
       "lat": 37.38056,
       "link": "https://www.siheung.go.kr",
@@ -211,6 +226,7 @@
     },
     {
       "area": 672.78,
+      "firstLevelDivision": "경기도",
       "id": 20,
       "lat": 37.76111,
       "link": "https://www.paju.go.kr",
@@ -221,6 +237,7 @@
     },
     {
       "area": 81.55,
+      "firstLevelDivision": "경기도",
       "id": 21,
       "lat": 37.73889,
       "link": "https://www.ui4u.go.kr",
@@ -231,16 +248,18 @@
     },
     {
       "area": 276.65,
+      "firstLevelDivision": "경기도",
       "id": 22,
-      "lat": 37.61500,
+      "lat": 37.615,
       "link": "https://www.gimpo.go.kr",
-      "lon": 126.71500,
+      "lon": 126.715,
       "name": "김포",
       "population": 437789,
       "type": "시"
     },
     {
       "area": 38.5,
+      "firstLevelDivision": "경기도",
       "id": 23,
       "lat": 37.47917,
       "link": "https://www.gm.go.kr",
@@ -250,8 +269,8 @@
       "type": "시"
     },
     {
-      "area": 431.0,
-      "firstLevelDivision": "경기도",
+      "area": 431,
+      "firstLevelDivision": "광주광역시",
       "id": 24,
       "link": "https://www.gjcity.go.kr",
       "name": "광주",
@@ -260,6 +279,7 @@
     },
     {
       "area": 36.42,
+      "firstLevelDivision": "경기도",
       "id": 25,
       "lat": 37.34261,
       "link": "https://www.gunpo.go.kr",
@@ -270,8 +290,9 @@
     },
     {
       "area": 93.07,
+      "firstLevelDivision": "경기도",
       "id": 26,
-      "lat": 37.54000,
+      "lat": 37.54,
       "link": "https://www.hanam.go.kr",
       "lon": 127.20556,
       "name": "하남",
@@ -280,16 +301,18 @@
     },
     {
       "area": 461.31,
+      "firstLevelDivision": "경기도",
       "id": 27,
       "lat": 37.27917,
       "link": "https://www.icheon.go.kr",
-      "lon": 127.44250,
+      "lon": 127.4425,
       "name": "이천",
       "population": 218798,
       "type": "시"
     },
     {
       "area": 553.19,
+      "firstLevelDivision": "경기도",
       "id": 28,
       "lat": 37.01083,
       "link": "https://www.anseong.go.kr",
@@ -300,8 +323,9 @@
     },
     {
       "area": 33.33,
+      "firstLevelDivision": "경기도",
       "id": 29,
-      "lat": 37.60340,
+      "lat": 37.6034,
       "link": "https://www.guri.go.kr",
       "lon": 127.14374,
       "name": "구리",
@@ -310,6 +334,7 @@
     },
     {
       "area": 42.71,
+      "firstLevelDivision": "경기도",
       "id": 30,
       "lat": 37.14942,
       "link": "https://www.osan.go.kr",
@@ -320,6 +345,7 @@
     },
     {
       "area": 54.03,
+      "firstLevelDivision": "경기도",
       "id": 31,
       "lat": 37.34417,
       "link": "https://www.uiwang.go.kr",
@@ -330,26 +356,29 @@
     },
     {
       "area": 826.95,
+      "firstLevelDivision": "경기도",
       "id": 32,
-      "lat": 38.00000,
+      "lat": 38,
       "link": "https://www.pocheon.go.kr",
-      "lon": 127.20000,
+      "lon": 127.2,
       "name": "포천",
       "population": 161239,
       "type": "시"
     },
     {
       "area": 310.1,
+      "firstLevelDivision": "경기도",
       "id": 33,
       "lat": 37.78528,
       "link": "https://www.yangju.go.kr",
-      "lon": 127.04500,
+      "lon": 127.045,
       "name": "양주",
       "population": 212631,
       "type": "시"
     },
     {
       "area": 608.29,
+      "firstLevelDivision": "경기도",
       "id": 34,
       "lat": 37.29806,
       "link": "https://www.yeoju.go.kr",
@@ -360,6 +389,7 @@
     },
     {
       "area": 677.58,
+      "firstLevelDivision": "경기도",
       "id": 35,
       "lat": 38.09611,
       "link": "https://www.yeoncheon.go.kr",
@@ -370,6 +400,7 @@
     },
     {
       "area": 843.58,
+      "firstLevelDivision": "경기도",
       "id": 36,
       "lat": 37.83167,
       "link": "https://www.gp.go.kr",
@@ -380,16 +411,18 @@
     },
     {
       "area": 877.78,
+      "firstLevelDivision": "경기도",
       "id": 37,
       "lat": 37.49167,
       "link": "https://www.yp21.go.kr",
-      "lon": 127.48750,
+      "lon": 127.4875,
       "name": "양평",
       "population": 109359,
       "type": "군"
     },
     {
       "area": 1116.4,
+      "firstLevelDivision": "강원도",
       "id": 38,
       "lat": 37.87472,
       "link": "https://www.chuncheon.go.kr",
@@ -400,6 +433,7 @@
     },
     {
       "area": 868.23,
+      "firstLevelDivision": "강원도",
       "id": 39,
       "lat": 37.34222,
       "link": "https://www.wonju.go.kr",
@@ -410,6 +444,7 @@
     },
     {
       "area": 1040.68,
+      "firstLevelDivision": "강원도",
       "id": 40,
       "lat": 37.75194,
       "link": "https://www.gn.go.kr",
@@ -420,6 +455,7 @@
     },
     {
       "area": 180.21,
+      "firstLevelDivision": "강원도",
       "id": 41,
       "lat": 37.52417,
       "link": "https://www.dh.go.kr",
@@ -430,18 +466,20 @@
     },
     {
       "area": 303.44,
+      "firstLevelDivision": "강원도",
       "id": 42,
       "image": "/taebaek.jpg",
       "imageAttribution": "https://tour.taebaek.go.kr/tour/happy/together_photo?articleSeq=41533",
       "lat": 37.16417,
       "link": "https://www.taebaek.go.kr",
-      "lon": 128.98500,
+      "lon": 128.985,
       "name": "태백",
       "population": 44733,
       "type": "시"
     },
     {
       "area": 105.76,
+      "firstLevelDivision": "강원도",
       "id": 43,
       "lat": 38.20694,
       "link": "https://www.sokcho.go.kr",
@@ -452,16 +490,18 @@
     },
     {
       "area": 1187.83,
+      "firstLevelDivision": "강원도",
       "id": 44,
       "lat": 37.44361,
       "link": "https://www.samcheok.go.kr",
-      "lon": 129.16500,
+      "lon": 129.165,
       "name": "삼척",
       "population": 67860,
       "type": "시"
     },
     {
       "area": 1820.58,
+      "firstLevelDivision": "강원도",
       "id": 45,
       "lat": 37.69778,
       "link": "https://www.hongcheon.go.kr",
@@ -472,6 +512,7 @@
     },
     {
       "area": 997.94,
+      "firstLevelDivision": "강원도",
       "id": 46,
       "lat": 37.49111,
       "link": "https://www.hsg.go.kr",
@@ -482,6 +523,7 @@
     },
     {
       "area": 1120.34,
+      "firstLevelDivision": "강원도",
       "id": 47,
       "lat": 37.18361,
       "link": "https://www.yw.go.kr",
@@ -492,6 +534,7 @@
     },
     {
       "area": 1462.35,
+      "firstLevelDivision": "강원도",
       "id": 48,
       "link": "https://www.pyeongchang.go.kr",
       "name": "평창",
@@ -500,16 +543,18 @@
     },
     {
       "area": 1219.65,
+      "firstLevelDivision": "강원도",
       "id": 49,
-      "lat": 37.38000,
+      "lat": 37.38,
       "link": "https://www.jeongseon.go.kr",
-      "lon": 128.66000,
+      "lon": 128.66,
       "name": "정선",
       "population": 36002,
       "type": "군"
     },
     {
       "area": 889.69,
+      "firstLevelDivision": "강원도",
       "id": 50,
       "lat": 38.14611,
       "link": "https://www.cwg.go.kr",
@@ -520,6 +565,7 @@
     },
     {
       "area": 909.06,
+      "firstLevelDivision": "강원도",
       "id": 51,
       "lat": 38.10639,
       "link": "https://www.hwacheon.go.kr",
@@ -530,6 +576,7 @@
     },
     {
       "area": 703.74,
+      "firstLevelDivision": "강원도",
       "id": 52,
       "lat": 38.10833,
       "link": "https://www.yanggu.go.kr",
@@ -540,17 +587,18 @@
     },
     {
       "area": 1646.18,
+      "firstLevelDivision": "강원도",
       "id": 53,
       "lat": 38.06972,
       "link": "https://www.inje.go.kr",
-      "lon": 128.17000,
+      "lon": 128.17,
       "name": "인제",
       "population": 30524,
       "type": "군"
     },
     {
       "area": 664.28,
-      "firstLevelDivision": "강원도",
+      "firstLevelDivision": "경상남도",
       "id": 54,
       "lat": 38.37881,
       "link": "https://www.gwgs.go.kr",
@@ -561,6 +609,7 @@
     },
     {
       "area": 629.56,
+      "firstLevelDivision": "강원도",
       "id": 55,
       "lat": 38.07528,
       "link": "https://www.yangyang.go.kr",
@@ -571,8 +620,9 @@
     },
     {
       "area": 941.01,
+      "firstLevelDivision": "충청북도",
       "id": 56,
-      "lat": 36.64250,
+      "lat": 36.6425,
       "link": "https://www.cheongju.go.kr",
       "lon": 127.48972,
       "name": "청주",
@@ -581,6 +631,7 @@
     },
     {
       "area": 983.62,
+      "firstLevelDivision": "충청북도",
       "id": 57,
       "lat": 36.99194,
       "link": "https://www.chungju.go.kr",
@@ -591,6 +642,7 @@
     },
     {
       "area": 882.77,
+      "firstLevelDivision": "충청북도",
       "id": 58,
       "lat": 37.13278,
       "link": "https://www.jecheon.go.kr",
@@ -601,6 +653,7 @@
     },
     {
       "area": 584.25,
+      "firstLevelDivision": "충청북도",
       "id": 59,
       "lat": 36.48972,
       "link": "https://www.boeun.go.kr",
@@ -611,6 +664,7 @@
     },
     {
       "area": 536.14,
+      "firstLevelDivision": "충청북도",
       "id": 60,
       "lat": 36.30194,
       "link": "https://www.oc.go.kr",
@@ -621,8 +675,9 @@
     },
     {
       "area": 849.81,
+      "firstLevelDivision": "충청북도",
       "id": 61,
-      "lat": 36.17500,
+      "lat": 36.175,
       "link": "https://www.yd21.go.kr",
       "lon": 127.77667,
       "name": "영동",
@@ -631,6 +686,7 @@
     },
     {
       "area": 80.44,
+      "firstLevelDivision": "충청북도",
       "id": 62,
       "lat": 36.78556,
       "link": "https://www.jp.go.kr",
@@ -641,6 +697,7 @@
     },
     {
       "area": 407.17,
+      "firstLevelDivision": "충청북도",
       "id": 63,
       "lat": 36.85556,
       "link": "https://www.jincheon.go.kr",
@@ -651,6 +708,7 @@
     },
     {
       "area": 773.15,
+      "firstLevelDivision": "충청북도",
       "id": 64,
       "lat": 36.81667,
       "link": "https://www.goesan.go.kr",
@@ -661,6 +719,7 @@
     },
     {
       "area": 521.18,
+      "firstLevelDivision": "충청북도",
       "id": 65,
       "lat": 36.92806,
       "link": "https://www.eumseong.go.kr",
@@ -671,8 +730,9 @@
     },
     {
       "area": 780.79,
+      "firstLevelDivision": "충청북도",
       "id": 66,
-      "lat": 36.98500,
+      "lat": 36.985,
       "link": "https://www.danyang.go.kr",
       "lon": 128.36528,
       "name": "단양",
@@ -681,8 +741,9 @@
     },
     {
       "area": 636.15,
+      "firstLevelDivision": "충청남도",
       "id": 67,
-      "lat": 36.81500,
+      "lat": 36.815,
       "link": "https://www.cheonan.go.kr",
       "lon": 127.11389,
       "name": "천안",
@@ -691,6 +752,7 @@
     },
     {
       "area": 864.15,
+      "firstLevelDivision": "충청남도",
       "id": 68,
       "lat": 36.44667,
       "link": "https://www.gongju.go.kr",
@@ -701,16 +763,18 @@
     },
     {
       "area": 569.14,
+      "firstLevelDivision": "충청남도",
       "id": 69,
       "lat": 36.33306,
       "link": "https://www.boryeong.go.kr",
-      "lon": 126.61250,
+      "lon": 126.6125,
       "name": "보령",
       "population": 100922,
       "type": "시"
     },
     {
       "area": 542.25,
+      "firstLevelDivision": "충청남도",
       "id": 70,
       "lat": 36.78361,
       "link": "https://www.asan.go.kr",
@@ -721,6 +785,7 @@
     },
     {
       "area": 739.35,
+      "firstLevelDivision": "충청남도",
       "id": 71,
       "lat": 36.78444,
       "link": "https://www.seosan.go.kr",
@@ -731,6 +796,7 @@
     },
     {
       "area": 554.77,
+      "firstLevelDivision": "충청남도",
       "id": 72,
       "lat": 36.20389,
       "link": "https://www.nonsan.go.kr",
@@ -741,6 +807,7 @@
     },
     {
       "area": 60.68,
+      "firstLevelDivision": "충청남도",
       "id": 73,
       "lat": 36.27417,
       "link": "https://www.gyeryong.go.kr",
@@ -751,6 +818,7 @@
     },
     {
       "area": 704.35,
+      "firstLevelDivision": "충청남도",
       "id": 74,
       "lat": 36.89167,
       "link": "https://www.dangjin.go.kr",
@@ -761,6 +829,7 @@
     },
     {
       "area": 575.17,
+      "firstLevelDivision": "충청남도",
       "id": 75,
       "lat": 36.10833,
       "link": "https://www.geumsan.go.kr",
@@ -771,6 +840,7 @@
     },
     {
       "area": 624.62,
+      "firstLevelDivision": "충청남도",
       "id": 76,
       "lat": 36.27417,
       "link": "https://www.buyeo.go.kr",
@@ -781,6 +851,7 @@
     },
     {
       "area": 358.9,
+      "firstLevelDivision": "충청남도",
       "id": 77,
       "lat": 36.08139,
       "link": "https://www.seocheon.go.kr",
@@ -791,36 +862,40 @@
     },
     {
       "area": 479.22,
+      "firstLevelDivision": "충청남도",
       "id": 78,
       "lat": 36.46028,
       "link": "https://www.cheongyang.go.kr",
-      "lon": 126.80000,
+      "lon": 126.8,
       "name": "청양",
       "population": 31299,
       "type": "군"
     },
     {
       "area": 443.72,
+      "firstLevelDivision": "충청남도",
       "id": 79,
-      "lat": 36.60000,
+      "lat": 36.6,
       "link": "https://www.hongseong.go.kr",
-      "lon": 126.66000,
+      "lon": 126.66,
       "name": "홍성",
       "population": 103048,
       "type": "군"
     },
     {
       "area": 542.77,
+      "firstLevelDivision": "충청남도",
       "id": 80,
       "lat": 36.68278,
       "link": "https://www.yesan.go.kr",
-      "lon": 126.85000,
+      "lon": 126.85,
       "name": "예산",
       "population": 78678,
       "type": "군"
     },
     {
       "area": 502.14,
+      "firstLevelDivision": "충청남도",
       "id": 81,
       "lat": 36.74556,
       "link": "https://www.taean.go.kr",
@@ -831,6 +906,7 @@
     },
     {
       "area": 206.22,
+      "firstLevelDivision": "전라북도",
       "id": 82,
       "lat": 35.82417,
       "link": "https://www.jeonju.go.kr",
@@ -841,8 +917,9 @@
     },
     {
       "area": 394.45,
+      "firstLevelDivision": "전라북도",
       "id": 83,
-      "lat": 35.96750,
+      "lat": 35.9675,
       "link": "https://www.gunsan.go.kr",
       "lon": 126.73611,
       "name": "군산",
@@ -851,16 +928,18 @@
     },
     {
       "area": 507.08,
+      "firstLevelDivision": "전라북도",
       "id": 84,
       "lat": 35.94806,
       "link": "https://www.iksan.go.kr",
-      "lon": 126.95750,
+      "lon": 126.9575,
       "name": "익산",
       "population": 298928,
       "type": "시"
     },
     {
       "area": 692.99,
+      "firstLevelDivision": "전라북도",
       "id": 85,
       "lat": 35.56806,
       "link": "https://www.jeongeup.go.kr",
@@ -871,36 +950,40 @@
     },
     {
       "area": 752.57,
+      "firstLevelDivision": "전라북도",
       "id": 86,
       "lat": 35.41833,
       "link": "https://www.namwon.go.kr",
-      "lon": 127.39000,
+      "lon": 127.39,
       "name": "남원",
       "population": 79282,
       "type": "시"
     },
     {
       "area": 545.2,
+      "firstLevelDivision": "전라북도",
       "id": 87,
-      "lat": 35.80000,
+      "lat": 35.8,
       "link": "https://www.gimje.go.kr",
-      "lon": 126.88000,
+      "lon": 126.88,
       "name": "김제",
       "population": 82358,
       "type": "시"
     },
     {
       "area": 821.15,
+      "firstLevelDivision": "전라북도",
       "id": 88,
       "lat": 35.90556,
       "link": "https://www.wanju.go.kr",
-      "lon": 127.16250,
+      "lon": 127.1625,
       "name": "완주",
       "population": 98528,
       "type": "군"
     },
     {
       "area": 787.14,
+      "firstLevelDivision": "전라북도",
       "id": 89,
       "lat": 35.79167,
       "link": "https://www.jinan.go.kr",
@@ -911,6 +994,7 @@
     },
     {
       "area": 631.67,
+      "firstLevelDivision": "전라북도",
       "id": 90,
       "lat": 36.00639,
       "link": "https://www.muju.go.kr",
@@ -921,8 +1005,9 @@
     },
     {
       "area": 534.98,
+      "firstLevelDivision": "전라북도",
       "id": 91,
-      "lat": 35.64750,
+      "lat": 35.6475,
       "link": "https://www.jangsu.go.kr",
       "lon": 127.52139,
       "name": "장수",
@@ -930,7 +1015,8 @@
       "type": "군"
     },
     {
-      "area": 597.0,
+      "area": 597,
+      "firstLevelDivision": "전라북도",
       "id": 92,
       "lat": 35.61778,
       "link": "https://www.imsil.go.kr",
@@ -941,6 +1027,7 @@
     },
     {
       "area": 529.3,
+      "firstLevelDivision": "전라북도",
       "id": 93,
       "lat": 35.37444,
       "link": "https://www.sunchang.go.kr",
@@ -951,8 +1038,9 @@
     },
     {
       "area": 606.8,
+      "firstLevelDivision": "전라북도",
       "id": 94,
-      "lat": 35.43500,
+      "lat": 35.435,
       "link": "https://www.gochang.go.kr",
       "lon": 126.70111,
       "name": "고창",
@@ -961,6 +1049,7 @@
     },
     {
       "area": 493.94,
+      "firstLevelDivision": "전라북도",
       "id": 95,
       "lat": 35.72806,
       "link": "https://www.buan.go.kr",
@@ -971,6 +1060,7 @@
     },
     {
       "area": 50.96,
+      "firstLevelDivision": "전라남도",
       "id": 96,
       "link": "https://www.mokpo.go.kr",
       "name": "목포",
@@ -979,6 +1069,7 @@
     },
     {
       "area": 503.33,
+      "firstLevelDivision": "전라남도",
       "id": 97,
       "link": "https://www.yeosu.go.kr",
       "name": "여수",
@@ -986,7 +1077,8 @@
       "type": "시"
     },
     {
-      "area": 907.0,
+      "area": 907,
+      "firstLevelDivision": "전라남도",
       "id": 98,
       "link": "https://www.suncheon.go.kr",
       "name": "순천",
@@ -995,6 +1087,7 @@
     },
     {
       "area": 608.37,
+      "firstLevelDivision": "전라남도",
       "id": 99,
       "link": "https://www.naju.go.kr",
       "name": "나주",
@@ -1003,6 +1096,7 @@
     },
     {
       "area": 452.01,
+      "firstLevelDivision": "전라남도",
       "id": 100,
       "link": "https://www.gwangyang.go.kr",
       "name": "광양",
@@ -1011,6 +1105,7 @@
     },
     {
       "area": 455.92,
+      "firstLevelDivision": "전라남도",
       "id": 101,
       "link": "https://www.damyang.go.kr",
       "name": "담양",
@@ -1019,6 +1114,7 @@
     },
     {
       "area": 547.17,
+      "firstLevelDivision": "전라남도",
       "id": 102,
       "link": "https://www.gokseong.go.kr",
       "name": "곡성",
@@ -1027,6 +1123,7 @@
     },
     {
       "area": 443.15,
+      "firstLevelDivision": "전라남도",
       "id": 103,
       "link": "https://www.gurye.go.kr",
       "name": "구례",
@@ -1035,6 +1132,7 @@
     },
     {
       "area": 804.32,
+      "firstLevelDivision": "전라남도",
       "id": 104,
       "link": "https://www.goheung.go.kr",
       "name": "고흥",
@@ -1043,6 +1141,7 @@
     },
     {
       "area": 659.21,
+      "firstLevelDivision": "전라남도",
       "id": 105,
       "link": "https://www.boseong.go.kr",
       "name": "보성",
@@ -1051,6 +1150,7 @@
     },
     {
       "area": 786.23,
+      "firstLevelDivision": "전라남도",
       "id": 106,
       "link": "https://www.hwasun.go.kr",
       "name": "화순",
@@ -1059,6 +1159,7 @@
     },
     {
       "area": 616.5,
+      "firstLevelDivision": "전라남도",
       "id": 107,
       "link": "https://www.jangheung.go.kr",
       "name": "장흥",
@@ -1067,6 +1168,7 @@
     },
     {
       "area": 500.99,
+      "firstLevelDivision": "전라남도",
       "id": 108,
       "link": "https://www.gangjin.go.kr",
       "name": "강진",
@@ -1075,6 +1177,7 @@
     },
     {
       "area": 1013.94,
+      "firstLevelDivision": "전라남도",
       "id": 109,
       "link": "https://www.haenam.go.kr",
       "name": "해남",
@@ -1083,6 +1186,7 @@
     },
     {
       "area": 586.5,
+      "firstLevelDivision": "전라남도",
       "id": 110,
       "link": "https://www.yeongam.go.kr",
       "name": "영암",
@@ -1091,6 +1195,7 @@
     },
     {
       "area": 436.52,
+      "firstLevelDivision": "전라남도",
       "id": 111,
       "link": "https://www.muan.go.kr",
       "name": "무안",
@@ -1099,6 +1204,7 @@
     },
     {
       "area": 392.74,
+      "firstLevelDivision": "전라남도",
       "id": 112,
       "link": "https://www.hampyeong.go.kr",
       "name": "함평",
@@ -1107,6 +1213,7 @@
     },
     {
       "area": 473.97,
+      "firstLevelDivision": "전라남도",
       "id": 113,
       "link": "https://www.yeonggwang.go.kr",
       "name": "영광",
@@ -1115,6 +1222,7 @@
     },
     {
       "area": 518.22,
+      "firstLevelDivision": "전라남도",
       "id": 114,
       "link": "https://www.jangseong.go.kr",
       "name": "장성",
@@ -1123,6 +1231,7 @@
     },
     {
       "area": 396.44,
+      "firstLevelDivision": "전라남도",
       "id": 115,
       "link": "https://www.wando.go.kr",
       "name": "완도",
@@ -1131,6 +1240,7 @@
     },
     {
       "area": 440.98,
+      "firstLevelDivision": "전라남도",
       "id": 116,
       "link": "https://www.jindo.go.kr",
       "name": "진도",
@@ -1139,6 +1249,7 @@
     },
     {
       "area": 655.6,
+      "firstLevelDivision": "전라남도",
       "id": 117,
       "link": "https://www.shinan.go.kr",
       "name": "신안",
@@ -1147,6 +1258,7 @@
     },
     {
       "area": 1127.24,
+      "firstLevelDivision": "경상북도",
       "id": 118,
       "link": "https://www.pohang.go.kr",
       "name": "포항",
@@ -1155,6 +1267,7 @@
     },
     {
       "area": 1323.81,
+      "firstLevelDivision": "경상북도",
       "id": 119,
       "link": "https://www.gyeongju.go.kr",
       "name": "경주",
@@ -1163,6 +1276,7 @@
     },
     {
       "area": 1009.46,
+      "firstLevelDivision": "경상북도",
       "id": 120,
       "link": "https://www.gc.go.kr",
       "name": "김천",
@@ -1171,6 +1285,7 @@
     },
     {
       "area": 1590.91,
+      "firstLevelDivision": "경상북도",
       "id": 121,
       "link": "https://www.andong.go.kr",
       "name": "안동",
@@ -1179,6 +1294,7 @@
     },
     {
       "area": 615.33,
+      "firstLevelDivision": "경상북도",
       "id": 122,
       "link": "https://www.gumi.go.kr",
       "name": "구미",
@@ -1187,6 +1303,7 @@
     },
     {
       "area": 669.4,
+      "firstLevelDivision": "경상북도",
       "id": 123,
       "link": "https://www.yeongju.go.kr",
       "name": "영주",
@@ -1195,6 +1312,7 @@
     },
     {
       "area": 919.76,
+      "firstLevelDivision": "경상북도",
       "id": 124,
       "link": "https://www.yc.go.kr",
       "name": "영천",
@@ -1203,6 +1321,7 @@
     },
     {
       "area": 1254.84,
+      "firstLevelDivision": "경상북도",
       "id": 125,
       "link": "https://www.sangju.go.kr",
       "name": "상주",
@@ -1211,6 +1330,7 @@
     },
     {
       "area": 912.8,
+      "firstLevelDivision": "경상북도",
       "id": 126,
       "link": "https://www.gbmg.go.kr",
       "name": "문경",
@@ -1219,6 +1339,7 @@
     },
     {
       "area": 411.58,
+      "firstLevelDivision": "경상북도",
       "id": 127,
       "link": "https://www.gbgs.go.kr",
       "name": "경산",
@@ -1227,6 +1348,7 @@
     },
     {
       "area": 614.08,
+      "firstLevelDivision": "경상북도",
       "id": 128,
       "link": "https://www.gunwi.go.kr",
       "name": "군위",
@@ -1235,6 +1357,7 @@
     },
     {
       "area": 1175.27,
+      "firstLevelDivision": "경상북도",
       "id": 129,
       "link": "https://www.usc.go.kr",
       "name": "의성",
@@ -1243,6 +1366,7 @@
     },
     {
       "area": 845.67,
+      "firstLevelDivision": "경상북도",
       "id": 130,
       "link": "https://www.cs.go.kr",
       "name": "청송",
@@ -1251,6 +1375,7 @@
     },
     {
       "area": 815.14,
+      "firstLevelDivision": "경상북도",
       "id": 131,
       "link": "https://www.yyg.go.kr",
       "name": "영양",
@@ -1259,6 +1384,7 @@
     },
     {
       "area": 741.01,
+      "firstLevelDivision": "경상북도",
       "id": 132,
       "link": "https://www.yd.go.kr",
       "name": "영덕",
@@ -1267,6 +1393,7 @@
     },
     {
       "area": 694.94,
+      "firstLevelDivision": "경상북도",
       "id": 133,
       "link": "https://www.cheongdo.go.kr",
       "name": "청도",
@@ -1275,6 +1402,7 @@
     },
     {
       "area": 383.57,
+      "firstLevelDivision": "경상북도",
       "id": 134,
       "link": "https://www.goryeong.go.kr",
       "name": "고령",
@@ -1283,6 +1411,7 @@
     },
     {
       "area": 616.96,
+      "firstLevelDivision": "경상북도",
       "id": 135,
       "link": "https://sj.go.kr",
       "name": "성주",
@@ -1290,7 +1419,8 @@
       "type": "군"
     },
     {
-      "area": 451.0,
+      "area": 451,
+      "firstLevelDivision": "경상북도",
       "id": 136,
       "link": "https://www.chilgok.go.kr",
       "name": "칠곡",
@@ -1299,6 +1429,7 @@
     },
     {
       "area": 661.5,
+      "firstLevelDivision": "경상북도",
       "id": 137,
       "link": "https://www.ycg.kr",
       "name": "예천",
@@ -1307,6 +1438,7 @@
     },
     {
       "area": 1200.59,
+      "firstLevelDivision": "경상북도",
       "id": 138,
       "link": "https://www.bonghwa.go.kr",
       "name": "봉화",
@@ -1315,6 +1447,7 @@
     },
     {
       "area": 992.16,
+      "firstLevelDivision": "경상북도",
       "id": 139,
       "link": "https://www.uljin.go.kr",
       "name": "울진",
@@ -1323,6 +1456,7 @@
     },
     {
       "area": 73.03,
+      "firstLevelDivision": "경상북도",
       "id": 140,
       "image": "https://www.ulleung.go.kr/upload/board/_oldBoard/p_etc/1565942247(1).jpg",
       "imageAttribution": "https://www.ulleung.go.kr/tour/page.do?cmd=258&bod_uid=11491&srchEnable=1&srchSDate=&srchKwd=&initDay=&srchColumn=&listType=&initYear=&srchVote=-1&initMonth=&pageNo=4&srchBgpuid=-1&srchEDate=&mnu_uid=1395&",
@@ -1335,6 +1469,7 @@
     },
     {
       "area": 749.14,
+      "firstLevelDivision": "경상남도",
       "id": 141,
       "link": "https://www.changwon.go.kr",
       "name": "창원",
@@ -1343,6 +1478,7 @@
     },
     {
       "area": 712.92,
+      "firstLevelDivision": "경상남도",
       "id": 142,
       "link": "https://www.jinju.go.kr",
       "name": "진주",
@@ -1351,6 +1487,7 @@
     },
     {
       "area": 239.86,
+      "firstLevelDivision": "경상남도",
       "id": 143,
       "link": "https://www.tongyeong.go.kr",
       "name": "통영",
@@ -1359,6 +1496,7 @@
     },
     {
       "area": 398.78,
+      "firstLevelDivision": "경상남도",
       "id": 144,
       "link": "https://www.sacheon.go.kr",
       "name": "사천",
@@ -1367,6 +1505,7 @@
     },
     {
       "area": 463.53,
+      "firstLevelDivision": "경상남도",
       "id": 145,
       "link": "https://www.gimhae.go.kr",
       "name": "김해",
@@ -1375,6 +1514,7 @@
     },
     {
       "area": 798.68,
+      "firstLevelDivision": "경상남도",
       "id": 146,
       "link": "https://www.miryang.go.kr",
       "name": "밀양",
@@ -1383,6 +1523,7 @@
     },
     {
       "area": 403.86,
+      "firstLevelDivision": "경상남도",
       "id": 147,
       "link": "https://www.geoje.go.kr",
       "name": "거제",
@@ -1391,8 +1532,9 @@
     },
     {
       "area": 485.61,
+      "firstLevelDivision": "경상남도",
       "id": 148,
-      "lat": 35.33500,
+      "lat": 35.335,
       "link": "https://www.yangsan.go.kr",
       "lon": 129.03778,
       "name": "양산",
@@ -1401,6 +1543,7 @@
     },
     {
       "area": 482.91,
+      "firstLevelDivision": "경상남도",
       "id": 149,
       "link": "https://www.uiryeong.go.kr",
       "name": "의령",
@@ -1409,6 +1552,7 @@
     },
     {
       "area": 416.6,
+      "firstLevelDivision": "경상남도",
       "id": 150,
       "link": "https://www.haman.go.kr",
       "name": "함안",
@@ -1417,6 +1561,7 @@
     },
     {
       "area": 532.67,
+      "firstLevelDivision": "경상남도",
       "id": 151,
       "link": "https://www.cng.go.kr",
       "name": "창녕",
@@ -1424,7 +1569,7 @@
       "type": "군"
     },
     {
-      "area": 518.0,
+      "area": 518,
       "firstLevelDivision": "경상남도",
       "id": 152,
       "link": "https://www.goseong.go.kr",
@@ -1434,6 +1579,7 @@
     },
     {
       "area": 357.76,
+      "firstLevelDivision": "경상남도",
       "id": 153,
       "link": "https://www.namhae.go.kr",
       "name": "남해",
@@ -1442,6 +1588,7 @@
     },
     {
       "area": 674.85,
+      "firstLevelDivision": "경상남도",
       "id": 154,
       "link": "https://www.hadong.go.kr",
       "name": "하동",
@@ -1450,6 +1597,7 @@
     },
     {
       "area": 794.64,
+      "firstLevelDivision": "경상남도",
       "id": 155,
       "link": "https://www.sancheong.go.kr",
       "name": "산청",
@@ -1458,6 +1606,7 @@
     },
     {
       "area": 724.7,
+      "firstLevelDivision": "경상남도",
       "id": 156,
       "link": "https://www.hygn.go.kr",
       "name": "함양",
@@ -1466,6 +1615,7 @@
     },
     {
       "area": 803.97,
+      "firstLevelDivision": "경상남도",
       "id": 157,
       "link": "https://www.geochang.go.kr",
       "name": "거창",
@@ -1474,6 +1624,7 @@
     },
     {
       "area": 983.05,
+      "firstLevelDivision": "경상남도",
       "id": 158,
       "link": "https://www.hc.go.kr",
       "name": "합천",
@@ -1482,6 +1633,7 @@
     },
     {
       "area": 1849.15,
+      "firstLevelDivision": "제주특별자치도",
       "id": 159,
       "link": "https://www.jeju.go.kr",
       "name": "제주",
@@ -1507,6 +1659,7 @@
     },
     {
       "area": 35.87,
+      "firstLevelDivision": "경기도",
       "id": 161,
       "lat": 37.42833,
       "link": "https://www.gccity.go.kr",
