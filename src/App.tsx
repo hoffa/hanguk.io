@@ -76,16 +76,16 @@ function App() {
         <div className="toast toast-bottom toast-end fixed z-[9999] pointer-events-none w-auto max-w-full">
           <div className="alert alert-neutral pointer-events-auto flex items-center gap-2">
             <span>
-              이 페이지의 데이터는 부정확할 수 있습니다.{' '}
+              데이터가 부정확할 수 있습니다.{' '}
               <a
                 href="https://github.com/hoffa/hanguk.io"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link link-primary underline"
               >
-                GitHub에서 수정에 참여해주세요
+                수정에 참여해주세요
               </a>
-              ! 🥺
+              . 🥺
             </span>
             <button
               onClick={() => setShowToast(false)}
