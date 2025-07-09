@@ -138,19 +138,20 @@ function App() {
             </div>
           </div>
 
-          {/* Desktop: Single row layout */}
-          <div className="hidden sm:flex flex-wrap items-center justify-center gap-4 w-full">
-            <div className="mr-auto order-1">
+          {/* Desktop: Single row layout - improved for better responsive alignment */}
+          <div className="hidden sm:flex items-center w-full gap-4">
+            {/* Left: Logo/Title */}
+            <div className="flex-shrink-0">
               <span className="text-xl font-bold">한국 어디 가지? 🤔</span>
             </div>
 
             {/* Center: Filters */}
-            <div className="flex items-center gap-4 order-2">
-              <div className="relative">
+            <div className="flex flex-1 items-center gap-4 justify-center min-w-0">
+              <div className="relative min-w-[140px] max-w-[220px] w-full">
                 <Combobox value={locationInput} onChange={selectDivision}>
                   <div className="relative">
                     <label
-                      className={`input input-bordered w-48 flex items-center gap-2 ${
+                      className={`input input-bordered w-full flex items-center gap-2 ${
                         locationInput && !isValidInput ? 'input-error' : ''
                       }`}
                     >
@@ -189,13 +190,14 @@ function App() {
                   </div>
                 </Combobox>
               </div>
-              <button onClick={pickRandom} className="btn btn-primary">
+              <button onClick={pickRandom} className="btn btn-primary flex-shrink-0">
                 <ArrowPathIcon className="w-4 h-4" />
                 랜덤 선택
               </button>
             </div>
 
-            <div className="flex gap-2 ml-auto order-3">
+            {/* Right: GitHub */}
+            <div className="flex-shrink-0 flex items-center gap-2">
               <a
                 href="https://github.com/hoffa/hanguk.io"
                 target="_blank"
