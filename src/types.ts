@@ -59,7 +59,7 @@ export interface Division {
   lon?: number
 
   type: DivisionType
-  firstLevelDivision?: FirstLevelDivision
+  firstLevelDivision: FirstLevelDivision
 }
 
 export interface Divisions {

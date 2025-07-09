@@ -49,7 +49,7 @@
           "$ref": "#/definitions/DivisionType"
         }
       },
-      "required": ["area", "id", "link", "name", "population", "type"],
+      "required": ["area", "firstLevelDivision", "id", "link", "name", "population", "type"],
       "type": "object"
     },
     "DivisionType": {
