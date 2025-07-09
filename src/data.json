@@ -2,1518 +2,1518 @@
   "$schema": "./data.schema.json",
   "divisions": [
     {
-      "name": "서울",
-      "firstLevelDivision": "서울특별시",
-      "population": 9407540,
       "area": 605.2,
-      "lat": 37.53230,
-      "lon": 126.99000,
-      "type": "특별시",
-      "image": "https://images.pexels.com/photos/11687720/pexels-photo-11687720.jpeg",
-      "imageAttribution": "Ethan Brooke님의 사진: https://www.pexels.com/ko-kr/photo/11687720/",
-      "link": "https://www.seoul.go.kr",
+      "firstLevelDivision": "서울특별시",
       "highlights": [
         "가장 다양한 문화, 음식, 쇼핑이 모여 있다"
       ],
-      "id": 1
+      "id": 1,
+      "image": "https://images.pexels.com/photos/11687720/pexels-photo-11687720.jpeg",
+      "imageAttribution": "Ethan Brooke님의 사진: https://www.pexels.com/ko-kr/photo/11687720/",
+      "lat": 37.53230,
+      "link": "https://www.seoul.go.kr",
+      "lon": 126.99000,
+      "name": "서울",
+      "population": 9407540,
+      "type": "특별시"
     },
     {
-      "name": "부산",
-      "population": 3320276,
       "area": 769.89,
-      "lat": 35.18000,
-      "lon": 129.07500,
-      "type": "광역시",
+      "id": 2,
       "image": "/busan.jpg",
       "imageAttribution": "Photo by Анна Шаталова: https://www.pexels.com/photo/aerial-panoramic-view-of-busan-south-korea-8573202/",
+      "lat": 35.18000,
       "link": "http://busan.go.kr",
-      "id": 2
+      "lon": 129.07500,
+      "name": "부산",
+      "population": 3320276,
+      "type": "광역시"
     },
     {
-      "name": "대구",
-      "population": 2365619,
       "area": 883.54,
-      "lat": 35.87167,
-      "lon": 128.60167,
-      "type": "광역시",
+      "id": 3,
       "image": "https://images.pexels.com/photos/29291638/pexels-photo-29291638.jpeg",
       "imageAttribution": "Khan Ishaan님의 사진: https://www.pexels.com/ko-kr/photo/29291638/",
+      "lat": 35.87167,
       "link": "https://www.daegu.go.kr",
-      "id": 3
+      "lon": 128.60167,
+      "name": "대구",
+      "population": 2365619,
+      "type": "광역시"
     },
     {
-      "name": "인천",
-      "population": 2964820,
       "area": 1062.6,
-      "lat": 37.48300,
-      "lon": 126.63300,
-      "type": "광역시",
+      "id": 4,
       "image": "https://www.ito.or.kr/images/bbs/galleryko/2021/middle/daeijakdo_haeansanchaekro_(1).jpg",
       "imageAttribution": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=421&bcd=galleryko&pgno=9",
+      "lat": 37.48300,
       "link": "https://www.incheon.go.kr",
-      "id": 4
+      "lon": 126.63300,
+      "name": "인천",
+      "population": 2964820,
+      "type": "광역시"
     },
     {
-      "name": "광주",
-      "firstLevelDivision": "광주광역시",
-      "population": 1432049,
       "area": 501.24,
+      "firstLevelDivision": "광주광역시",
+      "id": 5,
       "lat": 35.16528,
-      "lon": 126.84861,
-      "type": "광역시",
       "link": "https://www.gwangju.go.kr",
-      "id": 5
+      "lon": 126.84861,
+      "name": "광주",
+      "population": 1432049,
+      "type": "광역시"
     },
     {
+      "area": 539.35,
+      "id": 6,
+      "lat": 36.35000,
+      "link": "https://www.daejeon.go.kr",
+      "lon": 127.38500,
       "name": "대전",
       "population": 1446749,
-      "area": 539.35,
-      "lat": 36.35000,
-      "lon": 127.38500,
-      "type": "광역시",
-      "link": "https://www.daejeon.go.kr",
-      "id": 6
+      "type": "광역시"
     },
     {
+      "area": 1060.79,
+      "id": 7,
+      "lat": 35.55000,
+      "link": "https://www.ulsan.go.kr",
+      "lon": 129.31700,
       "name": "울산",
       "population": 1111371,
-      "area": 1060.79,
-      "lat": 35.55000,
-      "lon": 129.31700,
-      "type": "광역시",
-      "link": "https://www.ulsan.go.kr",
-      "id": 7
+      "type": "광역시"
     },
     {
+      "area": 464.87,
+      "id": 8,
+      "lat": 36.48700,
+      "link": "https://www.sejong.go.kr",
+      "lon": 127.28223,
       "name": "세종",
       "population": 342328,
-      "area": 464.87,
-      "lat": 36.48700,
-      "lon": 127.28223,
-      "type": "특별자치시",
-      "link": "https://www.sejong.go.kr",
-      "id": 8
+      "type": "특별자치시"
     },
     {
+      "area": 121.09,
+      "firstLevelDivision": "경기도",
+      "id": 9,
+      "lat": 37.26700,
+      "link": "https://www.suwon.go.kr",
+      "lon": 127.01700,
       "name": "수원",
       "population": 1190964,
-      "area": 121.09,
-      "lat": 37.26700,
-      "lon": 127.01700,
-      "type": "시",
-      "link": "https://www.suwon.go.kr",
-      "firstLevelDivision": "경기도",
-      "id": 9
+      "type": "시"
     },
     {
+      "area": 591.22,
+      "id": 10,
+      "lat": 37.24000,
+      "link": "https://www.yongin.go.kr",
+      "lon": 127.17700,
       "name": "용인",
       "population": 1074971,
-      "area": 591.22,
-      "lat": 37.24000,
-      "lon": 127.17700,
-      "type": "시",
-      "link": "https://www.yongin.go.kr",
-      "id": 10
+      "type": "시"
     },
     {
-      "name": "고양",
-      "firstLevelDivision": "경기도",
-      "population": 1076599,
       "area": 268.08,
-      "lat": 37.65639,
-      "lon": 126.83500,
-      "type": "시",
-      "link": "https://www.goyang.go.kr",
+      "firstLevelDivision": "경기도",
       "highlights": [
         "😻"
       ],
-      "id": 11
+      "id": 11,
+      "lat": 37.65639,
+      "link": "https://www.goyang.go.kr",
+      "lon": 126.83500,
+      "name": "고양",
+      "population": 1076599,
+      "type": "시"
     },
     {
+      "area": 141.63,
+      "id": 12,
+      "lat": 37.41878,
+      "link": "https://www.seongnam.go.kr",
+      "lon": 127.12621,
       "name": "성남",
       "population": 924087,
-      "area": 141.63,
-      "lat": 37.41878,
-      "lon": 127.12621,
-      "type": "시",
-      "link": "https://www.seongnam.go.kr",
-      "id": 12
+      "type": "시"
     },
     {
+      "area": 699.41,
+      "id": 13,
+      "lat": 37.19917,
+      "link": "https://www.hscity.go.kr",
+      "lon": 126.83194,
       "name": "화성",
       "population": 1040000,
-      "area": 699.41,
-      "lat": 37.19917,
-      "lon": 126.83194,
-      "type": "시",
-      "link": "https://www.hscity.go.kr",
-      "id": 13
+      "type": "시"
     },
     {
+      "area": 53.45,
+      "id": 14,
+      "lat": 37.50350,
+      "link": "https://www.bucheon.go.kr",
+      "lon": 126.76600,
       "name": "부천",
       "population": 791263,
-      "area": 53.45,
-      "lat": 37.50350,
-      "lon": 126.76600,
-      "type": "시",
-      "link": "https://www.bucheon.go.kr",
-      "id": 14
+      "type": "시"
     },
     {
+      "area": 458.12,
+      "id": 15,
+      "lat": 37.63667,
+      "link": "https://www.nyj.go.kr",
+      "lon": 127.21667,
       "name": "남양주",
       "population": 737366,
-      "area": 458.12,
-      "lat": 37.63667,
-      "lon": 127.21667,
-      "type": "시",
-      "link": "https://www.nyj.go.kr",
-      "id": 15
+      "type": "시"
     },
     {
+      "area": 156.53,
+      "id": 16,
+      "lat": 37.31667,
+      "link": "https://www.ansan.go.kr",
+      "lon": 126.83333,
       "name": "안산",
       "population": 643044,
-      "area": 156.53,
-      "lat": 37.31667,
-      "lon": 126.83333,
-      "type": "시",
-      "link": "https://www.ansan.go.kr",
-      "id": 16
+      "type": "시"
     },
     {
+      "area": 58.5,
+      "id": 17,
+      "lat": 37.39430,
+      "link": "https://www.anyang.go.kr",
+      "lon": 126.92600,
       "name": "안양",
       "population": 565392,
-      "area": 58.5,
-      "lat": 37.39430,
-      "lon": 126.92600,
-      "type": "시",
-      "link": "https://www.anyang.go.kr",
-      "id": 17
+      "type": "시"
     },
     {
+      "area": 458.25,
+      "id": 18,
+      "lat": 36.99250,
+      "link": "https://www.pyeongtaek.go.kr",
+      "lon": 127.11222,
       "name": "평택",
       "population": 514876,
-      "area": 458.25,
-      "lat": 36.99250,
-      "lon": 127.11222,
-      "type": "시",
-      "link": "https://www.pyeongtaek.go.kr",
-      "id": 18
+      "type": "시"
     },
     {
+      "area": 139.93,
+      "id": 19,
+      "lat": 37.38056,
+      "link": "https://www.siheung.go.kr",
+      "lon": 126.80278,
       "name": "시흥",
       "population": 475396,
-      "area": 139.93,
-      "lat": 37.38056,
-      "lon": 126.80278,
-      "type": "시",
-      "link": "https://www.siheung.go.kr",
-      "id": 19
+      "type": "시"
     },
     {
+      "area": 672.78,
+      "id": 20,
+      "lat": 37.76111,
+      "link": "https://www.paju.go.kr",
+      "lon": 126.77944,
       "name": "파주",
       "population": 516585,
-      "area": 672.78,
-      "lat": 37.76111,
-      "lon": 126.77944,
-      "type": "시",
-      "link": "https://www.paju.go.kr",
-      "id": 20
+      "type": "시"
     },
     {
+      "area": 81.55,
+      "id": 21,
+      "lat": 37.73889,
+      "link": "https://www.ui4u.go.kr",
+      "lon": 127.04528,
       "name": "의정부",
       "population": 451876,
-      "area": 81.55,
-      "lat": 37.73889,
-      "lon": 127.04528,
-      "type": "시",
-      "link": "https://www.ui4u.go.kr",
-      "id": 21
+      "type": "시"
     },
     {
+      "area": 276.65,
+      "id": 22,
+      "lat": 37.61500,
+      "link": "https://www.gimpo.go.kr",
+      "lon": 126.71500,
       "name": "김포",
       "population": 437789,
-      "area": 276.65,
-      "lat": 37.61500,
-      "lon": 126.71500,
-      "type": "시",
-      "link": "https://www.gimpo.go.kr",
-      "id": 22
+      "type": "시"
     },
     {
+      "area": 38.5,
+      "id": 23,
+      "lat": 37.47917,
+      "link": "https://www.gm.go.kr",
+      "lon": 126.85472,
       "name": "광명",
       "population": 328253,
-      "area": 38.5,
-      "lat": 37.47917,
-      "lon": 126.85472,
-      "type": "시",
-      "link": "https://www.gm.go.kr",
-      "id": 23
+      "type": "시"
     },
     {
-      "name": "광주",
-      "firstLevelDivision": "경기도",
-      "population": 373274,
       "area": 431.0,
-      "type": "시",
+      "firstLevelDivision": "경기도",
+      "id": 24,
       "link": "https://www.gjcity.go.kr",
-      "id": 24
+      "name": "광주",
+      "population": 373274,
+      "type": "시"
     },
     {
+      "area": 36.42,
+      "id": 25,
+      "lat": 37.34261,
+      "link": "https://www.gunpo.go.kr",
+      "lon": 126.92149,
       "name": "군포",
       "population": 275989,
-      "area": 36.42,
-      "lat": 37.34261,
-      "lon": 126.92149,
-      "type": "시",
-      "link": "https://www.gunpo.go.kr",
-      "id": 25
+      "type": "시"
     },
     {
+      "area": 93.07,
+      "id": 26,
+      "lat": 37.54000,
+      "link": "https://www.hanam.go.kr",
+      "lon": 127.20556,
       "name": "하남",
       "population": 273587,
-      "area": 93.07,
-      "lat": 37.54000,
-      "lon": 127.20556,
-      "type": "시",
-      "link": "https://www.hanam.go.kr",
-      "id": 26
+      "type": "시"
     },
     {
+      "area": 461.31,
+      "id": 27,
+      "lat": 37.27917,
+      "link": "https://www.icheon.go.kr",
+      "lon": 127.44250,
       "name": "이천",
       "population": 218798,
-      "area": 461.31,
-      "lat": 37.27917,
-      "lon": 127.44250,
-      "type": "시",
-      "link": "https://www.icheon.go.kr",
-      "id": 27
+      "type": "시"
     },
     {
+      "area": 553.19,
+      "id": 28,
+      "lat": 37.01083,
+      "link": "https://www.anseong.go.kr",
+      "lon": 127.27028,
       "name": "안성",
       "population": 198832,
-      "area": 553.19,
-      "lat": 37.01083,
-      "lon": 127.27028,
-      "type": "시",
-      "link": "https://www.anseong.go.kr",
-      "id": 28
+      "type": "시"
     },
     {
+      "area": 33.33,
+      "id": 29,
+      "lat": 37.60340,
+      "link": "https://www.guri.go.kr",
+      "lon": 127.14374,
       "name": "구리",
       "population": 189741,
-      "area": 33.33,
-      "lat": 37.60340,
-      "lon": 127.14374,
-      "type": "시",
-      "link": "https://www.guri.go.kr",
-      "id": 29
+      "type": "시"
     },
     {
+      "area": 42.71,
+      "id": 30,
+      "lat": 37.14942,
+      "link": "https://www.osan.go.kr",
+      "lon": 127.07722,
       "name": "오산",
       "population": 219877,
-      "area": 42.71,
-      "lat": 37.14942,
-      "lon": 127.07722,
-      "type": "시",
-      "link": "https://www.osan.go.kr",
-      "id": 30
+      "type": "시"
     },
     {
+      "area": 54.03,
+      "id": 31,
+      "lat": 37.34417,
+      "link": "https://www.uiwang.go.kr",
+      "lon": 126.96833,
       "name": "의왕",
       "population": 151852,
-      "area": 54.03,
-      "lat": 37.34417,
-      "lon": 126.96833,
-      "type": "시",
-      "link": "https://www.uiwang.go.kr",
-      "id": 31
+      "type": "시"
     },
     {
+      "area": 826.95,
+      "id": 32,
+      "lat": 38.00000,
+      "link": "https://www.pocheon.go.kr",
+      "lon": 127.20000,
       "name": "포천",
       "population": 161239,
-      "area": 826.95,
-      "lat": 38.00000,
-      "lon": 127.20000,
-      "type": "시",
-      "link": "https://www.pocheon.go.kr",
-      "id": 32
+      "type": "시"
     },
     {
+      "area": 310.1,
+      "id": 33,
+      "lat": 37.78528,
+      "link": "https://www.yangju.go.kr",
+      "lon": 127.04500,
       "name": "양주",
       "population": 212631,
-      "area": 310.1,
-      "lat": 37.78528,
-      "lon": 127.04500,
-      "type": "시",
-      "link": "https://www.yangju.go.kr",
-      "id": 33
+      "type": "시"
     },
     {
+      "area": 608.29,
+      "id": 34,
+      "lat": 37.29806,
+      "link": "https://www.yeoju.go.kr",
+      "lon": 127.63778,
       "name": "여주",
       "population": 136929,
-      "area": 608.29,
-      "lat": 37.29806,
-      "lon": 127.63778,
-      "type": "시",
-      "link": "https://www.yeoju.go.kr",
-      "id": 34
+      "type": "시"
     },
     {
+      "area": 677.58,
+      "id": 35,
+      "lat": 38.09611,
+      "link": "https://www.yeoncheon.go.kr",
+      "lon": 127.07583,
       "name": "연천",
       "population": 43990,
-      "area": 677.58,
-      "lat": 38.09611,
-      "lon": 127.07583,
-      "type": "군",
-      "link": "https://www.yeoncheon.go.kr",
-      "id": 35
+      "type": "군"
     },
     {
+      "area": 843.58,
+      "id": 36,
+      "lat": 37.83167,
+      "link": "https://www.gp.go.kr",
+      "lon": 127.50917,
       "name": "가평",
       "population": 59548,
-      "area": 843.58,
-      "lat": 37.83167,
-      "lon": 127.50917,
-      "type": "군",
-      "link": "https://www.gp.go.kr",
-      "id": 36
+      "type": "군"
     },
     {
+      "area": 877.78,
+      "id": 37,
+      "lat": 37.49167,
+      "link": "https://www.yp21.go.kr",
+      "lon": 127.48750,
       "name": "양평",
       "population": 109359,
-      "area": 877.78,
-      "lat": 37.49167,
-      "lon": 127.48750,
-      "type": "군",
-      "link": "https://www.yp21.go.kr",
-      "id": 37
+      "type": "군"
     },
     {
+      "area": 1116.4,
+      "id": 38,
+      "lat": 37.87472,
+      "link": "https://www.chuncheon.go.kr",
+      "lon": 127.73417,
       "name": "춘천",
       "population": 283742,
-      "area": 1116.4,
-      "lat": 37.87472,
-      "lon": 127.73417,
-      "type": "시",
-      "link": "https://www.chuncheon.go.kr",
-      "id": 38
+      "type": "시"
     },
     {
+      "area": 868.23,
+      "id": 39,
+      "lat": 37.34222,
+      "link": "https://www.wonju.go.kr",
+      "lon": 127.92083,
       "name": "원주",
       "population": 350252,
-      "area": 868.23,
-      "lat": 37.34222,
-      "lon": 127.92083,
-      "type": "시",
-      "link": "https://www.wonju.go.kr",
-      "id": 39
+      "type": "시"
     },
     {
+      "area": 1040.68,
+      "id": 40,
+      "lat": 37.75194,
+      "link": "https://www.gn.go.kr",
+      "lon": 128.87611,
       "name": "강릉",
       "population": 215914,
-      "area": 1040.68,
-      "lat": 37.75194,
-      "lon": 128.87611,
-      "type": "시",
-      "link": "https://www.gn.go.kr",
-      "id": 40
+      "type": "시"
     },
     {
+      "area": 180.21,
+      "id": 41,
+      "lat": 37.52417,
+      "link": "https://www.dh.go.kr",
+      "lon": 129.11417,
       "name": "동해",
       "population": 89151,
-      "area": 180.21,
-      "lat": 37.52417,
-      "lon": 129.11417,
-      "type": "시",
-      "link": "https://www.dh.go.kr",
-      "id": 41
+      "type": "시"
     },
     {
-      "name": "태백",
-      "population": 44733,
       "area": 303.44,
-      "lat": 37.16417,
-      "lon": 128.98500,
-      "type": "시",
+      "id": 42,
       "image": "/taebaek.jpg",
       "imageAttribution": "https://tour.taebaek.go.kr/tour/happy/together_photo?articleSeq=41533",
+      "lat": 37.16417,
       "link": "https://www.taebaek.go.kr",
-      "id": 42
+      "lon": 128.98500,
+      "name": "태백",
+      "population": 44733,
+      "type": "시"
     },
     {
+      "area": 105.76,
+      "id": 43,
+      "lat": 38.20694,
+      "link": "https://www.sokcho.go.kr",
+      "lon": 128.59111,
       "name": "속초",
       "population": 78618,
-      "area": 105.76,
-      "lat": 38.20694,
-      "lon": 128.59111,
-      "type": "시",
-      "link": "https://www.sokcho.go.kr",
-      "id": 43
+      "type": "시"
     },
     {
+      "area": 1187.83,
+      "id": 44,
+      "lat": 37.44361,
+      "link": "https://www.samcheok.go.kr",
+      "lon": 129.16500,
       "name": "삼척",
       "population": 67860,
-      "area": 1187.83,
-      "lat": 37.44361,
-      "lon": 129.16500,
-      "type": "시",
-      "link": "https://www.samcheok.go.kr",
-      "id": 44
+      "type": "시"
     },
     {
+      "area": 1820.58,
+      "id": 45,
+      "lat": 37.69778,
+      "link": "https://www.hongcheon.go.kr",
+      "lon": 127.88361,
       "name": "홍천",
       "population": 104509,
-      "area": 1820.58,
-      "lat": 37.69778,
-      "lon": 127.88361,
-      "type": "군",
-      "link": "https://www.hongcheon.go.kr",
-      "id": 45
+      "type": "군"
     },
     {
+      "area": 997.94,
+      "id": 46,
+      "lat": 37.49111,
+      "link": "https://www.hsg.go.kr",
+      "lon": 127.98472,
       "name": "횡성",
       "population": 67168,
-      "area": 997.94,
-      "lat": 37.49111,
-      "lon": 127.98472,
-      "type": "군",
-      "link": "https://www.hsg.go.kr",
-      "id": 46
+      "type": "군"
     },
     {
+      "area": 1120.34,
+      "id": 47,
+      "lat": 37.18361,
+      "link": "https://www.yw.go.kr",
+      "lon": 128.46167,
       "name": "영월",
       "population": 36934,
-      "area": 1120.34,
-      "lat": 37.18361,
-      "lon": 128.46167,
-      "type": "군",
-      "link": "https://www.yw.go.kr",
-      "id": 47
+      "type": "군"
     },
     {
+      "area": 1462.35,
+      "id": 48,
+      "link": "https://www.pyeongchang.go.kr",
       "name": "평창",
       "population": 40411,
-      "area": 1462.35,
-      "type": "군",
-      "link": "https://www.pyeongchang.go.kr",
-      "id": 48
+      "type": "군"
     },
     {
+      "area": 1219.65,
+      "id": 49,
+      "lat": 37.38000,
+      "link": "https://www.jeongseon.go.kr",
+      "lon": 128.66000,
       "name": "정선",
       "population": 36002,
-      "area": 1219.65,
-      "lat": 37.38000,
-      "lon": 128.66000,
-      "type": "군",
-      "link": "https://www.jeongseon.go.kr",
-      "id": 49
+      "type": "군"
     },
     {
+      "area": 889.69,
+      "id": 50,
+      "lat": 38.14611,
+      "link": "https://www.cwg.go.kr",
+      "lon": 127.31361,
       "name": "철원",
       "population": 44770,
-      "area": 889.69,
-      "lat": 38.14611,
-      "lon": 127.31361,
-      "type": "군",
-      "link": "https://www.cwg.go.kr",
-      "id": 50
+      "type": "군"
     },
     {
+      "area": 909.06,
+      "id": 51,
+      "lat": 38.10639,
+      "link": "https://www.hwacheon.go.kr",
+      "lon": 127.70639,
       "name": "화천",
       "population": 25556,
-      "area": 909.06,
-      "lat": 38.10639,
-      "lon": 127.70639,
-      "type": "군",
-      "link": "https://www.hwacheon.go.kr",
-      "id": 51
+      "type": "군"
     },
     {
+      "area": 703.74,
+      "id": 52,
+      "lat": 38.10833,
+      "link": "https://www.yanggu.go.kr",
+      "lon": 127.98944,
       "name": "양구",
       "population": 22355,
-      "area": 703.74,
-      "lat": 38.10833,
-      "lon": 127.98944,
-      "type": "군",
-      "link": "https://www.yanggu.go.kr",
-      "id": 52
+      "type": "군"
     },
     {
+      "area": 1646.18,
+      "id": 53,
+      "lat": 38.06972,
+      "link": "https://www.inje.go.kr",
+      "lon": 128.17000,
       "name": "인제",
       "population": 30524,
-      "area": 1646.18,
-      "lat": 38.06972,
-      "lon": 128.17000,
-      "type": "군",
-      "link": "https://www.inje.go.kr",
-      "id": 53
+      "type": "군"
     },
     {
-      "name": "고성",
-      "firstLevelDivision": "강원도",
-      "population": 28621,
       "area": 664.28,
+      "firstLevelDivision": "강원도",
+      "id": 54,
       "lat": 38.37881,
-      "lon": 128.46779,
-      "type": "군",
       "link": "https://www.gwgs.go.kr",
-      "id": 54
+      "lon": 128.46779,
+      "name": "고성",
+      "population": 28621,
+      "type": "군"
     },
     {
+      "area": 629.56,
+      "id": 55,
+      "lat": 38.07528,
+      "link": "https://www.yangyang.go.kr",
+      "lon": 128.61972,
       "name": "양양",
       "population": 25556,
-      "area": 629.56,
-      "lat": 38.07528,
-      "lon": 128.61972,
-      "type": "군",
-      "link": "https://www.yangyang.go.kr",
-      "id": 55
+      "type": "군"
     },
     {
+      "area": 941.01,
+      "id": 56,
+      "lat": 36.64250,
+      "link": "https://www.cheongju.go.kr",
+      "lon": 127.48972,
       "name": "청주",
       "population": 849388,
-      "area": 941.01,
-      "lat": 36.64250,
-      "lon": 127.48972,
-      "type": "시",
-      "link": "https://www.cheongju.go.kr",
-      "id": 56
+      "type": "시"
     },
     {
+      "area": 983.62,
+      "id": 57,
+      "lat": 36.99194,
+      "link": "https://www.chungju.go.kr",
+      "lon": 127.92583,
       "name": "충주",
       "population": 212274,
-      "area": 983.62,
-      "lat": 36.99194,
-      "lon": 127.92583,
-      "type": "시",
-      "link": "https://www.chungju.go.kr",
-      "id": 57
+      "type": "시"
     },
     {
+      "area": 882.77,
+      "id": 58,
+      "lat": 37.13278,
+      "link": "https://www.jecheon.go.kr",
+      "lon": 128.19028,
       "name": "제천",
       "population": 136929,
-      "area": 882.77,
-      "lat": 37.13278,
-      "lon": 128.19028,
-      "type": "시",
-      "link": "https://www.jecheon.go.kr",
-      "id": 58
+      "type": "시"
     },
     {
+      "area": 584.25,
+      "id": 59,
+      "lat": 36.48972,
+      "link": "https://www.boeun.go.kr",
+      "lon": 127.72917,
       "name": "보은",
       "population": 32253,
-      "area": 584.25,
-      "lat": 36.48972,
-      "lon": 127.72917,
-      "type": "군",
-      "link": "https://www.boeun.go.kr",
-      "id": 59
+      "type": "군"
     },
     {
+      "area": 536.14,
+      "id": 60,
+      "lat": 36.30194,
+      "link": "https://www.oc.go.kr",
+      "lon": 127.57111,
       "name": "옥천",
       "population": 49898,
-      "area": 536.14,
-      "lat": 36.30194,
-      "lon": 127.57111,
-      "type": "군",
-      "link": "https://www.oc.go.kr",
-      "id": 60
+      "type": "군"
     },
     {
+      "area": 849.81,
+      "id": 61,
+      "lat": 36.17500,
+      "link": "https://www.yd21.go.kr",
+      "lon": 127.77667,
       "name": "영동",
       "population": 49034,
-      "area": 849.81,
-      "lat": 36.17500,
-      "lon": 127.77667,
-      "type": "군",
-      "link": "https://www.yd21.go.kr",
-      "id": 61
+      "type": "군"
     },
     {
+      "area": 80.44,
+      "id": 62,
+      "lat": 36.78556,
+      "link": "https://www.jp.go.kr",
+      "lon": 127.58194,
       "name": "증평",
       "population": 37625,
-      "area": 80.44,
-      "lat": 36.78556,
-      "lon": 127.58194,
-      "type": "군",
-      "link": "https://www.jp.go.kr",
-      "id": 62
+      "type": "군"
     },
     {
+      "area": 407.17,
+      "id": 63,
+      "lat": 36.85556,
+      "link": "https://www.jincheon.go.kr",
+      "lon": 127.43417,
       "name": "진천",
       "population": 79186,
-      "area": 407.17,
-      "lat": 36.85556,
-      "lon": 127.43417,
-      "type": "군",
-      "link": "https://www.jincheon.go.kr",
-      "id": 63
+      "type": "군"
     },
     {
+      "area": 773.15,
+      "id": 64,
+      "lat": 36.81667,
+      "link": "https://www.goesan.go.kr",
+      "lon": 127.78861,
       "name": "괴산",
       "population": 38579,
-      "area": 773.15,
-      "lat": 36.81667,
-      "lon": 127.78861,
-      "type": "군",
-      "link": "https://www.goesan.go.kr",
-      "id": 64
+      "type": "군"
     },
     {
+      "area": 521.18,
+      "id": 65,
+      "lat": 36.92806,
+      "link": "https://www.eumseong.go.kr",
+      "lon": 127.66944,
       "name": "음성",
       "population": 79586,
-      "area": 521.18,
-      "lat": 36.92806,
-      "lon": 127.66944,
-      "type": "군",
-      "link": "https://www.eumseong.go.kr",
-      "id": 65
+      "type": "군"
     },
     {
+      "area": 780.79,
+      "id": 66,
+      "lat": 36.98500,
+      "link": "https://www.danyang.go.kr",
+      "lon": 128.36528,
       "name": "단양",
       "population": 28411,
-      "area": 780.79,
-      "lat": 36.98500,
-      "lon": 128.36528,
-      "type": "군",
-      "link": "https://www.danyang.go.kr",
-      "id": 66
+      "type": "군"
     },
     {
+      "area": 636.15,
+      "id": 67,
+      "lat": 36.81500,
+      "link": "https://www.cheonan.go.kr",
+      "lon": 127.11389,
       "name": "천안",
       "population": 657821,
-      "area": 636.15,
-      "lat": 36.81500,
-      "lon": 127.11389,
-      "type": "시",
-      "link": "https://www.cheonan.go.kr",
-      "id": 67
+      "type": "시"
     },
     {
+      "area": 864.15,
+      "id": 68,
+      "lat": 36.44667,
+      "link": "https://www.gongju.go.kr",
+      "lon": 127.11972,
       "name": "공주",
       "population": 111017,
-      "area": 864.15,
-      "lat": 36.44667,
-      "lon": 127.11972,
-      "type": "시",
-      "link": "https://www.gongju.go.kr",
-      "id": 68
+      "type": "시"
     },
     {
+      "area": 569.14,
+      "id": 69,
+      "lat": 36.33306,
+      "link": "https://www.boryeong.go.kr",
+      "lon": 126.61250,
       "name": "보령",
       "population": 100922,
-      "area": 569.14,
-      "lat": 36.33306,
-      "lon": 126.61250,
-      "type": "시",
-      "link": "https://www.boryeong.go.kr",
-      "id": 69
+      "type": "시"
     },
     {
+      "area": 542.25,
+      "id": 70,
+      "lat": 36.78361,
+      "link": "https://www.asan.go.kr",
+      "lon": 126.97167,
       "name": "아산",
       "population": 314238,
-      "area": 542.25,
-      "lat": 36.78361,
-      "lon": 126.97167,
-      "type": "시",
-      "link": "https://www.asan.go.kr",
-      "id": 70
+      "type": "시"
     },
     {
+      "area": 739.35,
+      "id": 71,
+      "lat": 36.78444,
+      "link": "https://www.seosan.go.kr",
+      "lon": 126.45056,
       "name": "서산",
       "population": 171364,
-      "area": 739.35,
-      "lat": 36.78444,
-      "lon": 126.45056,
-      "type": "시",
-      "link": "https://www.seosan.go.kr",
-      "id": 71
+      "type": "시"
     },
     {
+      "area": 554.77,
+      "id": 72,
+      "lat": 36.20389,
+      "link": "https://www.nonsan.go.kr",
+      "lon": 127.08472,
       "name": "논산",
       "population": 123774,
-      "area": 554.77,
-      "lat": 36.20389,
-      "lon": 127.08472,
-      "type": "시",
-      "link": "https://www.nonsan.go.kr",
-      "id": 72
+      "type": "시"
     },
     {
+      "area": 60.68,
+      "id": 73,
+      "lat": 36.27417,
+      "link": "https://www.gyeryong.go.kr",
+      "lon": 127.24861,
       "name": "계룡",
       "population": 41858,
-      "area": 60.68,
-      "lat": 36.27417,
-      "lon": 127.24861,
-      "type": "시",
-      "link": "https://www.gyeryong.go.kr",
-      "id": 73
+      "type": "시"
     },
     {
+      "area": 704.35,
+      "id": 74,
+      "lat": 36.89167,
+      "link": "https://www.dangjin.go.kr",
+      "lon": 126.62694,
       "name": "당진",
       "population": 168508,
-      "area": 704.35,
-      "lat": 36.89167,
-      "lon": 126.62694,
-      "type": "시",
-      "link": "https://www.dangjin.go.kr",
-      "id": 74
+      "type": "시"
     },
     {
+      "area": 575.17,
+      "id": 75,
+      "lat": 36.10833,
+      "link": "https://www.geumsan.go.kr",
+      "lon": 127.48889,
       "name": "금산",
       "population": 55672,
-      "area": 575.17,
-      "lat": 36.10833,
-      "lon": 127.48889,
-      "type": "군",
-      "link": "https://www.geumsan.go.kr",
-      "id": 75
+      "type": "군"
     },
     {
+      "area": 624.62,
+      "id": 76,
+      "lat": 36.27417,
+      "link": "https://www.buyeo.go.kr",
+      "lon": 126.90944,
       "name": "부여",
       "population": 67028,
-      "area": 624.62,
-      "lat": 36.27417,
-      "lon": 126.90944,
-      "type": "군",
-      "link": "https://www.buyeo.go.kr",
-      "id": 76
+      "type": "군"
     },
     {
+      "area": 358.9,
+      "id": 77,
+      "lat": 36.08139,
+      "link": "https://www.seocheon.go.kr",
+      "lon": 126.69583,
       "name": "서천",
       "population": 53321,
-      "area": 358.9,
-      "lat": 36.08139,
-      "lon": 126.69583,
-      "type": "군",
-      "link": "https://www.seocheon.go.kr",
-      "id": 77
+      "type": "군"
     },
     {
+      "area": 479.22,
+      "id": 78,
+      "lat": 36.46028,
+      "link": "https://www.cheongyang.go.kr",
+      "lon": 126.80000,
       "name": "청양",
       "population": 31299,
-      "area": 479.22,
-      "lat": 36.46028,
-      "lon": 126.80000,
-      "type": "군",
-      "link": "https://www.cheongyang.go.kr",
-      "id": 78
+      "type": "군"
     },
     {
+      "area": 443.72,
+      "id": 79,
+      "lat": 36.60000,
+      "link": "https://www.hongseong.go.kr",
+      "lon": 126.66000,
       "name": "홍성",
       "population": 103048,
-      "area": 443.72,
-      "lat": 36.60000,
-      "lon": 126.66000,
-      "type": "군",
-      "link": "https://www.hongseong.go.kr",
-      "id": 79
+      "type": "군"
     },
     {
+      "area": 542.77,
+      "id": 80,
+      "lat": 36.68278,
+      "link": "https://www.yesan.go.kr",
+      "lon": 126.85000,
       "name": "예산",
       "population": 78678,
-      "area": 542.77,
-      "lat": 36.68278,
-      "lon": 126.85000,
-      "type": "군",
-      "link": "https://www.yesan.go.kr",
-      "id": 80
+      "type": "군"
     },
     {
+      "area": 502.14,
+      "id": 81,
+      "lat": 36.74556,
+      "link": "https://www.taean.go.kr",
+      "lon": 126.29778,
       "name": "태안",
       "population": 61170,
-      "area": 502.14,
-      "lat": 36.74556,
-      "lon": 126.29778,
-      "type": "군",
-      "link": "https://www.taean.go.kr",
-      "id": 81
+      "type": "군"
     },
     {
+      "area": 206.22,
+      "id": 82,
+      "lat": 35.82417,
+      "link": "https://www.jeonju.go.kr",
+      "lon": 127.14889,
       "name": "전주",
       "population": 652458,
-      "area": 206.22,
-      "lat": 35.82417,
-      "lon": 127.14889,
-      "type": "시",
-      "link": "https://www.jeonju.go.kr",
-      "id": 82
+      "type": "시"
     },
     {
+      "area": 394.45,
+      "id": 83,
+      "lat": 35.96750,
+      "link": "https://www.gunsan.go.kr",
+      "lon": 126.73611,
       "name": "군산",
       "population": 273649,
-      "area": 394.45,
-      "lat": 35.96750,
-      "lon": 126.73611,
-      "type": "시",
-      "link": "https://www.gunsan.go.kr",
-      "id": 83
+      "type": "시"
     },
     {
+      "area": 507.08,
+      "id": 84,
+      "lat": 35.94806,
+      "link": "https://www.iksan.go.kr",
+      "lon": 126.95750,
       "name": "익산",
       "population": 298928,
-      "area": 507.08,
-      "lat": 35.94806,
-      "lon": 126.95750,
-      "type": "시",
-      "link": "https://www.iksan.go.kr",
-      "id": 84
+      "type": "시"
     },
     {
+      "area": 692.99,
+      "id": 85,
+      "lat": 35.56806,
+      "link": "https://www.jeongeup.go.kr",
+      "lon": 126.85528,
       "name": "정읍",
       "population": 109263,
-      "area": 692.99,
-      "lat": 35.56806,
-      "lon": 126.85528,
-      "type": "시",
-      "link": "https://www.jeongeup.go.kr",
-      "id": 85
+      "type": "시"
     },
     {
+      "area": 752.57,
+      "id": 86,
+      "lat": 35.41833,
+      "link": "https://www.namwon.go.kr",
+      "lon": 127.39000,
       "name": "남원",
       "population": 79282,
-      "area": 752.57,
-      "lat": 35.41833,
-      "lon": 127.39000,
-      "type": "시",
-      "link": "https://www.namwon.go.kr",
-      "id": 86
+      "type": "시"
     },
     {
+      "area": 545.2,
+      "id": 87,
+      "lat": 35.80000,
+      "link": "https://www.gimje.go.kr",
+      "lon": 126.88000,
       "name": "김제",
       "population": 82358,
-      "area": 545.2,
-      "lat": 35.80000,
-      "lon": 126.88000,
-      "type": "시",
-      "link": "https://www.gimje.go.kr",
-      "id": 87
+      "type": "시"
     },
     {
+      "area": 821.15,
+      "id": 88,
+      "lat": 35.90556,
+      "link": "https://www.wanju.go.kr",
+      "lon": 127.16250,
       "name": "완주",
       "population": 98528,
-      "area": 821.15,
-      "lat": 35.90556,
-      "lon": 127.16250,
-      "type": "군",
-      "link": "https://www.wanju.go.kr",
-      "id": 88
+      "type": "군"
     },
     {
+      "area": 787.14,
+      "id": 89,
+      "lat": 35.79167,
+      "link": "https://www.jinan.go.kr",
+      "lon": 127.42472,
       "name": "진안",
       "population": 22998,
-      "area": 787.14,
-      "lat": 35.79167,
-      "lon": 127.42472,
-      "type": "군",
-      "link": "https://www.jinan.go.kr",
-      "id": 89
+      "type": "군"
     },
     {
+      "area": 631.67,
+      "id": 90,
+      "lat": 36.00639,
+      "link": "https://www.muju.go.kr",
+      "lon": 127.66028,
       "name": "무주",
       "population": 23195,
-      "area": 631.67,
-      "lat": 36.00639,
-      "lon": 127.66028,
-      "type": "군",
-      "link": "https://www.muju.go.kr",
-      "id": 90
+      "type": "군"
     },
     {
+      "area": 534.98,
+      "id": 91,
+      "lat": 35.64750,
+      "link": "https://www.jangsu.go.kr",
+      "lon": 127.52139,
       "name": "장수",
       "population": 21395,
-      "area": 534.98,
-      "lat": 35.64750,
-      "lon": 127.52139,
-      "type": "군",
-      "link": "https://www.jangsu.go.kr",
-      "id": 91
+      "type": "군"
     },
     {
+      "area": 597.0,
+      "id": 92,
+      "lat": 35.61778,
+      "link": "https://www.imsil.go.kr",
+      "lon": 127.28333,
       "name": "임실",
       "population": 26409,
-      "area": 597.0,
-      "lat": 35.61778,
-      "lon": 127.28333,
-      "type": "군",
-      "link": "https://www.imsil.go.kr",
-      "id": 92
+      "type": "군"
     },
     {
+      "area": 529.3,
+      "id": 93,
+      "lat": 35.37444,
+      "link": "https://www.sunchang.go.kr",
+      "lon": 127.13778,
       "name": "순창",
       "population": 27017,
-      "area": 529.3,
-      "lat": 35.37444,
-      "lon": 127.13778,
-      "type": "군",
-      "link": "https://www.sunchang.go.kr",
-      "id": 93
+      "type": "군"
     },
     {
+      "area": 606.8,
+      "id": 94,
+      "lat": 35.43500,
+      "link": "https://www.gochang.go.kr",
+      "lon": 126.70111,
       "name": "고창",
       "population": 54947,
-      "area": 606.8,
-      "lat": 35.43500,
-      "lon": 126.70111,
-      "type": "군",
-      "link": "https://www.gochang.go.kr",
-      "id": 94
+      "type": "군"
     },
     {
+      "area": 493.94,
+      "id": 95,
+      "lat": 35.72806,
+      "link": "https://www.buan.go.kr",
+      "lon": 126.73389,
       "name": "부안",
       "population": 51249,
-      "area": 493.94,
-      "lat": 35.72806,
-      "lon": 126.73389,
-      "type": "군",
-      "link": "https://www.buan.go.kr",
-      "id": 95
+      "type": "군"
     },
     {
+      "area": 50.96,
+      "id": 96,
+      "link": "https://www.mokpo.go.kr",
       "name": "목포",
       "population": 233948,
-      "area": 50.96,
-      "type": "시",
-      "link": "https://www.mokpo.go.kr",
-      "id": 96
+      "type": "시"
     },
     {
+      "area": 503.33,
+      "id": 97,
+      "link": "https://www.yeosu.go.kr",
       "name": "여수",
       "population": 271741,
-      "area": 503.33,
-      "type": "시",
-      "link": "https://www.yeosu.go.kr",
-      "id": 97
+      "type": "시"
     },
     {
+      "area": 907.0,
+      "id": 98,
+      "link": "https://www.suncheon.go.kr",
       "name": "순천",
       "population": 266809,
-      "area": 907.0,
-      "type": "시",
-      "link": "https://www.suncheon.go.kr",
-      "id": 98
+      "type": "시"
     },
     {
+      "area": 608.37,
+      "id": 99,
+      "link": "https://www.naju.go.kr",
       "name": "나주",
       "population": 105579,
-      "area": 608.37,
-      "type": "시",
-      "link": "https://www.naju.go.kr",
-      "id": 99
+      "type": "시"
     },
     {
+      "area": 452.01,
+      "id": 100,
+      "link": "https://www.gwangyang.go.kr",
       "name": "광양",
       "population": 144010,
-      "area": 452.01,
-      "type": "시",
-      "link": "https://www.gwangyang.go.kr",
-      "id": 100
+      "type": "시"
     },
     {
+      "area": 455.92,
+      "id": 101,
+      "link": "https://www.damyang.go.kr",
       "name": "담양",
       "population": 43781,
-      "area": 455.92,
-      "type": "군",
-      "link": "https://www.damyang.go.kr",
-      "id": 101
+      "type": "군"
     },
     {
+      "area": 547.17,
+      "id": 102,
+      "link": "https://www.gokseong.go.kr",
       "name": "곡성",
       "population": 28768,
-      "area": 547.17,
-      "type": "군",
-      "link": "https://www.gokseong.go.kr",
-      "id": 102
+      "type": "군"
     },
     {
+      "area": 443.15,
+      "id": 103,
+      "link": "https://www.gurye.go.kr",
       "name": "구례",
       "population": 24420,
-      "area": 443.15,
-      "type": "군",
-      "link": "https://www.gurye.go.kr",
-      "id": 103
+      "type": "군"
     },
     {
+      "area": 804.32,
+      "id": 104,
+      "link": "https://www.goheung.go.kr",
       "name": "고흥",
       "population": 60984,
-      "area": 804.32,
-      "type": "군",
-      "link": "https://www.goheung.go.kr",
-      "id": 104
+      "type": "군"
     },
     {
+      "area": 659.21,
+      "id": 105,
+      "link": "https://www.boseong.go.kr",
       "name": "보성",
       "population": 39942,
-      "area": 659.21,
-      "type": "군",
-      "link": "https://www.boseong.go.kr",
-      "id": 105
+      "type": "군"
     },
     {
+      "area": 786.23,
+      "id": 106,
+      "link": "https://www.hwasun.go.kr",
       "name": "화순",
       "population": 60566,
-      "area": 786.23,
-      "type": "군",
-      "link": "https://www.hwasun.go.kr",
-      "id": 106
+      "type": "군"
     },
     {
+      "area": 616.5,
+      "id": 107,
+      "link": "https://www.jangheung.go.kr",
       "name": "장흥",
       "population": 36275,
-      "area": 616.5,
-      "type": "군",
-      "link": "https://www.jangheung.go.kr",
-      "id": 107
+      "type": "군"
     },
     {
+      "area": 500.99,
+      "id": 108,
+      "link": "https://www.gangjin.go.kr",
       "name": "강진",
       "population": 33637,
-      "area": 500.99,
-      "type": "군",
-      "link": "https://www.gangjin.go.kr",
-      "id": 108
+      "type": "군"
     },
     {
+      "area": 1013.94,
+      "id": 109,
+      "link": "https://www.haenam.go.kr",
       "name": "해남",
       "population": 67123,
-      "area": 1013.94,
-      "type": "군",
-      "link": "https://www.haenam.go.kr",
-      "id": 109
+      "type": "군"
     },
     {
+      "area": 586.5,
+      "id": 110,
+      "link": "https://www.yeongam.go.kr",
       "name": "영암",
       "population": 57679,
-      "area": 586.5,
-      "type": "군",
-      "link": "https://www.yeongam.go.kr",
-      "id": 110
+      "type": "군"
     },
     {
+      "area": 436.52,
+      "id": 111,
+      "link": "https://www.muan.go.kr",
       "name": "무안",
       "population": 81420,
-      "area": 436.52,
-      "type": "군",
-      "link": "https://www.muan.go.kr",
-      "id": 111
+      "type": "군"
     },
     {
+      "area": 392.74,
+      "id": 112,
+      "link": "https://www.hampyeong.go.kr",
       "name": "함평",
       "population": 30948,
-      "area": 392.74,
-      "type": "군",
-      "link": "https://www.hampyeong.go.kr",
-      "id": 112
+      "type": "군"
     },
     {
+      "area": 473.97,
+      "id": 113,
+      "link": "https://www.yeonggwang.go.kr",
       "name": "영광",
       "population": 49670,
-      "area": 473.97,
-      "type": "군",
-      "link": "https://www.yeonggwang.go.kr",
-      "id": 113
+      "type": "군"
     },
     {
+      "area": 518.22,
+      "id": 114,
+      "link": "https://www.jangseong.go.kr",
       "name": "장성",
       "population": 41663,
-      "area": 518.22,
-      "type": "군",
-      "link": "https://www.jangseong.go.kr",
-      "id": 114
+      "type": "군"
     },
     {
+      "area": 396.44,
+      "id": 115,
+      "link": "https://www.wando.go.kr",
       "name": "완도",
       "population": 48332,
-      "area": 396.44,
-      "type": "군",
-      "link": "https://www.wando.go.kr",
-      "id": 115
+      "type": "군"
     },
     {
+      "area": 440.98,
+      "id": 116,
+      "link": "https://www.jindo.go.kr",
       "name": "진도",
       "population": 29432,
-      "area": 440.98,
-      "type": "군",
-      "link": "https://www.jindo.go.kr",
-      "id": 116
+      "type": "군"
     },
     {
+      "area": 655.6,
+      "id": 117,
+      "link": "https://www.shinan.go.kr",
       "name": "신안",
       "population": 35592,
-      "area": 655.6,
-      "type": "군",
-      "link": "https://www.shinan.go.kr",
-      "id": 117
+      "type": "군"
     },
     {
+      "area": 1127.24,
+      "id": 118,
+      "link": "https://www.pohang.go.kr",
       "name": "포항",
       "population": 506494,
-      "area": 1127.24,
-      "type": "시",
-      "link": "https://www.pohang.go.kr",
-      "id": 118
+      "type": "시"
     },
     {
+      "area": 1323.81,
+      "id": 119,
+      "link": "https://www.gyeongju.go.kr",
       "name": "경주",
       "population": 262264,
-      "area": 1323.81,
-      "type": "시",
-      "link": "https://www.gyeongju.go.kr",
-      "id": 119
+      "type": "시"
     },
     {
+      "area": 1009.46,
+      "id": 120,
+      "link": "https://www.gc.go.kr",
       "name": "김천",
       "population": 140765,
-      "area": 1009.46,
-      "type": "시",
-      "link": "https://www.gc.go.kr",
-      "id": 120
+      "type": "시"
     },
     {
+      "area": 1590.91,
+      "id": 121,
+      "link": "https://www.andong.go.kr",
       "name": "안동",
       "population": 165704,
-      "area": 1590.91,
-      "type": "시",
-      "link": "https://www.andong.go.kr",
-      "id": 121
+      "type": "시"
     },
     {
+      "area": 615.33,
+      "id": 122,
+      "link": "https://www.gumi.go.kr",
       "name": "구미",
       "population": 419761,
-      "area": 615.33,
-      "type": "시",
-      "link": "https://www.gumi.go.kr",
-      "id": 122
+      "type": "시"
     },
     {
+      "area": 669.4,
+      "id": 123,
+      "link": "https://www.yeongju.go.kr",
       "name": "영주",
       "population": 108443,
-      "area": 669.4,
-      "type": "시",
-      "link": "https://www.yeongju.go.kr",
-      "id": 123
+      "type": "시"
     },
     {
+      "area": 919.76,
+      "id": 124,
+      "link": "https://www.yc.go.kr",
       "name": "영천",
       "population": 97675,
-      "area": 919.76,
-      "type": "시",
-      "link": "https://www.yc.go.kr",
-      "id": 124
+      "type": "시"
     },
     {
+      "area": 1254.84,
+      "id": 125,
+      "link": "https://www.sangju.go.kr",
       "name": "상주",
       "population": 98189,
-      "area": 1254.84,
-      "type": "시",
-      "link": "https://www.sangju.go.kr",
-      "id": 125
+      "type": "시"
     },
     {
+      "area": 912.8,
+      "id": 126,
+      "link": "https://www.gbmg.go.kr",
       "name": "문경",
       "population": 70016,
-      "area": 912.8,
-      "type": "시",
-      "link": "https://www.gbmg.go.kr",
-      "id": 126
+      "type": "시"
     },
     {
+      "area": 411.58,
+      "id": 127,
+      "link": "https://www.gbgs.go.kr",
       "name": "경산",
       "population": 282626,
-      "area": 411.58,
-      "type": "시",
-      "link": "https://www.gbgs.go.kr",
-      "id": 127
+      "type": "시"
     },
     {
+      "area": 614.08,
+      "id": 128,
+      "link": "https://www.gunwi.go.kr",
       "name": "군위",
       "population": 12178,
-      "area": 614.08,
-      "type": "군",
-      "link": "https://www.gunwi.go.kr",
-      "id": 128
+      "type": "군"
     },
     {
+      "area": 1175.27,
+      "id": 129,
+      "link": "https://www.usc.go.kr",
       "name": "의성",
       "population": 50082,
-      "area": 1175.27,
-      "type": "군",
-      "link": "https://www.usc.go.kr",
-      "id": 129
+      "type": "군"
     },
     {
+      "area": 845.67,
+      "id": 130,
+      "link": "https://www.cs.go.kr",
       "name": "청송",
       "population": 24441,
-      "area": 845.67,
-      "type": "군",
-      "link": "https://www.cs.go.kr",
-      "id": 130
+      "type": "군"
     },
     {
+      "area": 815.14,
+      "id": 131,
+      "link": "https://www.yyg.go.kr",
       "name": "영양",
       "population": 16579,
-      "area": 815.14,
-      "type": "군",
-      "link": "https://www.yyg.go.kr",
-      "id": 131
+      "type": "군"
     },
     {
+      "area": 741.01,
+      "id": 132,
+      "link": "https://www.yd.go.kr",
       "name": "영덕",
       "population": 36148,
-      "area": 741.01,
-      "type": "군",
-      "link": "https://www.yd.go.kr",
-      "id": 132
+      "type": "군"
     },
     {
+      "area": 694.94,
+      "id": 133,
+      "link": "https://www.cheongdo.go.kr",
       "name": "청도",
       "population": 41278,
-      "area": 694.94,
-      "type": "군",
-      "link": "https://www.cheongdo.go.kr",
-      "id": 133
+      "type": "군"
     },
     {
+      "area": 383.57,
+      "id": 134,
+      "link": "https://www.goryeong.go.kr",
       "name": "고령",
       "population": 33094,
-      "area": 383.57,
-      "type": "군",
-      "link": "https://www.goryeong.go.kr",
-      "id": 134
+      "type": "군"
     },
     {
+      "area": 616.96,
+      "id": 135,
+      "link": "https://sj.go.kr",
       "name": "성주",
       "population": 41225,
-      "area": 616.96,
-      "type": "군",
-      "link": "https://sj.go.kr",
-      "id": 135
+      "type": "군"
     },
     {
+      "area": 451.0,
+      "id": 136,
+      "link": "https://www.chilgok.go.kr",
       "name": "칠곡",
       "population": 121778,
-      "area": 451.0,
-      "type": "군",
-      "link": "https://www.chilgok.go.kr",
-      "id": 136
+      "type": "군"
     },
     {
+      "area": 661.5,
+      "id": 137,
+      "link": "https://www.ycg.kr",
       "name": "예천",
       "population": 46321,
-      "area": 661.5,
-      "type": "군",
-      "link": "https://www.ycg.kr",
-      "id": 137
+      "type": "군"
     },
     {
+      "area": 1200.59,
+      "id": 138,
+      "link": "https://www.bonghwa.go.kr",
       "name": "봉화",
       "population": 31082,
-      "area": 1200.59,
-      "type": "군",
-      "link": "https://www.bonghwa.go.kr",
-      "id": 138
+      "type": "군"
     },
     {
+      "area": 992.16,
+      "id": 139,
+      "link": "https://www.uljin.go.kr",
       "name": "울진",
       "population": 48504,
-      "area": 992.16,
-      "type": "군",
-      "link": "https://www.uljin.go.kr",
-      "id": 139
+      "type": "군"
     },
     {
-      "name": "울릉",
-      "population": 8996,
       "area": 73.03,
-      "lat": 37.48456,
-      "lon": 130.906393,
-      "type": "군",
+      "id": 140,
       "image": "https://www.ulleung.go.kr/upload/board/_oldBoard/p_etc/1565942247(1).jpg",
       "imageAttribution": "https://www.ulleung.go.kr/tour/page.do?cmd=258&bod_uid=11491&srchEnable=1&srchSDate=&srchKwd=&initDay=&srchColumn=&listType=&initYear=&srchVote=-1&initMonth=&pageNo=4&srchBgpuid=-1&srchEDate=&mnu_uid=1395&",
+      "lat": 37.48456,
       "link": "https://www.ulleung.go.kr",
-      "id": 140
+      "lon": 130.906393,
+      "name": "울릉",
+      "population": 8996,
+      "type": "군"
     },
     {
+      "area": 749.14,
+      "id": 141,
+      "link": "https://www.changwon.go.kr",
       "name": "창원",
       "population": 1033737,
-      "area": 749.14,
-      "type": "시",
-      "link": "https://www.changwon.go.kr",
-      "id": 141
+      "type": "시"
     },
     {
+      "area": 712.92,
+      "id": 142,
+      "link": "https://www.jinju.go.kr",
       "name": "진주",
       "population": 347489,
-      "area": 712.92,
-      "type": "시",
-      "link": "https://www.jinju.go.kr",
-      "id": 142
+      "type": "시"
     },
     {
+      "area": 239.86,
+      "id": 143,
+      "link": "https://www.tongyeong.go.kr",
       "name": "통영",
       "population": 132962,
-      "area": 239.86,
-      "type": "시",
-      "link": "https://www.tongyeong.go.kr",
-      "id": 143
+      "type": "시"
     },
     {
+      "area": 398.78,
+      "id": 144,
+      "link": "https://www.sacheon.go.kr",
       "name": "사천",
       "population": 111655,
-      "area": 398.78,
-      "type": "시",
-      "link": "https://www.sacheon.go.kr",
-      "id": 144
+      "type": "시"
     },
     {
+      "area": 463.53,
+      "id": 145,
+      "link": "https://www.gimhae.go.kr",
       "name": "김해",
       "population": 542713,
-      "area": 463.53,
-      "type": "시",
-      "link": "https://www.gimhae.go.kr",
-      "id": 145
+      "type": "시"
     },
     {
+      "area": 798.68,
+      "id": 146,
+      "link": "https://www.miryang.go.kr",
       "name": "밀양",
       "population": 103894,
-      "area": 798.68,
-      "type": "시",
-      "link": "https://www.miryang.go.kr",
-      "id": 146
+      "type": "시"
     },
     {
+      "area": 403.86,
+      "id": 147,
+      "link": "https://www.geoje.go.kr",
       "name": "거제",
       "population": 257847,
-      "area": 403.86,
-      "type": "시",
-      "link": "https://www.geoje.go.kr",
-      "id": 147
+      "type": "시"
     },
     {
+      "area": 485.61,
+      "id": 148,
+      "lat": 35.33500,
+      "link": "https://www.yangsan.go.kr",
+      "lon": 129.03778,
       "name": "양산",
       "population": 351168,
-      "area": 485.61,
-      "lat": 35.33500,
-      "lon": 129.03778,
-      "type": "시",
-      "link": "https://www.yangsan.go.kr",
-      "id": 148
+      "type": "시"
     },
     {
+      "area": 482.91,
+      "id": 149,
+      "link": "https://www.uiryeong.go.kr",
       "name": "의령",
       "population": 26292,
-      "area": 482.91,
-      "type": "군",
-      "link": "https://www.uiryeong.go.kr",
-      "id": 149
+      "type": "군"
     },
     {
+      "area": 416.6,
+      "id": 150,
+      "link": "https://www.haman.go.kr",
       "name": "함안",
       "population": 62544,
-      "area": 416.6,
-      "type": "군",
-      "link": "https://www.haman.go.kr",
-      "id": 150
+      "type": "군"
     },
     {
+      "area": 532.67,
+      "id": 151,
+      "link": "https://www.cng.go.kr",
       "name": "창녕",
       "population": 62544,
-      "area": 532.67,
-      "type": "군",
-      "link": "https://www.cng.go.kr",
-      "id": 151
+      "type": "군"
     },
     {
-      "name": "고성",
-      "firstLevelDivision": "경상남도",
-      "population": 52439,
       "area": 518.0,
-      "type": "군",
+      "firstLevelDivision": "경상남도",
+      "id": 152,
       "link": "https://www.goseong.go.kr",
-      "id": 152
+      "name": "고성",
+      "population": 52439,
+      "type": "군"
     },
     {
+      "area": 357.76,
+      "id": 153,
+      "link": "https://www.namhae.go.kr",
       "name": "남해",
       "population": 42986,
-      "area": 357.76,
-      "type": "군",
-      "link": "https://www.namhae.go.kr",
-      "id": 153
+      "type": "군"
     },
     {
+      "area": 674.85,
+      "id": 154,
+      "link": "https://www.hadong.go.kr",
       "name": "하동",
       "population": 43441,
-      "area": 674.85,
-      "type": "군",
-      "link": "https://www.hadong.go.kr",
-      "id": 154
+      "type": "군"
     },
     {
+      "area": 794.64,
+      "id": 155,
+      "link": "https://www.sancheong.go.kr",
       "name": "산청",
       "population": 34033,
-      "area": 794.64,
-      "type": "군",
-      "link": "https://www.sancheong.go.kr",
-      "id": 155
+      "type": "군"
     },
     {
+      "area": 724.7,
+      "id": 156,
+      "link": "https://www.hygn.go.kr",
       "name": "함양",
       "population": 37942,
-      "area": 724.7,
-      "type": "군",
-      "link": "https://www.hygn.go.kr",
-      "id": 156
+      "type": "군"
     },
     {
+      "area": 803.97,
+      "id": 157,
+      "link": "https://www.geochang.go.kr",
       "name": "거창",
       "population": 60083,
-      "area": 803.97,
-      "type": "군",
-      "link": "https://www.geochang.go.kr",
-      "id": 157
+      "type": "군"
     },
     {
+      "area": 983.05,
+      "id": 158,
+      "link": "https://www.hc.go.kr",
       "name": "합천",
       "population": 43449,
-      "area": 983.05,
-      "type": "군",
-      "link": "https://www.hc.go.kr",
-      "id": 158
+      "type": "군"
     },
     {
+      "area": 1849.15,
+      "id": 159,
+      "link": "https://www.jeju.go.kr",
       "name": "제주",
       "population": 677493,
-      "area": 1849.15,
-      "type": "특별자치도",
-      "link": "https://www.jeju.go.kr",
-      "id": 159
+      "type": "특별자치도"
     },
     {
-      "name": "독도",
-      "firstLevelDivision": "경상북도",
-      "population": 45,
       "area": 0.187554,
-      "lat": 37.241667,
-      "lon": 131.866667,
-      "type": "리",
-      "image": "https://gongu.copyright.or.kr/gongu/wrt/cmmn/wrtFileImageView.do?wrtSn=13299510&filePath=L2Rpc2sxL25ld2RhdGEvMjAyMS85OC9DTFMxMDAwNi8xMzI5OTUxMF9XUlRfOThfQ0xTMTAwMDZfMjAyMTEyMTNfMQ==&thumbAt=Y&thumbSe=b_tbumb&wrtTy=10006",
-      "imageAttribution": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13299510&menuNo=200018",
-      "info": "독도는 울릉군에 속합니다",
+      "firstLevelDivision": "경상북도",
       "highlights": [
         "독도는 우리 땅 🇰🇷"
       ],
+      "id": 160,
+      "image": "https://gongu.copyright.or.kr/gongu/wrt/cmmn/wrtFileImageView.do?wrtSn=13299510&filePath=L2Rpc2sxL25ld2RhdGEvMjAyMS85OC9DTFMxMDAwNi8xMzI5OTUxMF9XUlRfOThfQ0xTMTAwMDZfMjAyMTEyMTNfMQ==&thumbAt=Y&thumbSe=b_tbumb&wrtTy=10006",
+      "imageAttribution": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13299510&menuNo=200018",
+      "info": "독도는 울릉군에 속합니다",
+      "lat": 37.241667,
       "link": "https://dokdo.mofa.go.kr",
-      "id": 160
+      "lon": 131.866667,
+      "name": "독도",
+      "population": 45,
+      "type": "리"
     },
     {
+      "area": 35.87,
+      "id": 161,
+      "lat": 37.42833,
+      "link": "https://www.gccity.go.kr",
+      "lon": 126.98722,
       "name": "과천",
       "population": 85132,
-      "area": 35.87,
-      "lat": 37.42833,
-      "lon": 126.98722,
-      "type": "시",
-      "link": "https://www.gccity.go.kr",
-      "id": 161
+      "type": "시"
     }
   ]
 }

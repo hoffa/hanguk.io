@@ -7,8 +7,8 @@
     "dev": "vite",
     "preview": "vite preview",
     "build": "npm run check && tsc -b && vite build && echo hanguk.io > docs/CNAME",
-    "fix": "eslint . --fix && prettier --write .",
-    "check": "vitest run && eslint . && prettier --check . && ajv validate -s src/data.schema.json -d src/data.json",
+    "fix": "eslint . --fix && prettier --write . && ./scripts/fix_data.sh",
+    "check": "vitest run && eslint . && prettier --check . && ajv validate -s src/data.schema.json -d src/data.json && ./scripts/check_data.sh",
     "schema": "npx typescript-json-schema src/types.ts Divisions --required --noExtraProps --out src/data.schema.json"
   },
   "dependencies": {
