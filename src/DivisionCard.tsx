@@ -53,12 +53,10 @@ function DivisionCard({ division }: DivisionCardProps) {
             )}
         </div>
 
-        {division.highlights && (
-          <ul className="list-disc list-inside mb-4">
-            {division.highlights.map((highlight, highlightIndex) => (
-              <li key={highlightIndex}>{highlight}</li>
-            ))}
-          </ul>
+        {division.highlight && (
+          <div className="mb-4">
+            <div>{division.highlight}</div>
+          </div>
         )}
 
         <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-base-content/70 text-sm">

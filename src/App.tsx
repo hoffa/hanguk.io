@@ -74,7 +74,7 @@ function App() {
       {/* Toast: always above all content using fixed + high z-index, neutral color, dismissable */}
       {showToast && (
         <div className="toast toast-bottom toast-end fixed z-[9999] pointer-events-none w-auto max-w-full">
-          <div className="alert alert-neutral pointer-events-auto flex items-center gap-2">
+          <div className="alert alert-soft alert-warning pointer-events-auto flex items-center gap-2">
             <span>
               데이터가 부정확할 수 있습니다.{' '}
               <a

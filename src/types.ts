@@ -52,7 +52,7 @@ export interface Division {
   imageAttribution?: string
 
   link: string
-  highlights?: string[]
+  highlight?: string
   info?: string
 
   lat?: number

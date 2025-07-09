@@ -12,11 +12,8 @@
         "firstLevelDivision": {
           "$ref": "#/definitions/FirstLevelDivision"
         },
-        "highlights": {
-          "items": {
-            "type": "string"
-          },
-          "type": "array"
+        "highlight": {
+          "type": "string"
         },
         "id": {
           "type": "number"
