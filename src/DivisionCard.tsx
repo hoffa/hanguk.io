@@ -42,7 +42,7 @@ function DivisionCard({ division }: DivisionCardProps) {
         <div className="mb-3">
           <div className="flex items-center gap-2 flex-wrap">
             <h2 className="card-title m-0">{division.name}</h2>
-            <span className={`badge badge-soft badge-sm ${getTypeBadgeClass(division.type)}`}>
+            <span className={`badge badge-soft ${getTypeBadgeClass(division.type)}`}>
               {division.type}
             </span>
           </div>
