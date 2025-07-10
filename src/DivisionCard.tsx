@@ -32,7 +32,8 @@ function DivisionCard({ division }: DivisionCardProps) {
     <div className="card bg-base-100 shadow-sm h-fit select-text">
       <figure>
         <img
-          src={division.image || 'https://placecats.com/800/600'}
+          // https://www.pexels.com/ko-kr/photo/127028/
+          src={division.image || '/thumb_placeholder.jpg'}
           alt={division.name}
           title={division.imageAttribution || undefined}
           className="w-full aspect-[4/3] object-cover select-none"
