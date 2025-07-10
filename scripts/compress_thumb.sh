@@ -17,4 +17,4 @@ esac
 
 output="$dirname/thumb_${name_noext}.jpg"
 
-magick "$input" -resize 800x -strip -interlace JPEG -sampling-factor 4:2:0 -quality 75 "$output"
+magick "$input" -resize 800x -strip -interlace JPEG -quality 85 "$output"
