@@ -78,8 +78,8 @@ function App() {
           <div className="flex flex-col gap-4 w-full sm:hidden">
             <div className="flex items-center justify-between">
               <span className="text-xl font-bold flex items-center gap-3">
-                한국 어디 가지? 🤔
-                <span className="badge badge-secondary">베타</span>
+                한국 어디 가지?
+                <span className="badge badge-error">베타</span>
               </span>
               <a
                 href="https://github.com/hoffa/hanguk.io"
@@ -147,8 +147,8 @@ function App() {
             {/* Left: Logo/Title */}
             <div className="flex-shrink-0">
               <span className="text-xl font-bold flex items-center gap-3">
-                한국 어디 가지? 🤔
-                <span className="badge badge-secondary">베타</span>
+                한국 어디 가지?
+                <span className="badge badge-error">베타</span>
               </span>
             </div>
 
