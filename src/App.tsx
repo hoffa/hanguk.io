@@ -13,7 +13,6 @@ import { Combobox, ComboboxInput, ComboboxOption, ComboboxOptions } from '@headl
 import DivisionCard from './DivisionCard'
 
 function App() {
-  const [showToast, setShowToast] = useState(true)
   const data = koreanData as Divisions
   const sortedDivisions = data.divisions.sort((a, b) => b.population - a.population)
   const [divisions, setDivisions] = useState(sortedDivisions)
@@ -71,53 +70,17 @@ function App() {
 
   return (
     <div className="min-h-screen bg-base-200 relative">
-      {/* Toast: always above all content using fixed + high z-index, neutral color, dismissable */}
-      {showToast && (
-        <div className="toast toast-bottom toast-end fixed z-[9999] pointer-events-none w-auto max-w-full">
-          <div className="alert alert-soft alert-warning pointer-events-auto flex items-center gap-2">
-            <span>
-              데이터가 부정확할 수 있습니다.{' '}
-              <a
-                href="https://github.com/hoffa/hanguk.io"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="link link-primary underline"
-              >
-                수정에 참여해주세요
-              </a>
-              . 🥺
-            </span>
-            <button
-              onClick={() => setShowToast(false)}
-              className="btn btn-xs btn-ghost ml-2"
-              aria-label="닫기"
-              type="button"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            </button>
-          </div>
-        </div>
-      )}
+      {/* ...no modals or toasts... */}
       {/* Top Navigation - Full Width */}
       <div className="navbar bg-base-100 shadow-sm px-6 py-4">
         <div className="max-w-7xl mx-auto w-full">
           {/* Mobile: Stack vertically with full-width input */}
           <div className="flex flex-col gap-4 w-full sm:hidden">
             <div className="flex items-center justify-between">
-              <span className="text-xl font-bold">한국 어디 가지? 🤔</span>
+              <span className="text-xl font-bold flex items-center gap-3">
+                한국 어디 가지? 🤔
+                <span className="badge badge-secondary">베타</span>
+              </span>
               <a
                 href="https://github.com/hoffa/hanguk.io"
                 target="_blank"
@@ -183,7 +146,10 @@ function App() {
           <div className="hidden sm:flex items-center w-full gap-4">
             {/* Left: Logo/Title */}
             <div className="flex-shrink-0">
-              <span className="text-xl font-bold">한국 어디 가지? 🤔</span>
+              <span className="text-xl font-bold flex items-center gap-3">
+                한국 어디 가지? 🤔
+                <span className="badge badge-secondary">베타</span>
+              </span>
             </div>
 
             {/* Center: Filters */}
