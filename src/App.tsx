@@ -128,26 +128,18 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row gap-0 mt-[64px]">
-        <div
-          className="lg:w-1/2 w-full flex flex-col bg-base-300"
-          style={{ padding: 0, margin: 0 }}
-        >
+      <div className="flex flex-col lg:flex-row gap-0 mt-[64px] h-[calc(100vh-64px)]">
+        {/* Map: top half on mobile, left half on desktop */}
+        <div className="flex-1 lg:w-1/2 bg-base-300" style={{ padding: 0, margin: 0 }}>
           <ReactKakaoMap
             lat={divisionMap[selectedDivisionId].lat}
             lon={divisionMap[selectedDivisionId].lon}
-            style={{ width: '100%', height: 'calc(100vh - 64px)', borderRadius: 0, margin: 0 }}
+            style={{ width: '100%', height: '100%', borderRadius: 0, margin: 0 }}
           />
         </div>
-        <div
-          className="flex-1 overflow-y-auto px-6 pt-4 pb-6"
-          style={{ maxHeight: 'calc(100vh - 64px)' }}
-        >
+        {/* Cards: bottom half on mobile, right half on desktop */}
+        <div className="flex-1 lg:flex-1 overflow-y-auto px-6 pt-4 pb-6">
           <div className="max-w-7xl mx-auto">
-            <div className="mb-4 flex items-center gap-2 text-sm text-base-content/60">
-              <Bars3BottomLeftIcon className="w-4 h-4" />
-              {divisionMap[selectedDivisionId].name} 인접순 정렬
-            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 items-start">
               {divisions.map((division, index) => (
                 <div
