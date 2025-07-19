@@ -4,6 +4,7 @@
     {
       "area": 605.2,
       "firstLevelDivision": "서울특별시",
+      "highlight": "대한민국의 수도, 문화와 역사의 중심지",
       "id": 1,
       "image": "/thumb_seoul.jpg",
       "imageAttribution": "Ethan Brooke님의 사진: https://www.pexels.com/ko-kr/photo/11687720/",
@@ -17,6 +18,7 @@
     {
       "area": 769.89,
       "firstLevelDivision": "부산광역시",
+      "highlight": "아름다운 해변과 활기찬 항구 도시",
       "id": 2,
       "image": "/thumb_busan.jpg",
       "imageAttribution": "Photo by Анна Шаталова: https://www.pexels.com/photo/aerial-panoramic-view-of-busan-south-korea-8573202/",
@@ -30,6 +32,7 @@
     {
       "area": 883.54,
       "firstLevelDivision": "대구광역시",
+      "highlight": "섬유 산업과 뜨거운 여름으로 유명한 도시",
       "id": 3,
       "image": "/thumb_daegu.jpg",
       "imageAttribution": "Khan Ishaan님의 사진: https://www.pexels.com/ko-kr/photo/29291638/",
@@ -43,6 +46,7 @@
     {
       "area": 1062.6,
       "firstLevelDivision": "인천광역시",
+      "highlight": "국제공항과 항만이 있는 관문 도시",
       "id": 4,
       "image": "/thumb_incheon.jpg",
       "imageAttribution": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=56&cate1=05&bcd=galleryko&pgno=8",
@@ -56,6 +60,7 @@
     {
       "area": 501.24,
       "firstLevelDivision": "광주광역시",
+      "highlight": "예술과 민주화의 상징 도시",
       "id": 5,
       "lat": 35.16528,
       "link": "https://www.gwangju.go.kr",
@@ -67,6 +72,7 @@
     {
       "area": 539.35,
       "firstLevelDivision": "대전광역시",
+      "highlight": "과학과 연구의 중심지",
       "id": 6,
       "lat": 36.35,
       "link": "https://www.daejeon.go.kr",
@@ -78,6 +84,7 @@
     {
       "area": 1060.79,
       "firstLevelDivision": "울산광역시",
+      "highlight": "대한민국 최대의 산업 도시",
       "id": 7,
       "lat": 35.55,
       "link": "https://www.ulsan.go.kr",
@@ -89,6 +96,7 @@
     {
       "area": 464.87,
       "firstLevelDivision": "세종특별자치시",
+      "highlight": "행정 중심 복합 도시",
       "id": 8,
       "lat": 36.487,
       "link": "https://www.sejong.go.kr",
@@ -100,6 +108,7 @@
     {
       "area": 121.09,
       "firstLevelDivision": "경기도",
+      "highlight": "화성행궁과 전통이 살아있는 도시",
       "id": 9,
       "lat": 37.267,
       "link": "https://www.suwon.go.kr",
@@ -111,6 +120,7 @@
     {
       "area": 591.22,
       "firstLevelDivision": "경기도",
+      "highlight": "에버랜드와 자연이 어우러진 도시",
       "id": 10,
       "lat": 37.24,
       "link": "https://www.yongin.go.kr",
@@ -122,7 +132,7 @@
     {
       "area": 268.08,
       "firstLevelDivision": "경기도",
-      "highlight": "고양이잖아",
+      "highlight": "일산 호수공원과 현대적인 도시 환경",
       "id": 11,
       "lat": 37.65639,
       "link": "https://www.goyang.go.kr",
@@ -134,6 +144,7 @@
     {
       "area": 141.63,
       "firstLevelDivision": "경기도",
+      "highlight": "판교테크노밸리와 첨단 산업의 중심",
       "id": 12,
       "lat": 37.41878,
       "link": "https://www.seongnam.go.kr",
@@ -145,6 +156,7 @@
     {
       "area": 699.41,
       "firstLevelDivision": "경기도",
+      "highlight": "역사와 자연이 공존하는 지역",
       "id": 13,
       "lat": 37.19917,
       "link": "https://www.hscity.go.kr",
@@ -156,6 +168,7 @@
     {
       "area": 53.45,
       "firstLevelDivision": "경기도",
+      "highlight": "문화예술과 영화의 메카",
       "id": 14,
       "lat": 37.5035,
       "link": "https://www.bucheon.go.kr",
@@ -167,6 +180,7 @@
     {
       "area": 458.12,
       "firstLevelDivision": "경기도",
+      "highlight": "북한강과 자연경관이 아름다운 곳",
       "id": 15,
       "lat": 37.63667,
       "link": "https://www.nyj.go.kr",
@@ -178,6 +192,7 @@
     {
       "area": 156.53,
       "firstLevelDivision": "경기도",
+      "highlight": "다문화가 어우러진 활기찬 지역",
       "id": 16,
       "lat": 37.31667,
       "link": "https://www.ansan.go.kr",
@@ -189,6 +204,7 @@
     {
       "area": 58.5,
       "firstLevelDivision": "경기도",
+      "highlight": "안양천과 녹지가 풍부한 곳",
       "id": 17,
       "lat": 37.3943,
       "link": "https://www.anyang.go.kr",
@@ -200,6 +216,7 @@
     {
       "area": 458.25,
       "firstLevelDivision": "경기도",
+      "highlight": "미군기지와 국제적 교류의 중심",
       "id": 18,
       "lat": 36.9925,
       "link": "https://www.pyeongtaek.go.kr",
@@ -211,6 +228,7 @@
     {
       "area": 139.93,
       "firstLevelDivision": "경기도",
+      "highlight": "갯골생태공원과 친환경 지역",
       "id": 19,
       "lat": 37.38056,
       "link": "https://www.siheung.go.kr",
@@ -222,6 +240,7 @@
     {
       "area": 672.78,
       "firstLevelDivision": "경기도",
+      "highlight": "DMZ와 평화의 상징",
       "id": 20,
       "lat": 37.76111,
       "link": "https://www.paju.go.kr",
@@ -233,6 +252,7 @@
     {
       "area": 81.55,
       "firstLevelDivision": "경기도",
+      "highlight": "북부 행정과 교통의 요지",
       "id": 21,
       "lat": 37.73889,
       "link": "https://www.ui4u.go.kr",
@@ -244,6 +264,7 @@
     {
       "area": 276.65,
       "firstLevelDivision": "경기도",
+      "highlight": "한강과 공항이 가까운 지역",
       "id": 22,
       "lat": 37.615,
       "link": "https://www.gimpo.go.kr",
@@ -255,6 +276,7 @@
     {
       "area": 38.5,
       "firstLevelDivision": "경기도",
+      "highlight": "광명동굴과 역사적 명소",
       "id": 23,
       "lat": 37.47917,
       "link": "https://www.gm.go.kr",
@@ -266,6 +288,7 @@
     {
       "area": 431,
       "firstLevelDivision": "광주광역시",
+      "highlight": "풍요로운 자연과 전통이 어우러진 곳",
       "id": 24,
       "link": "https://www.gjcity.go.kr",
       "name": "광주",
@@ -275,6 +298,7 @@
     {
       "area": 36.42,
       "firstLevelDivision": "경기도",
+      "highlight": "철쭉축제로 유명한 지역",
       "id": 25,
       "lat": 37.34261,
       "link": "https://www.gunpo.go.kr",
@@ -286,6 +310,7 @@
     {
       "area": 93.07,
       "firstLevelDivision": "경기도",
+      "highlight": "미사리 조정경기장과 쾌적한 환경",
       "id": 26,
       "lat": 37.54,
       "link": "https://www.hanam.go.kr",
@@ -297,6 +322,7 @@
     {
       "area": 461.31,
       "firstLevelDivision": "경기도",
+      "highlight": "쌀과 도자기로 유명한 곳",
       "id": 27,
       "lat": 37.27917,
       "link": "https://www.icheon.go.kr",
@@ -308,6 +334,7 @@
     {
       "area": 553.19,
       "firstLevelDivision": "경기도",
+      "highlight": "안성맞춤과 전통문화의 고장",
       "id": 28,
       "lat": 37.01083,
       "link": "https://www.anseong.go.kr",
@@ -319,6 +346,7 @@
     {
       "area": 33.33,
       "firstLevelDivision": "경기도",
+      "highlight": "한강변과 자연이 가까운 곳",
       "id": 29,
       "lat": 37.6034,
       "link": "https://www.guri.go.kr",
@@ -330,6 +358,7 @@
     {
       "area": 42.71,
       "firstLevelDivision": "경기도",
+      "highlight": "오산천과 교육의 중심지",
       "id": 30,
       "lat": 37.14942,
       "link": "https://www.osan.go.kr",
@@ -341,6 +370,7 @@
     {
       "area": 54.03,
       "firstLevelDivision": "경기도",
+      "highlight": "백운호수와 자연환경이 뛰어난 곳",
       "id": 31,
       "lat": 37.34417,
       "link": "https://www.uiwang.go.kr",
@@ -352,6 +382,7 @@
     {
       "area": 826.95,
       "firstLevelDivision": "경기도",
+      "highlight": "산정호수와 관광명소가 많은 곳",
       "id": 32,
       "lat": 38,
       "link": "https://www.pocheon.go.kr",
@@ -363,6 +394,7 @@
     {
       "area": 310.1,
       "firstLevelDivision": "경기도",
+      "highlight": "천보산과 예술의 향기가 가득한 곳",
       "id": 33,
       "lat": 37.78528,
       "link": "https://www.yangju.go.kr",
@@ -374,6 +406,7 @@
     {
       "area": 608.29,
       "firstLevelDivision": "경기도",
+      "highlight": "세종대왕릉과 도자기의 고장",
       "id": 34,
       "lat": 37.29806,
       "link": "https://www.yeoju.go.kr",
@@ -385,6 +418,7 @@
     {
       "area": 677.58,
       "firstLevelDivision": "경기도",
+      "highlight": "임진강과 평화누리길이 유명한 곳",
       "id": 35,
       "lat": 38.09611,
       "link": "https://www.yeoncheon.go.kr",
@@ -396,6 +430,7 @@
     {
       "area": 843.58,
       "firstLevelDivision": "경기도",
+      "highlight": "자라섬과 음악축제로 유명한 곳",
       "id": 36,
       "lat": 37.83167,
       "link": "https://www.gp.go.kr",
@@ -407,6 +442,7 @@
     {
       "area": 877.78,
       "firstLevelDivision": "경기도",
+      "highlight": "청정 자연과 힐링 여행지",
       "id": 37,
       "lat": 37.49167,
       "link": "https://www.yp21.go.kr",
@@ -418,6 +454,7 @@
     {
       "area": 1116.4,
       "firstLevelDivision": "강원도",
+      "highlight": "닭갈비와 소양강이 기다리는 곳!",
       "id": 38,
       "lat": 37.87472,
       "link": "https://www.chuncheon.go.kr",
@@ -429,6 +466,7 @@
     {
       "area": 868.23,
       "firstLevelDivision": "강원도",
+      "highlight": "치악산과 한지의 고향!",
       "id": 39,
       "lat": 37.34222,
       "link": "https://www.wonju.go.kr",
@@ -440,6 +478,7 @@
     {
       "area": 1040.68,
       "firstLevelDivision": "강원도",
+      "highlight": "경포대와 커피거리, 바다의 낭만!",
       "id": 40,
       "lat": 37.75194,
       "link": "https://www.gn.go.kr",
@@ -451,6 +490,7 @@
     {
       "area": 180.21,
       "firstLevelDivision": "강원도",
+      "highlight": "푸른 바다와 묵호항의 추억!",
       "id": 41,
       "lat": 37.52417,
       "link": "https://www.dh.go.kr",
@@ -462,6 +502,7 @@
     {
       "area": 303.44,
       "firstLevelDivision": "강원도",
+      "highlight": "눈꽃축제와 산맥의 설렘!",
       "id": 42,
       "image": "/thumb_taebaek.jpg",
       "imageAttribution": "https://tour.taebaek.go.kr/tour/happy/together_photo?articleSeq=41533",
@@ -475,6 +516,7 @@
     {
       "area": 105.76,
       "firstLevelDivision": "강원도",
+      "highlight": "설악산과 오징어, 바다의 맛!",
       "id": 43,
       "lat": 38.20694,
       "link": "https://www.sokcho.go.kr",
@@ -486,6 +528,7 @@
     {
       "area": 1187.83,
       "firstLevelDivision": "강원도",
+      "highlight": "해양레일바이크와 동굴탐험!",
       "id": 44,
       "lat": 37.44361,
       "link": "https://www.samcheok.go.kr",
@@ -497,6 +540,7 @@
     {
       "area": 1820.58,
       "firstLevelDivision": "강원도",
+      "highlight": "캠핑과 래프팅, 자연 속 힐링!",
       "id": 45,
       "lat": 37.69778,
       "link": "https://www.hongcheon.go.kr",
@@ -508,6 +552,7 @@
     {
       "area": 997.94,
       "firstLevelDivision": "강원도",
+      "highlight": "한우와 청정 자연의 만남!",
       "id": 46,
       "lat": 37.49111,
       "link": "https://www.hsg.go.kr",
@@ -519,6 +564,7 @@
     {
       "area": 1120.34,
       "firstLevelDivision": "강원도",
+      "highlight": "동강 래프팅과 별빛 가득한 밤!",
       "id": 47,
       "lat": 37.18361,
       "link": "https://www.yw.go.kr",
@@ -530,6 +576,7 @@
     {
       "area": 1462.35,
       "firstLevelDivision": "강원도",
+      "highlight": "올림픽의 감동과 대관령 양떼목장!",
       "id": 48,
       "link": "https://www.pyeongchang.go.kr",
       "name": "평창",
@@ -539,6 +586,7 @@
     {
       "area": 1219.65,
       "firstLevelDivision": "강원도",
+      "highlight": "아리랑의 고향, 레일바이크 즐기기!",
       "id": 49,
       "lat": 37.38,
       "link": "https://www.jeongseon.go.kr",
@@ -550,6 +598,7 @@
     {
       "area": 889.69,
       "firstLevelDivision": "강원도",
+      "highlight": "두루미와 평화의 땅!",
       "id": 50,
       "lat": 38.14611,
       "link": "https://www.cwg.go.kr",
@@ -561,6 +610,7 @@
     {
       "area": 909.06,
       "firstLevelDivision": "강원도",
+      "highlight": "산천어 축제와 겨울의 낭만!",
       "id": 51,
       "lat": 38.10639,
       "link": "https://www.hwacheon.go.kr",
@@ -572,6 +622,7 @@
     {
       "area": 703.74,
       "firstLevelDivision": "강원도",
+      "highlight": "펀치볼과 DMZ의 신비!",
       "id": 52,
       "lat": 38.10833,
       "link": "https://www.yanggu.go.kr",
@@ -583,6 +634,7 @@
     {
       "area": 1646.18,
       "firstLevelDivision": "강원도",
+      "highlight": "내린천 래프팅과 산림욕의 천국!",
       "id": 53,
       "lat": 38.06972,
       "link": "https://www.inje.go.kr",
@@ -594,6 +646,7 @@
     {
       "area": 664.28,
       "firstLevelDivision": "경상남도",
+      "highlight": "공룡 발자국, 바다, 축제!",
       "id": 54,
       "lat": 38.37881,
       "link": "https://www.gwgs.go.kr",
@@ -605,6 +658,7 @@
     {
       "area": 629.56,
       "firstLevelDivision": "강원도",
+      "highlight": "서핑, 송이, 낙산사!",
       "id": 55,
       "lat": 38.07528,
       "link": "https://www.yangyang.go.kr",
@@ -616,6 +670,7 @@
     {
       "area": 941.01,
       "firstLevelDivision": "충청북도",
+      "highlight": "직지, 무심천, 청주국제공항!",
       "id": 56,
       "lat": 36.6425,
       "link": "https://www.cheongju.go.kr",
@@ -627,6 +682,7 @@
     {
       "area": 983.62,
       "firstLevelDivision": "충청북도",
+      "highlight": "호수, 사과, 충주세계무술축제!",
       "id": 57,
       "lat": 36.99194,
       "link": "https://www.chungju.go.kr",
@@ -638,6 +694,7 @@
     {
       "area": 882.77,
       "firstLevelDivision": "충청북도",
+      "highlight": "청풍호, 한방, 음악분수!",
       "id": 58,
       "lat": 37.13278,
       "link": "https://www.jecheon.go.kr",
@@ -649,6 +706,7 @@
     {
       "area": 584.25,
       "firstLevelDivision": "충청북도",
+      "highlight": "속리산, 법주사, 대추!",
       "id": 59,
       "lat": 36.48972,
       "link": "https://www.boeun.go.kr",
@@ -660,6 +718,7 @@
     {
       "area": 536.14,
       "firstLevelDivision": "충청북도",
+      "highlight": "향수, 금강, 포도!",
       "id": 60,
       "lat": 36.30194,
       "link": "https://www.oc.go.kr",
@@ -671,6 +730,7 @@
     {
       "area": 849.81,
       "firstLevelDivision": "충청북도",
+      "highlight": "와인, 난계국악, 황간휴게소!",
       "id": 61,
       "lat": 36.175,
       "link": "https://www.yd21.go.kr",
@@ -682,6 +742,7 @@
     {
       "area": 80.44,
       "firstLevelDivision": "충청북도",
+      "highlight": "작지만 알찬, 삼기저수지!",
       "id": 62,
       "lat": 36.78556,
       "link": "https://www.jp.go.kr",
@@ -693,6 +754,7 @@
     {
       "area": 407.17,
       "firstLevelDivision": "충청북도",
+      "highlight": "우렁이 쌀, 생거진천!",
       "id": 63,
       "lat": 36.85556,
       "link": "https://www.jincheon.go.kr",
@@ -704,6 +766,7 @@
     {
       "area": 773.15,
       "firstLevelDivision": "충청북도",
+      "highlight": "산막이옛길, 고추, 청정 자연!",
       "id": 64,
       "lat": 36.81667,
       "link": "https://www.goesan.go.kr",
@@ -715,6 +778,7 @@
     {
       "area": 521.18,
       "firstLevelDivision": "충청북도",
+      "highlight": "품바축제, 감자, 농촌의 정취!",
       "id": 65,
       "lat": 36.92806,
       "link": "https://www.eumseong.go.kr",
@@ -726,6 +790,7 @@
     {
       "area": 780.79,
       "firstLevelDivision": "충청북도",
+      "highlight": "팔경, 마늘, 온달장군!",
       "id": 66,
       "lat": 36.985,
       "link": "https://www.danyang.go.kr",
@@ -737,6 +802,7 @@
     {
       "area": 636.15,
       "firstLevelDivision": "충청남도",
+      "highlight": "호두과자, 독립기념관, 흑성산!",
       "id": 67,
       "lat": 36.815,
       "link": "https://www.cheonan.go.kr",
@@ -748,6 +814,7 @@
     {
       "area": 864.15,
       "firstLevelDivision": "충청남도",
+      "highlight": "무령왕릉, 금강, 알밤!",
       "id": 68,
       "lat": 36.44667,
       "link": "https://www.gongju.go.kr",
@@ -759,6 +826,7 @@
     {
       "area": 569.14,
       "firstLevelDivision": "충청남도",
+      "highlight": "머드축제, 대천해수욕장, 갯벌!",
       "id": 69,
       "lat": 36.33306,
       "link": "https://www.boryeong.go.kr",
@@ -770,6 +838,7 @@
     {
       "area": 542.25,
       "firstLevelDivision": "충청남도",
+      "highlight": "온천, 외암민속마을, 배!",
       "id": 70,
       "lat": 36.78361,
       "link": "https://www.asan.go.kr",
@@ -781,6 +850,7 @@
     {
       "area": 739.35,
       "firstLevelDivision": "충청남도",
+      "highlight": "간월암, 해미읍성, 감자!",
       "id": 71,
       "lat": 36.78444,
       "link": "https://www.seosan.go.kr",
@@ -792,6 +862,7 @@
     {
       "area": 554.77,
       "firstLevelDivision": "충청남도",
+      "highlight": "딸기, 탑정호, 훈련소!",
       "id": 72,
       "lat": 36.20389,
       "link": "https://www.nonsan.go.kr",
@@ -803,6 +874,7 @@
     {
       "area": 60.68,
       "firstLevelDivision": "충청남도",
+      "highlight": "군본부, 계룡산, 산책!",
       "id": 73,
       "lat": 36.27417,
       "link": "https://www.gyeryong.go.kr",
@@ -814,6 +886,7 @@
     {
       "area": 704.35,
       "firstLevelDivision": "충청남도",
+      "highlight": "왜목마을, 해넘이, 쌀!",
       "id": 74,
       "lat": 36.89167,
       "link": "https://www.dangjin.go.kr",
@@ -825,6 +898,7 @@
     {
       "area": 575.17,
       "firstLevelDivision": "충청남도",
+      "highlight": "인삼, 금강, 산림욕!",
       "id": 75,
       "lat": 36.10833,
       "link": "https://www.geumsan.go.kr",
@@ -836,6 +910,7 @@
     {
       "area": 624.62,
       "firstLevelDivision": "충청남도",
+      "highlight": "백제문화, 궁남지, 연꽃!",
       "id": 76,
       "lat": 36.27417,
       "link": "https://www.buyeo.go.kr",
@@ -847,6 +922,7 @@
     {
       "area": 358.9,
       "firstLevelDivision": "충청남도",
+      "highlight": "춘장대, 국립생태원, 김!",
       "id": 77,
       "lat": 36.08139,
       "link": "https://www.seocheon.go.kr",
@@ -858,6 +934,7 @@
     {
       "area": 479.22,
       "firstLevelDivision": "충청남도",
+      "highlight": "고추, 칠갑산, 청양구기자!",
       "id": 78,
       "lat": 36.46028,
       "link": "https://www.cheongyang.go.kr",
@@ -869,6 +946,7 @@
     {
       "area": 443.72,
       "firstLevelDivision": "충청남도",
+      "highlight": "한우, 남당항, 역사!",
       "id": 79,
       "lat": 36.6,
       "link": "https://www.hongseong.go.kr",
@@ -880,6 +958,7 @@
     {
       "area": 542.77,
       "firstLevelDivision": "충청남도",
+      "highlight": "사과, 덕산온천, 수덕사!",
       "id": 80,
       "lat": 36.68278,
       "link": "https://www.yesan.go.kr",
@@ -891,6 +970,7 @@
     {
       "area": 502.14,
       "firstLevelDivision": "충청남도",
+      "highlight": "해변, 꽃축제, 안면도!",
       "id": 81,
       "lat": 36.74556,
       "link": "https://www.taean.go.kr",
@@ -902,6 +982,7 @@
     {
       "area": 206.22,
       "firstLevelDivision": "전라북도",
+      "highlight": "한옥마을, 비빔밥, 전주국제영화제",
       "id": 82,
       "lat": 35.82417,
       "link": "https://www.jeonju.go.kr",
@@ -913,6 +994,7 @@
     {
       "area": 394.45,
       "firstLevelDivision": "전라북도",
+      "highlight": "근대역사, 째보선창, 이성당",
       "id": 83,
       "lat": 35.9675,
       "link": "https://www.gunsan.go.kr",
@@ -924,6 +1006,7 @@
     {
       "area": 507.08,
       "firstLevelDivision": "전라북도",
+      "highlight": "백제유적, 보석박물관, 미륵사지",
       "id": 84,
       "lat": 35.94806,
       "link": "https://www.iksan.go.kr",
@@ -935,6 +1018,7 @@
     {
       "area": 692.99,
       "firstLevelDivision": "전라북도",
+      "highlight": "내장산, 단풍, 정읍사",
       "id": 85,
       "lat": 35.56806,
       "link": "https://www.jeongeup.go.kr",
@@ -946,6 +1030,7 @@
     {
       "area": 752.57,
       "firstLevelDivision": "전라북도",
+      "highlight": "춘향전, 광한루, 지리산",
       "id": 86,
       "lat": 35.41833,
       "link": "https://www.namwon.go.kr",
@@ -957,6 +1042,7 @@
     {
       "area": 545.2,
       "firstLevelDivision": "전라북도",
+      "highlight": "지평선축제, 벽골제, 쌀",
       "id": 87,
       "lat": 35.8,
       "link": "https://www.gimje.go.kr",
@@ -968,6 +1054,7 @@
     {
       "area": 821.15,
       "firstLevelDivision": "전라북도",
+      "highlight": "삼례문화예술촌, 고산자연휴양림, 로컬푸드",
       "id": 88,
       "lat": 35.90556,
       "link": "https://www.wanju.go.kr",
@@ -979,6 +1066,7 @@
     {
       "area": 787.14,
       "firstLevelDivision": "전라북도",
+      "highlight": "마이산, 홍삼, 용담호",
       "id": 89,
       "lat": 35.79167,
       "link": "https://www.jinan.go.kr",
@@ -990,6 +1078,7 @@
     {
       "area": 631.67,
       "firstLevelDivision": "전라북도",
+      "highlight": "덕유산, 태권도원, 반딧불이",
       "id": 90,
       "lat": 36.00639,
       "link": "https://www.muju.go.kr",
@@ -1001,6 +1090,7 @@
     {
       "area": 534.98,
       "firstLevelDivision": "전라북도",
+      "highlight": "사과, 논개, 장수군민의 날",
       "id": 91,
       "lat": 35.6475,
       "link": "https://www.jangsu.go.kr",
@@ -1012,6 +1102,7 @@
     {
       "area": 597,
       "firstLevelDivision": "전라북도",
+      "highlight": "치즈, 옥정호, 임실N치즈축제",
       "id": 92,
       "lat": 35.61778,
       "link": "https://www.imsil.go.kr",
@@ -1023,6 +1114,7 @@
     {
       "area": 529.3,
       "firstLevelDivision": "전라북도",
+      "highlight": "고추장, 강천산, 발효식품",
       "id": 93,
       "lat": 35.37444,
       "link": "https://www.sunchang.go.kr",
@@ -1034,6 +1126,7 @@
     {
       "area": 606.8,
       "firstLevelDivision": "전라북도",
+      "highlight": "고인돌, 청보리밭, 운곡습지",
       "id": 94,
       "lat": 35.435,
       "link": "https://www.gochang.go.kr",
@@ -1045,6 +1138,7 @@
     {
       "area": 493.94,
       "firstLevelDivision": "전라북도",
+      "highlight": "변산반도, 곰소염전, 부안참뽕",
       "id": 95,
       "lat": 35.72806,
       "link": "https://www.buan.go.kr",
@@ -1056,6 +1150,7 @@
     {
       "area": 50.96,
       "firstLevelDivision": "전라남도",
+      "highlight": "유달산, 갓김치, 해상케이블카",
       "id": 96,
       "link": "https://www.mokpo.go.kr",
       "name": "목포",
@@ -1065,6 +1160,7 @@
     {
       "area": 503.33,
       "firstLevelDivision": "전라남도",
+      "highlight": "밤바다, 돌산갓김치, 여수엑스포",
       "id": 97,
       "link": "https://www.yeosu.go.kr",
       "name": "여수",
@@ -1074,6 +1170,7 @@
     {
       "area": 907,
       "firstLevelDivision": "전라남도",
+      "highlight": "순천만습지, 정원박람회, 드라마촬영지",
       "id": 98,
       "link": "https://www.suncheon.go.kr",
       "name": "순천",
@@ -1083,6 +1180,7 @@
     {
       "area": 608.37,
       "firstLevelDivision": "전라남도",
+      "highlight": "배, 나주곰탕, 혁신도시",
       "id": 99,
       "link": "https://www.naju.go.kr",
       "name": "나주",
@@ -1092,6 +1190,7 @@
     {
       "area": 452.01,
       "firstLevelDivision": "전라남도",
+      "highlight": "매화축제, 광양제철소, 섬진강",
       "id": 100,
       "link": "https://www.gwangyang.go.kr",
       "name": "광양",
@@ -1101,6 +1200,7 @@
     {
       "area": 455.92,
       "firstLevelDivision": "전라남도",
+      "highlight": "죽녹원, 대나무, 메타세쿼이아길",
       "id": 101,
       "link": "https://www.damyang.go.kr",
       "name": "담양",
@@ -1110,6 +1210,7 @@
     {
       "area": 547.17,
       "firstLevelDivision": "전라남도",
+      "highlight": "기차마을, 멜론, 섬진강기차길",
       "id": 102,
       "link": "https://www.gokseong.go.kr",
       "name": "곡성",
@@ -1119,6 +1220,7 @@
     {
       "area": 443.15,
       "firstLevelDivision": "전라남도",
+      "highlight": "지리산, 산수유, 화엄사",
       "id": 103,
       "link": "https://www.gurye.go.kr",
       "name": "구례",
@@ -1128,6 +1230,7 @@
     {
       "area": 804.32,
       "firstLevelDivision": "전라남도",
+      "highlight": "우주센터, 유자, 남열해변",
       "id": 104,
       "link": "https://www.goheung.go.kr",
       "name": "고흥",
@@ -1137,6 +1240,7 @@
     {
       "area": 659.21,
       "firstLevelDivision": "전라남도",
+      "highlight": "녹차밭, 벌교꼬막, 득량만",
       "id": 105,
       "link": "https://www.boseong.go.kr",
       "name": "보성",
@@ -1146,6 +1250,7 @@
     {
       "area": 786.23,
       "firstLevelDivision": "전라남도",
+      "highlight": "적벽, 백아산, 고인돌유적",
       "id": 106,
       "link": "https://www.hwasun.go.kr",
       "name": "화순",
@@ -1155,6 +1260,7 @@
     {
       "area": 616.5,
       "firstLevelDivision": "전라남도",
+      "highlight": "토요시장, 편백숲, 득량만",
       "id": 107,
       "link": "https://www.jangheung.go.kr",
       "name": "장흥",
@@ -1164,6 +1270,7 @@
     {
       "area": 500.99,
       "firstLevelDivision": "전라남도",
+      "highlight": "청자축제, 다산초당, 강진만",
       "id": 108,
       "link": "https://www.gangjin.go.kr",
       "name": "강진",
@@ -1173,6 +1280,7 @@
     {
       "area": 1013.94,
       "firstLevelDivision": "전라남도",
+      "highlight": "땅끝마을, 고구마, 대흥사",
       "id": 109,
       "link": "https://www.haenam.go.kr",
       "name": "해남",
@@ -1182,6 +1290,7 @@
     {
       "area": 586.5,
       "firstLevelDivision": "전라남도",
+      "highlight": "F1경주장, 월출산, 무화과",
       "id": 110,
       "link": "https://www.yeongam.go.kr",
       "name": "영암",
@@ -1191,6 +1300,7 @@
     {
       "area": 436.52,
       "firstLevelDivision": "전라남도",
+      "highlight": "양파, 무안국제공항, 갯벌체험",
       "id": 111,
       "link": "https://www.muan.go.kr",
       "name": "무안",
@@ -1200,6 +1310,7 @@
     {
       "area": 392.74,
       "firstLevelDivision": "전라남도",
+      "highlight": "나비축제, 국화, 함평천지",
       "id": 112,
       "link": "https://www.hampyeong.go.kr",
       "name": "함평",
@@ -1209,6 +1320,7 @@
     {
       "area": 473.97,
       "firstLevelDivision": "전라남도",
+      "highlight": "굴비, 백수해안도로, 불갑산",
       "id": 113,
       "link": "https://www.yeonggwang.go.kr",
       "name": "영광",
@@ -1218,6 +1330,7 @@
     {
       "area": 518.22,
       "firstLevelDivision": "전라남도",
+      "highlight": "황룡강, 편백숲, 홍길동축제",
       "id": 114,
       "link": "https://www.jangseong.go.kr",
       "name": "장성",
@@ -1227,6 +1340,7 @@
     {
       "area": 396.44,
       "firstLevelDivision": "전라남도",
+      "highlight": "전복, 청산도, 해조류센터",
       "id": 115,
       "link": "https://www.wando.go.kr",
       "name": "완도",
@@ -1236,6 +1350,7 @@
     {
       "area": 440.98,
       "firstLevelDivision": "전라남도",
+      "highlight": "진도개, 신비의바닷길, 울돌목",
       "id": 116,
       "link": "https://www.jindo.go.kr",
       "name": "진도",
@@ -1245,6 +1360,7 @@
     {
       "area": 655.6,
       "firstLevelDivision": "전라남도",
+      "highlight": "1004섬, 천일염, 퍼플섬",
       "id": 117,
       "link": "https://www.shinan.go.kr",
       "name": "신안",
@@ -1254,6 +1370,7 @@
     {
       "area": 1127.24,
       "firstLevelDivision": "경상북도",
+      "highlight": "호미곶, 과메기, 영일만",
       "id": 118,
       "link": "https://www.pohang.go.kr",
       "name": "포항",
@@ -1263,6 +1380,7 @@
     {
       "area": 1323.81,
       "firstLevelDivision": "경상북도",
+      "highlight": "불국사, 첨성대, 경주빵",
       "id": 119,
       "link": "https://www.gyeongju.go.kr",
       "name": "경주",
@@ -1272,6 +1390,7 @@
     {
       "area": 1009.46,
       "firstLevelDivision": "경상북도",
+      "highlight": "포도, 직지사, 김천역",
       "id": 120,
       "link": "https://www.gc.go.kr",
       "name": "김천",
@@ -1281,6 +1400,7 @@
     {
       "area": 1590.91,
       "firstLevelDivision": "경상북도",
+      "highlight": "하회마을, 찜닭, 탈춤",
       "id": 121,
       "link": "https://www.andong.go.kr",
       "name": "안동",
@@ -1290,6 +1410,7 @@
     {
       "area": 615.33,
       "firstLevelDivision": "경상북도",
+      "highlight": "전자산업, 금오산, 낙동강",
       "id": 122,
       "link": "https://www.gumi.go.kr",
       "name": "구미",
@@ -1299,6 +1420,7 @@
     {
       "area": 669.4,
       "firstLevelDivision": "경상북도",
+      "highlight": "부석사, 사과, 소백산",
       "id": 123,
       "link": "https://www.yeongju.go.kr",
       "name": "영주",
@@ -1308,6 +1430,7 @@
     {
       "area": 919.76,
       "firstLevelDivision": "경상북도",
+      "highlight": "별빛축제, 포도, 은해사",
       "id": 124,
       "link": "https://www.yc.go.kr",
       "name": "영천",
@@ -1317,6 +1440,7 @@
     {
       "area": 1254.84,
       "firstLevelDivision": "경상북도",
+      "highlight": "곶감, 자전거, 상주박물관",
       "id": 125,
       "link": "https://www.sangju.go.kr",
       "name": "상주",
@@ -1326,6 +1450,7 @@
     {
       "area": 912.8,
       "firstLevelDivision": "경상북도",
+      "highlight": "문경새재, 오미자, 레일바이크",
       "id": 126,
       "link": "https://www.gbmg.go.kr",
       "name": "문경",
@@ -1335,6 +1460,7 @@
     {
       "area": 411.58,
       "firstLevelDivision": "경상북도",
+      "highlight": "대추, 삼성현역사공원, 경산자인단오제",
       "id": 127,
       "link": "https://www.gbgs.go.kr",
       "name": "경산",
@@ -1344,6 +1470,7 @@
     {
       "area": 614.08,
       "firstLevelDivision": "경상북도",
+      "highlight": "삼국유사, 화산, 군위오이",
       "id": 128,
       "link": "https://www.gunwi.go.kr",
       "name": "군위",
@@ -1353,6 +1480,7 @@
     {
       "area": 1175.27,
       "firstLevelDivision": "경상북도",
+      "highlight": "마늘, 빙계계곡, 의성컬링",
       "id": 129,
       "link": "https://www.usc.go.kr",
       "name": "의성",
@@ -1362,6 +1490,7 @@
     {
       "area": 845.67,
       "firstLevelDivision": "경상북도",
+      "highlight": "사과, 주왕산, 얼음골",
       "id": 130,
       "link": "https://www.cs.go.kr",
       "name": "청송",
@@ -1371,6 +1500,7 @@
     {
       "area": 815.14,
       "firstLevelDivision": "경상북도",
+      "highlight": "반딧불이, 일월산, 영양고추",
       "id": 131,
       "link": "https://www.yyg.go.kr",
       "name": "영양",
@@ -1380,6 +1510,7 @@
     {
       "area": 741.01,
       "firstLevelDivision": "경상북도",
+      "highlight": "대게, 해맞이공원, 블루로드",
       "id": 132,
       "link": "https://www.yd.go.kr",
       "name": "영덕",
@@ -1389,6 +1520,7 @@
     {
       "area": 694.94,
       "firstLevelDivision": "경상북도",
+      "highlight": "소싸움, 감, 청도와인터널",
       "id": 133,
       "link": "https://www.cheongdo.go.kr",
       "name": "청도",
@@ -1398,6 +1530,7 @@
     {
       "area": 383.57,
       "firstLevelDivision": "경상북도",
+      "highlight": "대가야, 우륵박물관, 고령참외",
       "id": 134,
       "link": "https://www.goryeong.go.kr",
       "name": "고령",
@@ -1407,6 +1540,7 @@
     {
       "area": 616.96,
       "firstLevelDivision": "경상북도",
+      "highlight": "참외, 성밖숲, 성주가야산",
       "id": 135,
       "link": "https://sj.go.kr",
       "name": "성주",
@@ -1416,6 +1550,7 @@
     {
       "area": 451,
       "firstLevelDivision": "경상북도",
+      "highlight": "다부동전적기념관, 낙동강, 칠곡사과",
       "id": 136,
       "link": "https://www.chilgok.go.kr",
       "name": "칠곡",
@@ -1425,6 +1560,7 @@
     {
       "area": 661.5,
       "firstLevelDivision": "경상북도",
+      "highlight": "곤충축제, 회룡포, 예천쌀",
       "id": 137,
       "link": "https://www.ycg.kr",
       "name": "예천",
@@ -1434,6 +1570,7 @@
     {
       "area": 1200.59,
       "firstLevelDivision": "경상북도",
+      "highlight": "송이, 청옥산, 봉화은어",
       "id": 138,
       "link": "https://www.bonghwa.go.kr",
       "name": "봉화",
@@ -1443,6 +1580,7 @@
     {
       "area": 992.16,
       "firstLevelDivision": "경상북도",
+      "highlight": "금강송, 불영계곡, 울진대게",
       "id": 139,
       "link": "https://www.uljin.go.kr",
       "name": "울진",
@@ -1452,6 +1590,7 @@
     {
       "area": 73.03,
       "firstLevelDivision": "경상북도",
+      "highlight": "독도, 호박엿, 울릉도오징어",
       "id": 140,
       "image": "https://www.ulleung.go.kr/upload/board/_oldBoard/p_etc/1565942247(1).jpg",
       "imageAttribution": "https://www.ulleung.go.kr/tour/page.do?cmd=258&bod_uid=11491&srchEnable=1&srchSDate=&srchKwd=&initDay=&srchColumn=&listType=&initYear=&srchVote=-1&initMonth=&pageNo=4&srchBgpuid=-1&srchEDate=&mnu_uid=1395&",
@@ -1465,6 +1604,7 @@
     {
       "area": 749.14,
       "firstLevelDivision": "경상남도",
+      "highlight": "마산어시장, 돝섬, 창원NC파크",
       "id": 141,
       "link": "https://www.changwon.go.kr",
       "name": "창원",
@@ -1474,6 +1614,7 @@
     {
       "area": 712.92,
       "firstLevelDivision": "경상남도",
+      "highlight": "진주성, 남강유등축제, 진주냉면",
       "id": 142,
       "link": "https://www.jinju.go.kr",
       "name": "진주",
@@ -1483,6 +1624,7 @@
     {
       "area": 239.86,
       "firstLevelDivision": "경상남도",
+      "highlight": "동피랑벽화마을, 꿀빵, 한려수도",
       "id": 143,
       "link": "https://www.tongyeong.go.kr",
       "name": "통영",
@@ -1492,6 +1634,7 @@
     {
       "area": 398.78,
       "firstLevelDivision": "경상남도",
+      "highlight": "항공우주박물관, 삼천포, 사천케이블카",
       "id": 144,
       "link": "https://www.sacheon.go.kr",
       "name": "사천",
@@ -1501,6 +1644,7 @@
     {
       "area": 463.53,
       "firstLevelDivision": "경상남도",
+      "highlight": "가야문화, 김해공항, 봉하마을",
       "id": 145,
       "link": "https://www.gimhae.go.kr",
       "name": "김해",
@@ -1510,6 +1654,7 @@
     {
       "area": 798.68,
       "firstLevelDivision": "경상남도",
+      "highlight": "밀양아리랑, 영남루, 얼음골",
       "id": 146,
       "link": "https://www.miryang.go.kr",
       "name": "밀양",
@@ -1519,6 +1664,7 @@
     {
       "area": 403.86,
       "firstLevelDivision": "경상남도",
+      "highlight": "외도, 바람의언덕, 거제포로수용소",
       "id": 147,
       "link": "https://www.geoje.go.kr",
       "name": "거제",
@@ -1528,6 +1674,7 @@
     {
       "area": 485.61,
       "firstLevelDivision": "경상남도",
+      "highlight": "통도사, 에덴밸리, 양산천",
       "id": 148,
       "lat": 35.335,
       "link": "https://www.yangsan.go.kr",
@@ -1539,6 +1686,7 @@
     {
       "area": 482.91,
       "firstLevelDivision": "경상남도",
+      "highlight": "의병, 충익사, 의령소바",
       "id": 149,
       "link": "https://www.uiryeong.go.kr",
       "name": "의령",
@@ -1548,6 +1696,7 @@
     {
       "area": 416.6,
       "firstLevelDivision": "경상남도",
+      "highlight": "함안수박, 악양둑방, 함안박물관",
       "id": 150,
       "link": "https://www.haman.go.kr",
       "name": "함안",
@@ -1557,6 +1706,7 @@
     {
       "area": 532.67,
       "firstLevelDivision": "경상남도",
+      "highlight": "우포늪, 창녕양파, 화왕산",
       "id": 151,
       "link": "https://www.cng.go.kr",
       "name": "창녕",
@@ -1566,6 +1716,7 @@
     {
       "area": 518,
       "firstLevelDivision": "경상남도",
+      "highlight": "공룡박물관, 고성갯벌, 고성멸치",
       "id": 152,
       "link": "https://www.goseong.go.kr",
       "name": "고성",
@@ -1575,6 +1726,7 @@
     {
       "area": 357.76,
       "firstLevelDivision": "경상남도",
+      "highlight": "독일마을, 남해대교, 마늘",
       "id": 153,
       "link": "https://www.namhae.go.kr",
       "name": "남해",
@@ -1584,6 +1736,7 @@
     {
       "area": 674.85,
       "firstLevelDivision": "경상남도",
+      "highlight": "섬진강, 하동녹차, 최참판댁",
       "id": 154,
       "link": "https://www.hadong.go.kr",
       "name": "하동",
@@ -1593,6 +1746,7 @@
     {
       "area": 794.64,
       "firstLevelDivision": "경상남도",
+      "highlight": "동의보감촌, 산청곶감, 지리산",
       "id": 155,
       "link": "https://www.sancheong.go.kr",
       "name": "산청",
@@ -1602,6 +1756,7 @@
     {
       "area": 724.7,
       "firstLevelDivision": "경상남도",
+      "highlight": "함양산삼, 상림공원, 지리산둘레길",
       "id": 156,
       "link": "https://www.hygn.go.kr",
       "name": "함양",
@@ -1611,6 +1766,7 @@
     {
       "area": 803.97,
       "firstLevelDivision": "경상남도",
+      "highlight": "거창사과, 수승대, 거창국제연극제",
       "id": 157,
       "link": "https://www.geochang.go.kr",
       "name": "거창",
@@ -1620,6 +1776,7 @@
     {
       "area": 983.05,
       "firstLevelDivision": "경상남도",
+      "highlight": "해인사, 합천호, 황강레프팅",
       "id": 158,
       "link": "https://www.hc.go.kr",
       "name": "합천",
@@ -1629,6 +1786,7 @@
     {
       "area": 1849.15,
       "firstLevelDivision": "제주특별자치도",
+      "highlight": "한라산, 돌하르방, 감귤",
       "id": 159,
       "link": "https://www.jeju.go.kr",
       "name": "제주",
@@ -1653,6 +1811,7 @@
     {
       "area": 35.87,
       "firstLevelDivision": "경기도",
+      "highlight": "서울대공원, 경마공원, 정보과학도시",
       "id": 161,
       "lat": 37.42833,
       "link": "https://www.gccity.go.kr",
