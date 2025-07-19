@@ -51,7 +51,9 @@
         "firstLevelDivision",
         "highlight",
         "id",
+        "lat",
         "link",
+        "lon",
         "name",
         "population",
         "type"

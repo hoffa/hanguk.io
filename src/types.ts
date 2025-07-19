@@ -55,8 +55,8 @@ export interface Division {
   highlight: string
   info?: string
 
-  lat?: number
-  lon?: number
+  lat: number
+  lon: number
 
   type: DivisionType
   firstLevelDivision: FirstLevelDivision

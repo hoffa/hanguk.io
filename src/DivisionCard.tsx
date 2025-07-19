@@ -54,11 +54,9 @@ function DivisionCard({ division }: DivisionCardProps) {
             )}
         </div>
 
-        {division.highlight && (
-          <div className="mb-4">
-            <div>{division.highlight}</div>
-          </div>
-        )}
+        <div className="mb-4">
+          <div>{division.highlight}</div>
+        </div>
 
         <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-base-content/70 text-sm">
           <div className="flex items-center gap-1">

@@ -290,7 +290,9 @@
       "firstLevelDivision": "광주광역시",
       "highlight": "풍요로운 자연과 전통이 어우러진 곳",
       "id": 24,
+      "lat": 35.16306,
       "link": "https://www.gjcity.go.kr",
+      "lon": 126.85139,
       "name": "광주",
       "population": 373274,
       "type": "시"
@@ -578,7 +580,9 @@
       "firstLevelDivision": "강원도",
       "highlight": "올림픽의 감동과 대관령 양떼목장!",
       "id": 48,
+      "lat": 37.37028,
       "link": "https://www.pyeongchang.go.kr",
+      "lon": 128.38944,
       "name": "평창",
       "population": 40411,
       "type": "군"
@@ -1152,7 +1156,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "유달산, 갓김치, 해상케이블카",
       "id": 96,
+      "lat": 34.81167,
       "link": "https://www.mokpo.go.kr",
+      "lon": 126.3925,
       "name": "목포",
       "population": 233948,
       "type": "시"
@@ -1162,7 +1168,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "밤바다, 돌산갓김치, 여수엑스포",
       "id": 97,
+      "lat": 34.74417,
       "link": "https://www.yeosu.go.kr",
+      "lon": 127.73778,
       "name": "여수",
       "population": 271741,
       "type": "시"
@@ -1172,7 +1180,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "순천만습지, 정원박람회, 드라마촬영지",
       "id": 98,
+      "lat": 34.95056,
       "link": "https://www.suncheon.go.kr",
+      "lon": 127.4875,
       "name": "순천",
       "population": 266809,
       "type": "시"
@@ -1182,7 +1192,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "배, 나주곰탕, 혁신도시",
       "id": 99,
+      "lat": 35.015,
       "link": "https://www.naju.go.kr",
+      "lon": 126.7175,
       "name": "나주",
       "population": 105579,
       "type": "시"
@@ -1192,7 +1204,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "매화축제, 광양제철소, 섬진강",
       "id": 100,
+      "lat": 34.94056,
       "link": "https://www.gwangyang.go.kr",
+      "lon": 127.695,
       "name": "광양",
       "population": 144010,
       "type": "시"
@@ -1202,7 +1216,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "죽녹원, 대나무, 메타세쿼이아길",
       "id": 101,
+      "lat": 35.32139,
       "link": "https://www.damyang.go.kr",
+      "lon": 126.9875,
       "name": "담양",
       "population": 43781,
       "type": "군"
@@ -1212,7 +1228,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "기차마을, 멜론, 섬진강기차길",
       "id": 102,
+      "lat": 35.21056,
       "link": "https://www.gokseong.go.kr",
+      "lon": 127.2975,
       "name": "곡성",
       "population": 28768,
       "type": "군"
@@ -1222,7 +1240,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "지리산, 산수유, 화엄사",
       "id": 103,
+      "lat": 35.20944,
       "link": "https://www.gurye.go.kr",
+      "lon": 127.4625,
       "name": "구례",
       "population": 24420,
       "type": "군"
@@ -1232,7 +1252,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "우주센터, 유자, 남열해변",
       "id": 104,
+      "lat": 34.6075,
       "link": "https://www.goheung.go.kr",
+      "lon": 127.2875,
       "name": "고흥",
       "population": 60984,
       "type": "군"
@@ -1242,7 +1264,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "녹차밭, 벌교꼬막, 득량만",
       "id": 105,
+      "lat": 34.77139,
       "link": "https://www.boseong.go.kr",
+      "lon": 127.08056,
       "name": "보성",
       "population": 39942,
       "type": "군"
@@ -1252,7 +1276,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "적벽, 백아산, 고인돌유적",
       "id": 106,
+      "lat": 35.06444,
       "link": "https://www.hwasun.go.kr",
+      "lon": 126.98889,
       "name": "화순",
       "population": 60566,
       "type": "군"
@@ -1262,7 +1288,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "토요시장, 편백숲, 득량만",
       "id": 107,
+      "lat": 34.68639,
       "link": "https://www.jangheung.go.kr",
+      "lon": 126.9075,
       "name": "장흥",
       "population": 36275,
       "type": "군"
@@ -1272,7 +1300,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "청자축제, 다산초당, 강진만",
       "id": 108,
+      "lat": 34.6425,
       "link": "https://www.gangjin.go.kr",
+      "lon": 126.76889,
       "name": "강진",
       "population": 33637,
       "type": "군"
@@ -1282,7 +1312,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "땅끝마을, 고구마, 대흥사",
       "id": 109,
+      "lat": 34.57306,
       "link": "https://www.haenam.go.kr",
+      "lon": 126.60139,
       "name": "해남",
       "population": 67123,
       "type": "군"
@@ -1292,7 +1324,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "F1경주장, 월출산, 무화과",
       "id": 110,
+      "lat": 34.80056,
       "link": "https://www.yeongam.go.kr",
+      "lon": 126.69806,
       "name": "영암",
       "population": 57679,
       "type": "군"
@@ -1302,7 +1336,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "양파, 무안국제공항, 갯벌체험",
       "id": 111,
+      "lat": 34.99056,
       "link": "https://www.muan.go.kr",
+      "lon": 126.47806,
       "name": "무안",
       "population": 81420,
       "type": "군"
@@ -1312,7 +1348,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "나비축제, 국화, 함평천지",
       "id": 112,
+      "lat": 35.065,
       "link": "https://www.hampyeong.go.kr",
+      "lon": 126.51639,
       "name": "함평",
       "population": 30948,
       "type": "군"
@@ -1322,7 +1360,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "굴비, 백수해안도로, 불갑산",
       "id": 113,
+      "lat": 35.2775,
       "link": "https://www.yeonggwang.go.kr",
+      "lon": 126.51139,
       "name": "영광",
       "population": 49670,
       "type": "군"
@@ -1332,7 +1372,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "황룡강, 편백숲, 홍길동축제",
       "id": 114,
+      "lat": 35.30639,
       "link": "https://www.jangseong.go.kr",
+      "lon": 126.78444,
       "name": "장성",
       "population": 41663,
       "type": "군"
@@ -1342,7 +1384,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "전복, 청산도, 해조류센터",
       "id": 115,
+      "lat": 34.31111,
       "link": "https://www.wando.go.kr",
+      "lon": 126.755,
       "name": "완도",
       "population": 48332,
       "type": "군"
@@ -1352,7 +1396,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "진도개, 신비의바닷길, 울돌목",
       "id": 116,
+      "lat": 34.48444,
       "link": "https://www.jindo.go.kr",
+      "lon": 126.26306,
       "name": "진도",
       "population": 29432,
       "type": "군"
@@ -1362,7 +1408,9 @@
       "firstLevelDivision": "전라남도",
       "highlight": "1004섬, 천일염, 퍼플섬",
       "id": 117,
+      "lat": 34.82944,
       "link": "https://www.shinan.go.kr",
+      "lon": 125.99917,
       "name": "신안",
       "population": 35592,
       "type": "군"
@@ -1372,7 +1420,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "호미곶, 과메기, 영일만",
       "id": 118,
+      "lat": 36.01944,
       "link": "https://www.pohang.go.kr",
+      "lon": 129.34333,
       "name": "포항",
       "population": 506494,
       "type": "시"
@@ -1382,7 +1432,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "불국사, 첨성대, 경주빵",
       "id": 119,
+      "lat": 35.85611,
       "link": "https://www.gyeongju.go.kr",
+      "lon": 129.22444,
       "name": "경주",
       "population": 262264,
       "type": "시"
@@ -1392,7 +1444,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "포도, 직지사, 김천역",
       "id": 120,
+      "lat": 36.13944,
       "link": "https://www.gc.go.kr",
+      "lon": 128.11361,
       "name": "김천",
       "population": 140765,
       "type": "시"
@@ -1402,7 +1456,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "하회마을, 찜닭, 탈춤",
       "id": 121,
+      "lat": 36.56889,
       "link": "https://www.andong.go.kr",
+      "lon": 128.72944,
       "name": "안동",
       "population": 165704,
       "type": "시"
@@ -1412,7 +1468,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "전자산업, 금오산, 낙동강",
       "id": 122,
+      "lat": 36.11944,
       "link": "https://www.gumi.go.kr",
+      "lon": 128.34444,
       "name": "구미",
       "population": 419761,
       "type": "시"
@@ -1422,7 +1480,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "부석사, 사과, 소백산",
       "id": 123,
+      "lat": 36.80556,
       "link": "https://www.yeongju.go.kr",
+      "lon": 128.62306,
       "name": "영주",
       "population": 108443,
       "type": "시"
@@ -1432,7 +1492,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "별빛축제, 포도, 은해사",
       "id": 124,
+      "lat": 35.97306,
       "link": "https://www.yc.go.kr",
+      "lon": 128.93806,
       "name": "영천",
       "population": 97675,
       "type": "시"
@@ -1442,7 +1504,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "곶감, 자전거, 상주박물관",
       "id": 125,
+      "lat": 36.415,
       "link": "https://www.sangju.go.kr",
+      "lon": 128.16056,
       "name": "상주",
       "population": 98189,
       "type": "시"
@@ -1452,7 +1516,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "문경새재, 오미자, 레일바이크",
       "id": 126,
+      "lat": 36.58639,
       "link": "https://www.gbmg.go.kr",
+      "lon": 128.1875,
       "name": "문경",
       "population": 70016,
       "type": "시"
@@ -1462,7 +1528,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "대추, 삼성현역사공원, 경산자인단오제",
       "id": 127,
+      "lat": 35.82556,
       "link": "https://www.gbgs.go.kr",
+      "lon": 128.7375,
       "name": "경산",
       "population": 282626,
       "type": "시"
@@ -1472,7 +1540,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "삼국유사, 화산, 군위오이",
       "id": 128,
+      "lat": 36.23944,
       "link": "https://www.gunwi.go.kr",
+      "lon": 128.57222,
       "name": "군위",
       "population": 12178,
       "type": "군"
@@ -1482,7 +1552,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "마늘, 빙계계곡, 의성컬링",
       "id": 129,
+      "lat": 36.35444,
       "link": "https://www.usc.go.kr",
+      "lon": 128.69722,
       "name": "의성",
       "population": 50082,
       "type": "군"
@@ -1492,7 +1564,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "사과, 주왕산, 얼음골",
       "id": 130,
+      "lat": 36.43556,
       "link": "https://www.cs.go.kr",
+      "lon": 129.05722,
       "name": "청송",
       "population": 24441,
       "type": "군"
@@ -1502,7 +1576,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "반딧불이, 일월산, 영양고추",
       "id": 131,
+      "lat": 36.66444,
       "link": "https://www.yyg.go.kr",
+      "lon": 129.11444,
       "name": "영양",
       "population": 16579,
       "type": "군"
@@ -1512,7 +1588,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "대게, 해맞이공원, 블루로드",
       "id": 132,
+      "lat": 36.41556,
       "link": "https://www.yd.go.kr",
+      "lon": 129.36556,
       "name": "영덕",
       "population": 36148,
       "type": "군"
@@ -1522,7 +1600,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "소싸움, 감, 청도와인터널",
       "id": 133,
+      "lat": 35.64722,
       "link": "https://www.cheongdo.go.kr",
+      "lon": 128.73611,
       "name": "청도",
       "population": 41278,
       "type": "군"
@@ -1532,7 +1612,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "대가야, 우륵박물관, 고령참외",
       "id": 134,
+      "lat": 35.72806,
       "link": "https://www.goryeong.go.kr",
+      "lon": 128.2625,
       "name": "고령",
       "population": 33094,
       "type": "군"
@@ -1542,7 +1624,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "참외, 성밖숲, 성주가야산",
       "id": 135,
+      "lat": 35.91944,
       "link": "https://sj.go.kr",
+      "lon": 128.28306,
       "name": "성주",
       "population": 41225,
       "type": "군"
@@ -1552,7 +1636,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "다부동전적기념관, 낙동강, 칠곡사과",
       "id": 136,
+      "lat": 36.06556,
       "link": "https://www.chilgok.go.kr",
+      "lon": 128.40139,
       "name": "칠곡",
       "population": 121778,
       "type": "군"
@@ -1562,7 +1648,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "곤충축제, 회룡포, 예천쌀",
       "id": 137,
+      "lat": 36.65556,
       "link": "https://www.ycg.kr",
+      "lon": 128.4425,
       "name": "예천",
       "population": 46321,
       "type": "군"
@@ -1572,7 +1660,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "송이, 청옥산, 봉화은어",
       "id": 138,
+      "lat": 36.88806,
       "link": "https://www.bonghwa.go.kr",
+      "lon": 128.73444,
       "name": "봉화",
       "population": 31082,
       "type": "군"
@@ -1582,7 +1672,9 @@
       "firstLevelDivision": "경상북도",
       "highlight": "금강송, 불영계곡, 울진대게",
       "id": 139,
+      "lat": 36.99306,
       "link": "https://www.uljin.go.kr",
+      "lon": 129.40056,
       "name": "울진",
       "population": 48504,
       "type": "군"
@@ -1606,7 +1698,9 @@
       "firstLevelDivision": "경상남도",
       "highlight": "마산어시장, 돝섬, 창원NC파크",
       "id": 141,
+      "lat": 35.2275,
       "link": "https://www.changwon.go.kr",
+      "lon": 128.68111,
       "name": "창원",
       "population": 1033737,
       "type": "시"
@@ -1616,7 +1710,9 @@
       "firstLevelDivision": "경상남도",
       "highlight": "진주성, 남강유등축제, 진주냉면",
       "id": 142,
+      "lat": 35.19278,
       "link": "https://www.jinju.go.kr",
+      "lon": 128.08472,
       "name": "진주",
       "population": 347489,
       "type": "시"
@@ -1626,7 +1722,9 @@
       "firstLevelDivision": "경상남도",
       "highlight": "동피랑벽화마을, 꿀빵, 한려수도",
       "id": 143,
+      "lat": 34.85444,
       "link": "https://www.tongyeong.go.kr",
+      "lon": 128.43333,
       "name": "통영",
       "population": 132962,
       "type": "시"
@@ -1636,7 +1734,9 @@
       "firstLevelDivision": "경상남도",
       "highlight": "항공우주박물관, 삼천포, 사천케이블카",
       "id": 144,
+      "lat": 35.00306,
       "link": "https://www.sacheon.go.kr",
+      "lon": 128.06444,
       "name": "사천",
       "population": 111655,
       "type": "시"
@@ -1646,7 +1746,9 @@
       "firstLevelDivision": "경상남도",
       "highlight": "가야문화, 김해공항, 봉하마을",
       "id": 145,
+      "lat": 35.22806,
       "link": "https://www.gimhae.go.kr",
+      "lon": 128.88944,
       "name": "김해",
       "population": 542713,
       "type": "시"
@@ -1656,7 +1758,9 @@
       "firstLevelDivision": "경상남도",
       "highlight": "밀양아리랑, 영남루, 얼음골",
       "id": 146,
+      "lat": 35.49306,
       "link": "https://www.miryang.go.kr",
+      "lon": 128.74806,
       "name": "밀양",
       "population": 103894,
       "type": "시"
@@ -1666,7 +1770,9 @@
       "firstLevelDivision": "경상남도",
       "highlight": "외도, 바람의언덕, 거제포로수용소",
       "id": 147,
+      "lat": 34.88056,
       "link": "https://www.geoje.go.kr",
+      "lon": 128.62167,
       "name": "거제",
       "population": 257847,
       "type": "시"
@@ -1688,7 +1794,9 @@
       "firstLevelDivision": "경상남도",
       "highlight": "의병, 충익사, 의령소바",
       "id": 149,
+      "lat": 35.31944,
       "link": "https://www.uiryeong.go.kr",
+      "lon": 128.26111,
       "name": "의령",
       "population": 26292,
       "type": "군"
@@ -1698,7 +1806,9 @@
       "firstLevelDivision": "경상남도",
       "highlight": "함안수박, 악양둑방, 함안박물관",
       "id": 150,
+      "lat": 35.2725,
       "link": "https://www.haman.go.kr",
+      "lon": 128.40639,
       "name": "함안",
       "population": 62544,
       "type": "군"
@@ -1708,7 +1818,9 @@
       "firstLevelDivision": "경상남도",
       "highlight": "우포늪, 창녕양파, 화왕산",
       "id": 151,
+      "lat": 35.54056,
       "link": "https://www.cng.go.kr",
+      "lon": 128.4925,
       "name": "창녕",
       "population": 62544,
       "type": "군"
@@ -1718,7 +1830,9 @@
       "firstLevelDivision": "경상남도",
       "highlight": "공룡박물관, 고성갯벌, 고성멸치",
       "id": 152,
+      "lat": 34.97306,
       "link": "https://www.goseong.go.kr",
+      "lon": 128.3225,
       "name": "고성",
       "population": 52439,
       "type": "군"
@@ -1728,7 +1842,9 @@
       "firstLevelDivision": "경상남도",
       "highlight": "독일마을, 남해대교, 마늘",
       "id": 153,
+      "lat": 34.8375,
       "link": "https://www.namhae.go.kr",
+      "lon": 127.8925,
       "name": "남해",
       "population": 42986,
       "type": "군"
@@ -1738,7 +1854,9 @@
       "firstLevelDivision": "경상남도",
       "highlight": "섬진강, 하동녹차, 최참판댁",
       "id": 154,
+      "lat": 35.0675,
       "link": "https://www.hadong.go.kr",
+      "lon": 127.75139,
       "name": "하동",
       "population": 43441,
       "type": "군"
@@ -1748,7 +1866,9 @@
       "firstLevelDivision": "경상남도",
       "highlight": "동의보감촌, 산청곶감, 지리산",
       "id": 155,
+      "lat": 35.415,
       "link": "https://www.sancheong.go.kr",
+      "lon": 127.87306,
       "name": "산청",
       "population": 34033,
       "type": "군"
@@ -1758,7 +1878,9 @@
       "firstLevelDivision": "경상남도",
       "highlight": "함양산삼, 상림공원, 지리산둘레길",
       "id": 156,
+      "lat": 35.52056,
       "link": "https://www.hygn.go.kr",
+      "lon": 127.725,
       "name": "함양",
       "population": 37942,
       "type": "군"
@@ -1768,7 +1890,9 @@
       "firstLevelDivision": "경상남도",
       "highlight": "거창사과, 수승대, 거창국제연극제",
       "id": 157,
+      "lat": 35.68611,
       "link": "https://www.geochang.go.kr",
+      "lon": 127.90944,
       "name": "거창",
       "population": 60083,
       "type": "군"
@@ -1778,7 +1902,9 @@
       "firstLevelDivision": "경상남도",
       "highlight": "해인사, 합천호, 황강레프팅",
       "id": 158,
+      "lat": 35.56611,
       "link": "https://www.hc.go.kr",
+      "lon": 128.165,
       "name": "합천",
       "population": 43449,
       "type": "군"
@@ -1788,7 +1914,9 @@
       "firstLevelDivision": "제주특별자치도",
       "highlight": "한라산, 돌하르방, 감귤",
       "id": 159,
+      "lat": 33.49962,
       "link": "https://www.jeju.go.kr",
+      "lon": 126.53119,
       "name": "제주",
       "population": 677493,
       "type": "특별자치도"

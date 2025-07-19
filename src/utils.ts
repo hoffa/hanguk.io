@@ -104,21 +104,13 @@ export function calculateDistance(lat1: number, lon1: number, lat2: number, lon2
  * Sort divisions by distance from a target division
  * Divisions without coordinates are placed at the end
  */
-export function sortByDistance<T extends { lat?: number; lon?: number }>(
+export function sortByDistance<T extends { lat: number; lon: number }>(
   divisions: T[],
   targetDivision: T
 ): T[] {
-  if (!targetDivision.lat || !targetDivision.lon) {
-    // If target has no coordinates, return original order
-    return divisions
-  }
-
   const withDistance = divisions.map(division => ({
     division,
-    distance:
-      division.lat && division.lon
-        ? calculateDistance(targetDivision.lat!, targetDivision.lon!, division.lat, division.lon)
-        : Infinity,
+    distance: calculateDistance(targetDivision.lat, targetDivision.lon, division.lat, division.lon),
   }))
 
   return withDistance.sort((a, b) => a.distance - b.distance).map(item => item.division)
