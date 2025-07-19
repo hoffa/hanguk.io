@@ -220,48 +220,52 @@ function App() {
         </div>
       </div>
 
-      {/* Main Content: Two-column layout with sticky map on left */}
-      <div className="px-6 pt-4 pb-6">
-        <div className="max-w-7xl mx-auto">
-          <div className="mb-4 flex items-center gap-2 text-sm text-base-content/60">
-            <Bars3BottomLeftIcon className="w-4 h-4" />
-            {appliedLocation ? `${appliedLocation} 인접순 정렬` : '인구순 정렬'}
-          </div>
-      <div className="flex flex-col lg:flex-row gap-8 min-h-[700px]">
-        {/* Map takes entire left side, no card or padding */}
-        <div className="lg:w-1/2 w-full flex flex-col">
+      {/* Main Content: Two-column layout, map flush left, sorting text above cards */}
+      <div className="flex flex-col lg:flex-row gap-0">
+        {/* Map Column: fills only the viewport height, flush to navbar, left, bottom, no padding */}
+        <div
+          className="lg:w-1/2 w-full flex flex-col bg-base-200"
+          style={{ padding: 0, margin: 0 }}
+        >
           <ReactKakaoMap
             lat={(data.divisions.find(d => d.name === appliedLocation) || divisions[0]).lat}
             lon={(data.divisions.find(d => d.name === appliedLocation) || divisions[0]).lon}
-            style={{ width: '100%', height: '100vh', minHeight: 700, borderRadius: 0, marginBottom: 0 }}
+            style={{ width: '100%', height: 'calc(100vh - 64px)', borderRadius: 0, margin: 0 }}
           />
         </div>
-        {/* Cards Column: right side, scrollable if needed */}
-        <div className="flex-1 overflow-y-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 items-start">
-            {divisions.map((division, index) => (
-              <div
-                key={index}
-                onClick={e => {
-                  // Don't trigger card click if clicking on a link
-                  if ((e.target as HTMLElement).closest('a')) {
-                    return
-                  }
+        {/* Cards Column: right side, scrollable only if needed */}
+        <div
+          className="flex-1 overflow-y-auto px-6 pt-4 pb-6"
+          style={{ maxHeight: 'calc(100vh - 64px)' }}
+        >
+          <div className="max-w-7xl mx-auto">
+            <div className="mb-4 flex items-center gap-2 text-sm text-base-content/60">
+              <Bars3BottomLeftIcon className="w-4 h-4" />
+              {appliedLocation ? `${appliedLocation} 인접순 정렬` : '인구순 정렬'}
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 items-start">
+              {divisions.map((division, index) => (
+                <div
+                  key={index}
+                  onClick={e => {
+                    // Don't trigger card click if clicking on a link
+                    if ((e.target as HTMLElement).closest('a')) {
+                      return
+                    }
 
-                  // Only trigger card click if user isn't selecting text
-                  const selection = window.getSelection()
-                  if (!selection || selection.toString().length === 0) {
-                    selectDivision(division.name)
-                  }
-                }}
-                className="cursor-pointer transition-transform duration-200 hover:scale-105 select-text"
-              >
-                <DivisionCard division={division} />
-              </div>
-            ))}
+                    // Only trigger card click if user isn't selecting text
+                    const selection = window.getSelection()
+                    if (!selection || selection.toString().length === 0) {
+                      selectDivision(division.name)
+                    }
+                  }}
+                  className="cursor-pointer transition-transform duration-200 hover:scale-105 select-text"
+                >
+                  <DivisionCard division={division} />
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      </div>
         </div>
       </div>
     </div>
