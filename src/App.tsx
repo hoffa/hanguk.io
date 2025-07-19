@@ -73,7 +73,7 @@ function App() {
     <div className="min-h-screen bg-base-200 relative">
       {/* ...no modals or toasts... */}
       {/* Top Navigation - Full Width */}
-      <div className="navbar bg-base-100 shadow-sm px-6 py-4">
+      <div className="navbar bg-base-100 shadow-sm px-6 py-4 fixed top-0 left-0 w-full z-50">
         <div className="max-w-7xl mx-auto w-full">
           {/* Mobile: Stack vertically with full-width input */}
           <div className="flex flex-col gap-4 w-full sm:hidden">
@@ -221,10 +221,10 @@ function App() {
       </div>
 
       {/* Main Content: Two-column layout, map flush left, sorting text above cards */}
-      <div className="flex flex-col lg:flex-row gap-0">
+      <div className="flex flex-col lg:flex-row gap-0 mt-[64px]">
         {/* Map Column: fills only the viewport height, flush to navbar, left, bottom, no padding */}
         <div
-          className="lg:w-1/2 w-full flex flex-col bg-base-200"
+          className="lg:w-1/2 w-full flex flex-col bg-base-300"
           style={{ padding: 0, margin: 0 }}
         >
           <ReactKakaoMap
