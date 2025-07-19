@@ -8,6 +8,7 @@ import {
   XMarkIcon,
   ArrowPathIcon,
 } from '@heroicons/react/24/outline'
+import ReactKakaoMap from './ReactKakaoMap'
 import { useState } from 'react'
 import { Combobox, ComboboxInput, ComboboxOption, ComboboxOptions } from '@headlessui/react'
 import DivisionCard from './DivisionCard'
@@ -219,14 +220,25 @@ function App() {
         </div>
       </div>
 
-      {/* Main Content */}
+      {/* Main Content: Two-column layout with sticky map on left */}
       <div className="px-6 pt-4 pb-6">
         <div className="max-w-7xl mx-auto">
           <div className="mb-4 flex items-center gap-2 text-sm text-base-content/60">
             <Bars3BottomLeftIcon className="w-4 h-4" />
             {appliedLocation ? `${appliedLocation} 인접순 정렬` : '인구순 정렬'}
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-start">
+      <div className="flex flex-col lg:flex-row gap-8 min-h-[700px]">
+        {/* Map takes entire left side, no card or padding */}
+        <div className="lg:w-1/2 w-full flex flex-col">
+          <ReactKakaoMap
+            lat={(data.divisions.find(d => d.name === appliedLocation) || divisions[0]).lat}
+            lon={(data.divisions.find(d => d.name === appliedLocation) || divisions[0]).lon}
+            style={{ width: '100%', height: '100vh', minHeight: 700, borderRadius: 0, marginBottom: 0 }}
+          />
+        </div>
+        {/* Cards Column: right side, scrollable if needed */}
+        <div className="flex-1 overflow-y-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 items-start">
             {divisions.map((division, index) => (
               <div
                 key={index}
@@ -248,6 +260,8 @@ function App() {
               </div>
             ))}
           </div>
+        </div>
+      </div>
         </div>
       </div>
     </div>
